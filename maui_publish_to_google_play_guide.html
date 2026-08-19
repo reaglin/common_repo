@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAUI Android → Google Play Store: Publishing Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Fraunces:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface2: #1c2330;
+    --border: #30363d;
+    --accent: #58a6ff;
+    --accent2: #3fb950;
+    --accent3: #f0883e;
+    --accent4: #ff7b72;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --done-bg: #1a2e1a;
+    --done-border: #2ea043;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Fraunces', Georgia, serif;
+    min-height: 100vh;
+    padding: 0 0 80px 0;
+  }
+
+  /* Header */
+  .hero {
+    background: linear-gradient(135deg, #0d1117 0%, #1a1f2e 50%, #0d1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 56px 40px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 320px; height: 320px;
+    background: radial-gradient(circle, rgba(88,166,255,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; left: 20%;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(63,185,80,0.06) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--accent2);
+    background: rgba(63,185,80,0.12);
+    border: 1px solid rgba(63,185,80,0.3);
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+  h1 span { color: var(--accent); }
+  .subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 32px;
+  }
+  .progress-wrap {
+    max-width: 500px;
+  }
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+  .progress-bar {
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent2), var(--accent));
+    border-radius: 3px;
+    width: 0%;
+    transition: width 0.4s ease;
+  }
+
+  /* Layout */
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 24px;
+  }
+
+  /* Phase headers */
+  .phase {
+    margin-bottom: 8px;
+    margin-top: 48px;
+  }
+  .phase:first-child { margin-top: 0; }
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 4px;
+  }
+  .phase-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--bg);
+    background: var(--accent);
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+  }
+  .phase-num.green { background: var(--accent2); }
+  .phase-num.orange { background: var(--accent3); }
+  .phase-num.red { background: var(--accent4); }
+  .phase-num.purple { background: #bc8cff; }
+  .phase-num.teal { background: #39d353; color: var(--bg); }
+
+  .phase-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .phase-desc {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-left: calc(14px + 50px);
+    margin-bottom: 16px;
+  }
+
+  /* Checklist items */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+
+  .item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: border-color 0.2s, background 0.2s;
+    overflow: hidden;
+  }
+  .item.completed {
+    background: var(--done-bg);
+    border-color: var(--done-border);
+  }
+  .item.completed .item-title { text-decoration: line-through; color: var(--text-muted); }
+
+  .item-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .item-main:hover { background: rgba(255,255,255,0.02); }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, border-color 0.2s;
+    font-size: 13px;
+  }
+  .item.completed .checkbox {
+    background: var(--accent2);
+    border-color: var(--accent2);
+  }
+
+  .item-content { flex: 1; }
+  .item-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  .item-desc {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .item-detail {
+    display: none;
+    padding: 0 16px 16px 50px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    color: #c9d1d9;
+    line-height: 1.8;
+    border-top: 1px solid var(--border);
+    background: rgba(0,0,0,0.2);
+  }
+  .item.open .item-detail { display: block; padding-top: 14px; }
+
+  .item-detail ul { padding-left: 18px; }
+  .item-detail li { margin-bottom: 6px; }
+  .item-detail code {
+    background: rgba(88,166,255,0.1);
+    border: 1px solid rgba(88,166,255,0.2);
+    color: var(--accent);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+  }
+  .item-detail .warn {
+    background: rgba(240,136,62,0.1);
+    border-left: 3px solid var(--accent3);
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    margin-top: 10px;
+    color: #f0883e;
+  }
+  .item-detail .tip {
+    background: rgba(63,185,80,0.1);
+    border-left: 3px solid var(--accent2);
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    margin-top: 10px;
+    color: #7ee787;
+  }
+  .expand-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 6px;
+    display: block;
+  }
+  .expand-btn:hover { text-decoration: underline; }
+
+  /* Reset button */
+  .reset-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .reset-btn:hover { color: var(--accent4); border-color: var(--accent4); }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="badge">Developer Checklist</div>
+  <h1>Publishing Your <span>.NET MAUI</span> Android App<br>to Google Play Store</h1>
+  <p class="subtitle">Visual Studio 2022 → Google Play Console · Step-by-Step Guide</p>
+  <div class="progress-wrap">
+    <div class="progress-label">
+      <span>Overall Progress</span>
+      <span id="progress-text">0 / 0 steps completed</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- PHASE 1 -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-num">PHASE 1</span>
+      <span class="phase-title">Google Account & Play Console Setup</span>
+    </div>
+    <p class="phase-desc">One-time setup before you can publish anything</p>
+    <ul class="checklist">
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Create a Google Play Developer Account</div>
+            <div class="item-desc">Register at play.google.com/console — one-time $25 fee</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>play.google.com/console</code> and sign in with a Google account</li>
+            <li>Pay the one-time <code>$25 USD</code> registration fee</li>
+            <li>Fill in developer name (this is what users will see on your app listing)</li>
+            <li>Complete identity verification if prompted (can take 24–48 hours)</li>
+          </ul>
+          <div class="tip">💡 Use a dedicated Google account for your developer identity, not a personal Gmail.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Complete Play Console Account Setup</div>
+            <div class="item-desc">Fill in developer profile, contact details, and payment info</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Add a developer profile photo/icon</li>
+            <li>Provide a public email address for user contact</li>
+            <li>Set up a payments profile if you plan to charge for the app or use in-app purchases</li>
+            <li>Review and accept the Developer Distribution Agreement</li>
+          </ul>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- PHASE 2 -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-num green">PHASE 2</span>
+      <span class="phase-title">Prepare Your App in Visual Studio</span>
+    </div>
+    <p class="phase-desc">Configure your MAUI project for release before building</p>
+    <ul class="checklist">
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Set Application ID (Package Name)</div>
+            <div class="item-desc">Unique identifier — cannot be changed after publishing</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          In your <code>.csproj</code> file, ensure this is set:
+          <ul style="margin-top:8px">
+            <li><code>&lt;ApplicationId&gt;com.yourcompany.appname&lt;/ApplicationId&gt;</code></li>
+            <li>Use reverse-domain format: <code>com.yourname.fitnesstracker</code></li>
+            <li>Must be unique across all apps on Google Play</li>
+            <li>Lowercase letters, numbers, and dots only — no hyphens</li>
+          </ul>
+          <div class="warn">⚠️ Once your app is published, this ID is permanent. Choose carefully.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Set Version Code and Version Name</div>
+            <div class="item-desc">versionCode must increment with every upload</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          In your <code>.csproj</code> file:
+          <ul style="margin-top:8px">
+            <li><code>&lt;ApplicationVersion&gt;1&lt;/ApplicationVersion&gt;</code> — integer, must increase each release</li>
+            <li><code>&lt;ApplicationDisplayVersion&gt;1.0&lt;/ApplicationDisplayVersion&gt;</code> — shown to users</li>
+          </ul>
+          <div class="warn">⚠️ Once a version code is used (even in a failed upload), it can never be reused. Always increment before a new upload.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Set App Display Name and Icon</div>
+            <div class="item-desc">Name shown on device and icon displayed on home screen</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>In <code>.csproj</code>: <code>&lt;ApplicationTitle&gt;Your App Name&lt;/ApplicationTitle&gt;</code></li>
+            <li>App icon lives at <code>Resources/AppIcon/appicon.svg</code> (or .png)</li>
+            <li>MAUI auto-generates all required icon sizes for Android from this file</li>
+            <li>Recommended: use a square SVG at least 512×512px</li>
+            <li>Google Play also requires a 512×512 icon uploaded separately in the store listing</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Review Android Permissions in AndroidManifest.xml</div>
+            <div class="item-desc">Remove any permissions your app doesn't actually use</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Located at <code>Platforms/Android/AndroidManifest.xml</code></li>
+            <li>Remove unused permissions — Google Play flags excessive permissions</li>
+            <li>Common permissions: <code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, <code>CAMERA</code></li>
+            <li>Sensitive permissions (Location, Camera, Contacts) require justification in your store listing</li>
+          </ul>
+          <div class="tip">💡 Only declare permissions that your app genuinely needs. Reviewers and users both scrutinize this.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Set Target Android Version</div>
+            <div class="item-desc">Google Play requires a minimum target SDK level</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          In your <code>.csproj</code>:
+          <ul style="margin-top:8px">
+            <li><code>&lt;SupportedOSPlatformVersion&gt;21.0&lt;/SupportedOSPlatformVersion&gt;</code> — minimum Android version (21 = Android 5.0)</li>
+            <li>Google Play requires targeting API level 33 or higher for new apps (as of 2024)</li>
+            <li>In <code>AndroidManifest.xml</code>: <code>android:targetSdkVersion="34"</code></li>
+          </ul>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- PHASE 3 -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-num orange">PHASE 3</span>
+      <span class="phase-title">Create a Keystore & Sign Your App</span>
+    </div>
+    <p class="phase-desc">Your signing key proves you are the authentic publisher — back it up permanently</p>
+    <ul class="checklist">
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Create a Keystore File</div>
+            <div class="item-desc">A .keystore file that permanently identifies you as the publisher</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          In Visual Studio: <code>Tools → Command Line → Developer Command Prompt</code>, then run:
+          <ul style="margin-top:8px">
+            <li><code>keytool -genkeypair -v -keystore myapp.keystore -alias myapp -keyalg RSA -keysize 2048 -validity 10000</code></li>
+            <li>You'll be prompted for: keystore password, name, organization, city, country</li>
+            <li>Alternatively use Android Studio's keystore wizard if installed</li>
+          </ul>
+          <div class="warn">⚠️ CRITICAL: Back up your .keystore file and passwords in multiple secure locations. If you lose it, you can NEVER update your app on Google Play.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Configure Signing in Your Project</div>
+            <div class="item-desc">Link the keystore to your MAUI project for release builds</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          Add to your <code>.csproj</code> inside a <code>&lt;PropertyGroup Condition="$(Configuration) == 'Release'"&gt;</code> block:
+          <ul style="margin-top:8px">
+            <li><code>&lt;AndroidKeyStore&gt;true&lt;/AndroidKeyStore&gt;</code></li>
+            <li><code>&lt;AndroidSigningKeyStore&gt;myapp.keystore&lt;/AndroidSigningKeyStore&gt;</code></li>
+            <li><code>&lt;AndroidSigningKeyAlias&gt;myapp&lt;/AndroidSigningKeyAlias&gt;</code></li>
+            <li><code>&lt;AndroidSigningKeyPass&gt;yourpassword&lt;/AndroidSigningKeyPass&gt;</code></li>
+            <li><code>&lt;AndroidSigningStorePass&gt;yourstorepassword&lt;/AndroidSigningStorePass&gt;</code></li>
+          </ul>
+          <div class="tip">💡 Consider using environment variables or a secrets file instead of hardcoding passwords in .csproj.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Consider Enrolling in Google Play App Signing</div>
+            <div class="item-desc">Google manages your release key — highly recommended for safety</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>With Play App Signing, Google holds the final release key in their secure infrastructure</li>
+            <li>You still sign your AAB with an upload key (your keystore) — Google re-signs for distribution</li>
+            <li>If you lose your upload key, Google can generate a new one — you won't lose your app</li>
+            <li>Enable this in Play Console: <code>Setup → App Signing</code></li>
+          </ul>
+          <div class="tip">💡 This is now the default for new apps. Strongly recommended.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- PHASE 4 -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-num red">PHASE 4</span>
+      <span class="phase-title">Build the Release AAB</span>
+    </div>
+    <p class="phase-desc">Compile a signed Android App Bundle for upload</p>
+    <ul class="checklist">
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Switch to Release Configuration</div>
+            <div class="item-desc">Make sure you're not building in Debug mode</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>In Visual Studio toolbar, change the dropdown from <code>Debug</code> to <code>Release</code></li>
+            <li>Set target framework to <code>net8.0-android</code> (or your current .NET version)</li>
+            <li>Set the target device to <code>Android Emulators</code> or the framework directly (not a physical device)</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Publish the AAB from Visual Studio</div>
+            <div class="item-desc">Generate a signed .aab file ready for upload</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Right-click your project in Solution Explorer → <code>Publish...</code></li>
+            <li>Or: <code>Build → Publish [Project Name]</code></li>
+            <li>Select <code>Android</code> as the target platform</li>
+            <li>Choose <code>Android App Bundle (.aab)</code> — NOT APK (Play Store prefers AAB)</li>
+            <li>Enter your keystore path, alias, and passwords when prompted</li>
+            <li>Click Publish — the AAB will be output to your project's bin/Release folder</li>
+          </ul>
+          <div class="tip">💡 Alternatively via CLI: <code>dotnet publish -f net8.0-android -c Release</code></div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Verify the AAB File Was Created</div>
+            <div class="item-desc">Confirm the output file exists before proceeding</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Check the output folder: usually <code>bin\Release\net8.0-android\publish\</code></li>
+            <li>Look for a file ending in <code>.aab</code> — e.g., <code>com.yourcompany.app.aab</code></li>
+            <li>File size should be reasonable for your app (typically 10–100MB+)</li>
+            <li>A very small file (under 1MB) may indicate a build problem</li>
+          </ul>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- PHASE 5 -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-num purple">PHASE 5</span>
+      <span class="phase-title">Create Your App in Play Console</span>
+    </div>
+    <p class="phase-desc">Set up the app listing before uploading your build</p>
+    <ul class="checklist">
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Create a New App in Play Console</div>
+            <div class="item-desc">Start the app creation process in the dashboard</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>play.google.com/console</code> and click <code>Create app</code></li>
+            <li>Enter your app name, default language, and whether it's an app or game</li>
+            <li>Declare if it's free or paid</li>
+            <li>Accept the declarations (developer program policies, US export laws)</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Complete the Main Store Listing</div>
+            <div class="item-desc">Title, description, screenshots, and graphics</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          Required assets:
+          <ul style="margin-top:8px">
+            <li><strong>Short description:</strong> max 80 characters</li>
+            <li><strong>Full description:</strong> max 4000 characters</li>
+            <li><strong>App icon:</strong> 512×512 PNG (32-bit, with alpha)</li>
+            <li><strong>Feature graphic:</strong> 1024×500 JPG or PNG (banner shown at top of listing)</li>
+            <li><strong>Screenshots:</strong> minimum 2 phone screenshots (JPEG or PNG, 16:9 or 9:16 ratio recommended)</li>
+          </ul>
+          <div class="tip">💡 Use the Google Play Console's graphic design tools or Canva to create a feature graphic if you don't have a designer.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Complete App Content Ratings</div>
+            <div class="item-desc">Fill out the content rating questionnaire (IARC)</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>Policy → App Content → Content ratings</code></li>
+            <li>Complete the IARC questionnaire about your app's content</li>
+            <li>This assigns age ratings (Everyone, Teen, Mature, etc.) for different countries</li>
+            <li>This step is mandatory — you cannot publish without it</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Set App Category and Tags</div>
+            <div class="item-desc">Helps users discover your app in search</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>Store presence → Main store listing → App category</code></li>
+            <li>Choose a primary category (e.g., Health & Fitness, Tools, Education)</li>
+            <li>Add relevant tags to help discoverability</li>
+            <li>Set a contact email address for the listing</li>
+            <li>Add a Privacy Policy URL (required for most apps)</li>
+          </ul>
+          <div class="warn">⚠️ A Privacy Policy URL is required if your app collects ANY user data (including analytics). Host one at a stable URL.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Complete Data Safety Section</div>
+            <div class="item-desc">Declare what data your app collects and shares</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>Policy → App content → Data safety</code></li>
+            <li>Declare all data types your app collects (location, health data, contacts, etc.)</li>
+            <li>State whether data is shared with third parties</li>
+            <li>State whether data is encrypted in transit</li>
+            <li>This information is shown prominently on your Play Store listing</li>
+          </ul>
+          <div class="warn">⚠️ Inaccurate data safety declarations can result in app removal. Be thorough and honest.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- PHASE 6 -->
+  <div class="phase">
+    <div class="phase-header">
+      <span class="phase-num teal">PHASE 6</span>
+      <span class="phase-title">Upload, Test & Release</span>
+    </div>
+    <p class="phase-desc">Upload your AAB through testing tracks before going live</p>
+    <ul class="checklist">
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Create an Internal Testing Release</div>
+            <div class="item-desc">Test with up to 100 testers instantly (no review needed)</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>Testing → Internal testing → Create new release</code></li>
+            <li>Click <code>Upload</code> and select your <code>.aab</code> file</li>
+            <li>Wait for the bundle to process (may take a few minutes)</li>
+            <li>Add release notes (what's new in this version)</li>
+            <li>Click <code>Save and publish</code></li>
+            <li>Add tester email addresses under the <code>Testers</code> tab</li>
+          </ul>
+          <div class="tip">💡 Internal testing releases go live within minutes and don't go through full Google review — great for early testing.</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Test the App on a Real Device via Testing Link</div>
+            <div class="item-desc">Verify the production build works correctly end-to-end</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Share the internal testing opt-in link with yourself and testers</li>
+            <li>Install on a real Android device from the Play Store (not sideloaded)</li>
+            <li>Test all major features, especially permissions and network calls</li>
+            <li>Check that the app installs, launches, and works without debug tooling</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Promote to Closed Testing (Optional but Recommended)</div>
+            <div class="item-desc">Broader beta test with a named group of testers</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>Testing → Closed testing</code> and create a track</li>
+            <li>Add tester groups by email list or Google Groups</li>
+            <li>Undergoes a brief Google review (usually 1–3 days)</li>
+            <li>Good for gathering broader feedback before full production release</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Create a Production Release</div>
+            <div class="item-desc">Submit to full Google review for the live Play Store</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Go to <code>Production → Create new release</code></li>
+            <li>Upload your AAB (increment version code if needed)</li>
+            <li>Write release notes for users</li>
+            <li>Review the <code>Errors, warnings and messages</code> — resolve all errors before proceeding</li>
+            <li>Choose rollout percentage: start with 10–20% if you want a staged rollout</li>
+            <li>Click <code>Send for review</code></li>
+          </ul>
+          <div class="tip">💡 First-time app reviews typically take 1–7 days. Updates to existing apps are usually faster (hours to 2 days).</div>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">Monitor Review Status and Respond to Any Issues</div>
+            <div class="item-desc">Google may request changes before approving</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Check Play Console for status updates and email notifications</li>
+            <li>If rejected, read the rejection reason carefully in the <code>Policy issues</code> section</li>
+            <li>Fix the issue, increment the version code, rebuild, and resubmit</li>
+            <li>Common rejection reasons: missing privacy policy, misleading screenshots, permissions not justified</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="item" onclick="toggleItem(this)">
+        <div class="item-main">
+          <div class="checkbox">✓</div>
+          <div class="item-content">
+            <div class="item-title">App is Live — Verify the Play Store Listing</div>
+            <div class="item-desc">Search for your app and confirm everything looks correct</div>
+            <button class="expand-btn" onclick="toggleDetail(event, this)">▸ Show details</button>
+          </div>
+        </div>
+        <div class="item-detail">
+          <ul>
+            <li>Search for your app by name on Google Play (from a device not enrolled in testing)</li>
+            <li>Check the listing icon, screenshots, description, and category appear correctly</li>
+            <li>Do a fresh install from the store and test the app once more</li>
+            <li>Share your Play Store URL: <code>https://play.google.com/store/apps/details?id=com.yourpackage.name</code></li>
+          </ul>
+          <div class="tip">🎉 Congratulations! Your app is published on Google Play.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <button class="reset-btn" onclick="resetAll()">↺ Reset all checkboxes</button>
+
+  <div class="footer">
+    Generated for .NET MAUI · Visual Studio 2022 · Google Play Store Publishing
+  </div>
+
+</div>
+
+<script>
+  function toggleItem(el) {
+    if (event.target.classList.contains('expand-btn')) return;
+    el.classList.toggle('completed');
+    updateProgress();
+  }
+
+  function toggleDetail(e, btn) {
+    e.stopPropagation();
+    const item = btn.closest('.item');
+    item.classList.toggle('open');
+    btn.textContent = item.classList.contains('open') ? '▾ Hide details' : '▸ Show details';
+  }
+
+  function updateProgress() {
+    const all = document.querySelectorAll('.item');
+    const done = document.querySelectorAll('.item.completed');
+    const pct = all.length ? Math.round((done.length / all.length) * 100) : 0;
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('progress-text').textContent = `${done.length} / ${all.length} steps completed`;
+  }
+
+  function resetAll() {
+    document.querySelectorAll('.item').forEach(el => el.classList.remove('completed', 'open'));
+    document.querySelectorAll('.expand-btn').forEach(btn => btn.textContent = '▸ Show details');
+    updateProgress();
+  }
+
+  updateProgress();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+# common_repo tracks ONLY the shared, cross-project guidance files.
+# Everything else in this directory (each app is its own git repo) is ignored.
+*
+!.gitignore
+!CLAUDE.md
+!README.md
+!maui_publish_to_google_play_guide.html
+!.claude/
+.claude/*
+!.claude/PLAYSTORE.md
+# never: brevo-info.txt (credentials), .claude/settings.local.json (machine-local), app repos
