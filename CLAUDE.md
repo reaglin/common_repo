@@ -10,7 +10,7 @@ Start a session here when the work spans more than one app.
 | Repo | ApplicationId | Play status | Notes |
 |---|---|---|---|
 | `Any6_FitnessTracker\` | `com.roneaglin.any6_fitnesstracker` | closed testing done; production access requested 2026-08-19 | csproj is nested: `Any6_FitnessTracker\Any6_FitnessTracker\` |
-| `EasyPeasyGPX\` | `com.eaglin.easypeasygpx` | 1.0 (2) in Production review | its `RELEASE.md` is the template for the others |
+| `EasyPeasyGPX\` | `com.eaglin.easypeasygpx` | 1.0 (3) API-36 build uploaded to Production 2026-08-22 | its `RELEASE.md` is the template for the others |
 | `NaViViewer\` | `com.eaglin.naviviewer` | 1.0 (6) submitted to Production | |
 | `PunchMonkey\` | `com.eaglin.punchmonkey` (+ `.designer`) | 1.22 (22) built, upload pending | two apps over one core; server is `PunchMonkeyServer\` |
 | `AppOpenerAndTimer\` | `com.eaglin.appopenerandtimer` | in development (net9.0, not yet on Play) | |
@@ -25,11 +25,12 @@ production-release protocol, open to-dos) is imported here so it is always in co
 
 ## Conventions shared by all the MAUI apps
 
-- **Toolchain:** Visual Studio 2022 17.14 + `dotnet` CLI. Repos have been retargeted to
-  **.NET 10 / `net10.0-android` (API 36)** — but as of 2026-08-19 this machine has only the
-  **.NET 9.0.312 SDK**, so `net10.0` store builds need the .NET 10 SDK + `maui-android`
-  workload installed first (`dotnet --list-sdks` to check). Always build with
-  `-f <tfm>-android`; iOS/MacCatalyst targets are not built on Windows.
+- **Toolchain:** Visual Studio 2022 17.14 + `dotnet` CLI. Repos are targeted to
+  **.NET 10 / `net10.0-android` (API 36)**; the .NET 10 SDK (10.0.400), `maui-android`
+  workload, and Android SDK platform 36 were installed 2026-08-22. net10.0-android builds
+  need **JDK 17**: pass `-p:JavaSdkDirectory="C:\Program Files (x86)\Android\openjdk\jdk-17.0.14"`
+  (the PATH default is jdk-11, which is too old). Always build with `-f <tfm>-android`;
+  iOS/MacCatalyst targets are not built on Windows.
 - **Upload keys:** all in `C:\keystores\` (Play App Signing is on, so these are *upload* keys).
   `C:\keystores\aliases.txt` maps keystore → alias. Passwords are **never** committed: the
   sibling apps read them from a gitignored `Directory.Build.props` at the repo root

@@ -17,14 +17,19 @@ EasyPeasyGPX's retarget commit (`a75f9b7` in that repo) is the template: TFM `ne
 `DisplayAlert` → `DisplayAlertAsync` (MAUI 10 deprecation), then fix whatever API-level analyzers flag
 (e.g. its `Notification.Builder(Context, channelId)` crash below API 26).
 
-## App status (updated 2026-08-19)
+## App status (updated 2026-08-22)
+
+**Toolchain (2026-08-22):** .NET 10 SDK **10.0.400** installed alongside 9.0.312; `maui-android` 10.0.20
+workload + Android SDK **platform 36** installed; net10.0-android builds need **JDK 17** at
+`C:\Program Files (x86)\Android\openjdk\jdk-17.0.14` (pass `-p:JavaSdkDirectory=...`; the PATH jdk-11 is
+too old). API-36 store builds are unblocked for all apps.
 
 | App | ApplicationId | Version / code | TFM | minSdk | Upload keystore | Status |
 |---|---|---|---|---|---|---|
-| EasyPeasyGPX | `com.eaglin.easypeasygpx` | 1.0 / 2 | **net10.0** (repo) — shipped AAB was net9/API 35 | 24 | `C:\keystores\easypeasygpx.keystore` (alias `easypeasygpx`) | 1.0 (2) in Production review since 2026-08-17 (created via Production → Add from library from the open-testing bundle); repo already retargeted, next build = versionCode 3 (needs .NET 10 SDK installed — only 9.0.312 present as of 2026-08-17) |
-| Any6_FitnessTracker | `com.roneaglin.any6_fitnesstracker` | 1.0 / 3 | **net10.0** (repo, `d6271ee` 2026-07-28, +maccatalyst) — built vc3 AAB is net9/API 35 | 21 | `C:\keystores\any6alias.playupload.keystore` (alias `any6alias`, SHA-256 `18:6D:6E:22…`) — **not** `eaglin.any6_fitness.keystore` / repo `key.keystore` (different key; Play rejects it) | 1.0 (3) signed AAB built + signature verified + device smoke test PASSED 2026-08-19 (`release\…-v1.0-vc3.aab`, built from the .NET 9 tree); **production-access request submitted 2026-08-19** — upload when granted; rebuild on .NET 10 preferred (see repo `RELEASE.md`) |
-| NaViViewer | `com.eaglin.naviviewer` | 1.0 / 6 | **net10.0** (repo, `1e78f97`) — shipped AAB was net9/API 35 | 24 | `C:\keystores\naviviewer.keystore` (alias `naviviewer`) | 1.0 (6) signed AAB built + signature verified 2026-08-17 (`RELEASE.md`, `store/release-notes-1.0.txt` added); 1.0 (6) **submitted to Production 2026-08-17** (smoke test passed on device); tagged `v1.0`; next build = versionCode 7 on .NET 10 |
-| PunchMonkey | `com.eaglin.punchmonkey` | 1.22 / 22 | **net10.0** (repo, `91ac48d` merged 2026-08-18) — shipped AAB was net9/API 35 | 26 | `C:\keystores\mycompany.myapp.keystore` (alias `myapp`) — legacy name, **do not rename**: it is the registered upload key | 1.22 (22) signed AAB built + signature verified 2026-08-18 (`RELEASE.md`, `store/release-notes-1.22.txt`); device smoke test PASSED 2026-08-18 (one non-reproducible ANR noted in RELEASE.md); Production upload pending |
+| EasyPeasyGPX | `com.eaglin.easypeasygpx` | 1.0 / 3 | **net10.0 / API 36** | 24 | `C:\keystores\easypeasygpx.keystore` (alias `easypeasygpx`) | 1.0 (3) **API-36 AAB built, signature verified, device smoke test PASSED 2026-08-22** (first net10.0-android store build; commit `e753b5d`); Ron uploading to Production 2026-08-22 (replaces the 1.0 (2) API-35 AAB in review since 2026-08-17); tag `v1.0` once live; next build = versionCode 4 |
+| Any6_FitnessTracker | `com.roneaglin.any6_fitnesstracker` | 1.0 / 3 | **net10.0** (repo, `d6271ee` 2026-07-28, +maccatalyst) — built vc3 AAB is net9/API 35 | 21 | `C:\keystores\any6alias.playupload.keystore` (alias `any6alias`, SHA-256 `18:6D:6E:22…`) — **not** `eaglin.any6_fitness.keystore` / repo `key.keystore` (different key; Play rejects it) | 1.0 (3) signed AAB built + signature verified + device smoke test PASSED 2026-08-19 (`release\…-v1.0-vc3.aab`, built from the .NET 9 tree); production-access request **still in review as of 2026-08-22** — when granted, rebuild on .NET 10 / API 36 (toolchain now installed) as versionCode 4 and upload that instead of the API-35 vc3 |
+| NaViViewer | `com.eaglin.naviviewer` | 1.0 / 6 | **net10.0** (repo, `1e78f97`) — shipped AAB was net9/API 35 | 24 | `C:\keystores\naviviewer.keystore` (alias `naviviewer`) | 1.0 (6) signed AAB built + signature verified 2026-08-17 (`RELEASE.md`, `store/release-notes-1.0.txt` added); 1.0 (6) submitted to Production 2026-08-17, **approved — rollout in progress, not yet complete, as of 2026-08-22**; tagged `v1.0`; **Ron has app changes planned** → next build = versionCode 7 on .NET 10 / API 36 (toolchain ready) |
+| PunchMonkey | `com.eaglin.punchmonkey` | 1.22 / 22 | **net10.0** (repo, `91ac48d` merged 2026-08-18) — shipped AAB was net9/API 35 | 26 | `C:\keystores\mycompany.myapp.keystore` (alias `myapp`) — legacy name, **do not rename**: it is the registered upload key | 1.22 (22) signed AAB built + signature verified 2026-08-18 (`RELEASE.md`, `store/release-notes-1.22.txt`); device smoke test PASSED 2026-08-18 (one non-reproducible ANR noted in RELEASE.md); **Play Console shows app status Production, last updated Aug 18 (2026-08-22 screenshot)** — confirm 1.22 rollout, then tag `v1.22` + bump server `LatestAppVersion` to 1.22 + deploy |
 
 Keystore passwords come from each repo's gitignored `Directory.Build.props`. All apps use Play App
 Signing — the local keystores are **upload** keys only (a lost upload key is resettable in Play Console).
@@ -83,7 +88,10 @@ Proven on EasyPeasyGPX 2026-08-16; repeat for each app:
 
 ## September .NET 10 / API 36 migration checklist (all four apps)
 
-- [x] EasyPeasyGPX — retargeted (`a75f9b7`); still needs the versionCode-3 store build + upload.
-- [x] Any6_FitnessTracker — retargeted (`d6271ee`, 2026-07-28); still needs an API-36 store build (versionCode 3 if vc3 not yet uploaded, else 4) + upload before Nov 1 (needs .NET 10 SDK).
-- [x] NaViViewer — retargeted (`1e78f97`); still needs the versionCode-7 store build + upload before Nov 1.
-- [x] PunchMonkey — retargeted (`91ac48d`); still needs the versionCode-23 store build + upload before Nov 1 (needs .NET 10 SDK).
+- [x] EasyPeasyGPX — retargeted (`a75f9b7`); **API-36 versionCode-3 build DONE + smoke tested 2026-08-22; uploaded to Production by Ron 2026-08-22**.
+- [x] Any6_FitnessTracker — retargeted (`d6271ee`, 2026-07-28); still needs the API-36 store build (versionCode 4, since vc3 was built from the .NET 9 tree) + upload before Nov 1 — waiting on production access.
+- [x] NaViViewer — retargeted (`1e78f97`); still needs the versionCode-7 store build + upload before Nov 1 (bundle with Ron's planned app changes).
+- [x] PunchMonkey — retargeted (`91ac48d`); still needs the versionCode-23 store build + upload before Nov 1.
+
+Toolchain prerequisite (.NET 10 SDK + maui-android + Android platform 36 + JDK 17) installed and
+verified 2026-08-22 — see the note above the app-status table for the exact build flags.
