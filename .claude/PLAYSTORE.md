@@ -48,8 +48,9 @@ Privacy policy URL for each app to its own page:**
 | EasyPeasyGPX | `https://punchmonkeyserver.com/privacy/easypeasygpx` |
 | Any6_FitnessTracker | `https://punchmonkeyserver.com/privacy/any6fitness` |
 
-`/privacy` is now an index of the four. If Google's reviewer name is not "Ron Eaglin" on the developer
-account, edit the "Who we are" paragraph in each page to match the listing.
+`/privacy` is now an index of the four. All pages name the developer as **Dean Eaglin** (matching the
+Play Console account name), updated + deployed 2026-08-22 (PunchMonkeyServer commit `0d8eeec`); the
+contact email remains ron.eaglin@gmail.com.
 
 ## Production-release protocol (per app)
 
