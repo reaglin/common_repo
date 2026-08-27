@@ -73,6 +73,13 @@ Proven on EasyPeasyGPX 2026-08-16; repeat for each app:
 
 ## Per-app to-dos before their production release
 
+- **PunchMonkey — FIRST: code release to Play once share is tested** (noted 2026-08-27): the
+  "Share your result" feature (`bc759ab`) + Design Course (`72a5560`) are on `main` and installed
+  on the test phone. Once Ron's device testing passes → new store build from `main` (versionCode
+  **24**, bump `ApplicationDisplayVersion`) and upload to Production. This supersedes uploading
+  the archived feature-identical vc23 AAB — one upload covers both the API-36 deadline and the
+  new features. Then tag, bump server `LatestAppVersion` + deploy (protocol above).
+
 - **Any6_FitnessTracker**
   - ~~Create `CLAUDE.md`~~ ~~add `RELEASE.md` + Release-signing block~~ done 2026-08-19
     (`CLAUDE.md`, `RELEASE.md`, `publish-release.ps1`, `store-assets/`; pushed as `f1a1957`/`783875e`).
