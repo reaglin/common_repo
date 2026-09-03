@@ -18,6 +18,16 @@ Start a session here when the work spans more than one app.
 Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages for all apps),
 `CIATLE*`, `PreseMaker`, `SeaGit`, `ValidationCodeManager`, `WindowsFormManager`, `reaglin`.
 
+## Desktop / Microsoft Store
+
+- **`SMADA10\`** — SMADA (Stormwater Management and Design Aid), a WPF/.NET 10 rebuild of the
+  hydrology package that accompanies *Hydrology: Water Quantity and Quality Control*. Free
+  software, intended for the Microsoft Store, supporting Ron's paid products. Phases 0-5 of
+  `docs/DEVELOPMENT-PLAN.md` are complete as of 2026-09-03; phase 6 is Store submission.
+  **Start with that repo's `CLAUDE.md` and `docs/DEVELOPMENT-PLAN.md`.** Hand-test build lives
+  in `SMADA10\manual-test\SMADA.exe` (see its `docs/MANUAL-TESTING.md`).
+  Shares an approach with `reaglin\BMPTrains` — property metadata via an attribute.
+
 The live cross-app tracker (API-36 deadline + extension, per-app versions, privacy URLs, the
 production-release protocol, open to-dos) is imported here so it is always in context:
 
