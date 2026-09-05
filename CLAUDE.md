@@ -27,6 +27,11 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   **Start with that repo's `CLAUDE.md` and `docs/DEVELOPMENT-PLAN.md`.** Hand-test build lives
   in `SMADA10\manual-test\SMADA.exe` (see its `docs/MANUAL-TESTING.md`).
   Shares an approach with `reaglin\BMPTrains` — property metadata via an attribute.
+- **`AuthorPlus\`** — AI-enhanced book-authoring tool (chapters in a rich-text editor, characters,
+  timeline, plotlines in one tree). WPF/.NET 10, paid Microsoft Store app; repo
+  `github.com/reaglin/AuthorPlus`. Scaffolded 2026-09-04 (phase 0 of `docs/DEVELOPMENT-PLAN.md`).
+  Book = folder of files under `Documents\AuthorPlus\Books`; AI layer is a copy of
+  `CIATLE\CIATLE.AICore` and can borrow PreseMaker's saved API keys. **Start with its `CLAUDE.md`.**
 
 The live cross-app tracker (API-36 deadline + extension, per-app versions, privacy URLs, the
 production-release protocol, open to-dos) is imported here so it is always in context:
