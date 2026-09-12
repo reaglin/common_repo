@@ -30,8 +30,36 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
 - **`AuthorPlus\`** — AI-enhanced book-authoring tool (chapters in a rich-text editor, characters,
   timeline, plotlines in one tree). WPF/.NET 10, paid Microsoft Store app; repo
   `github.com/reaglin/AuthorPlus`. Scaffolded 2026-09-04 (phase 0 of `docs/DEVELOPMENT-PLAN.md`).
-  Book = folder of files under `Documents\AuthorPlus\Books`; AI layer is a copy of
-  `CIATLE\CIATLE.AICore` and can borrow PreseMaker's saved API keys. **Start with its `CLAUDE.md`.**
+  Book = folder of files under `Documents\AuthorPlus\Books`. **Re-planned 2026-09-12:** tree is
+  Book → Sections → Chapters → Items (CIATLE Program Assessment style); Ron's own trilogy
+  (*The Book of One*, three parts of DOCX chapters) is the live test case
+  (`docs/TRILOGY-TEST-CASE.md`); AI goes through the shared `AiManager` package below, replacing
+  its copied `AuthorPlus.AI`. **Start with its `CLAUDE.md`.**
+- **`Statistle\`** — statistics calculation and learning app following Ron's EGN3443 course
+  (`github.com/reaglin/egn3443`): data tables on the left, analyses on the right, every
+  parameter explained with its source, and a **Code tab that writes the Python and R** for the
+  data and the analysis. WPF/.NET 10, free Microsoft Store app. **Started 2026-09-08** from a copy
+  of SMADA's core (`StatistleObject`, `Analysis`, the generic editor with help panel).
+  `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/METHODS-AND-SOURCES.md` (every statistic
+  with its formula, source, Python and R). **Start with its `CLAUDE.md`.**
+- **`EasyPeasyRetirement\`** — retirement "what if?" planner (when to retire, when to claim;
+  Social Security, pensions, accounts, home, expenses; year-by-year projection with taxes and
+  RMDs; scenarios compared side by side). All data local. WPF/.NET 10, Microsoft Store; repo
+  `github.com/reaglin/EasyPeasyRetirement` (private). **Plan stage as of 2026-09-05** — no code
+  yet; `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/RULES-AND-SOURCES.md`. Copies SMADA's
+  metadata-on-the-property core rather than referencing it. **Start with its `CLAUDE.md`.**
+
+## Shared libraries
+
+- **`AiManager\`** — **the one AI layer for every AI-enabled app** (decided 2026-09-12): a
+  `Eaglin.AiManager` class library (net10.0, providers Claude/Gemini/OpenAI/Mistral/xAI,
+  DPAPI key store in `Documents\AiManager\`, activity log, usage ledger, prompt templates,
+  model catalog), WPF and WinForms settings/dashboard packages, and a standalone AI Manager
+  exe with a usage dashboard. Distributed as versioned NuGet packages from the local feed
+  `C:\nuget-local` (`build\pack.ps1`). Consumers in order: AuthorPlus (first; deletes its
+  `AuthorPlus.AI` copy), EasyPeasyRetirement, PreseMaker, CIATLE (`CIATLE.AICore` retired).
+  Until an app has migrated, its own AI layer stands. **Start with its `CLAUDE.md` and
+  `docs/PLAN.md`.**
 
 The live cross-app tracker (API-36 deadline + extension, per-app versions, privacy URLs, the
 production-release protocol, open to-dos) is imported here so it is always in context:
