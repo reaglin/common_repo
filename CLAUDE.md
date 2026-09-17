@@ -42,6 +42,13 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   of SMADA's core (`StatistleObject`, `Analysis`, the generic editor with help panel).
   `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/METHODS-AND-SOURCES.md` (every statistic
   with its formula, source, Python and R). **Start with its `CLAUDE.md`.**
+- **`LMS-2-Website\`** — turns an **IMS Common Cartridge course export** (`.imscc`) into a static
+  **website** and publishes it to **GitHub Pages**: three steps in one window, no AI. The features
+  exist inside PreseMaker; this is the straight line through them. WPF/.NET 10, free Microsoft
+  Store app. **Started and built to phase 4 on 2026-09-14** — the conversion is verified against a
+  real 135 MB Brightspace export of EGN3443 (19 sections → 149 pages in ~1.5 s), 61 tests green.
+  The GitHub **token** route has not yet run against GitHub (Ron's hand-test 5); Git-only publish
+  is tested against a local repository. Phase 5 is the Store. **Start with its `CLAUDE.md`.**
 - **`EasyPeasyRetirement\`** — retirement "what if?" planner (when to retire, when to claim;
   Social Security, pensions, accounts, home, expenses; year-by-year projection with taxes and
   RMDs; scenarios compared side by side). All data local. WPF/.NET 10, Microsoft Store; repo
@@ -65,6 +72,43 @@ The live cross-app tracker (API-36 deadline + extension, per-app versions, priva
 production-release protocol, open to-dos) is imported here so it is always in context:
 
 @.claude/PLAYSTORE.md
+
+## Every project: `docs/DEVELOPMENT-PLAN.md` (decided 2026-09-16)
+
+Every program Ron and Claude work on keeps its plan in **`{repo}\docs\DEVELOPMENT-PLAN.md`** —
+always that name, always that place, so Ron knows where to look in any repo.
+**`LMS-2-Website\docs\DEVELOPMENT-PLAN.md` is the model to copy.** Repos without one are **not**
+retrofitted now: when Ron returns to an app for updates or new development, that work starts by
+creating its plan (fold in any existing `*PLAN*.md` content, or reference it). Each repo's
+`CLAUDE.md` carries a short pointer back to this section.
+
+**Why:** Ron tracks many projects at once and reads this file to see, at a glance, what is
+done, what needs him, and what is left.
+
+**Shape:**
+- Phases (`## Phase N — name`, with a mark on the heading once the whole phase is settled), each a
+  table of numbered tasks: `| # | Task | Done when |`.
+- A short "How an item is marked" legend near the top.
+- An **"Open questions for Ron"** section: numbered, dated when asked and when answered; an
+  answer turns into (or updates) a task.
+- A **References** section **at the end** listing every other document a task depends on
+  (`docs/PLAN.md`, `docs/MANUAL-TESTING.md`, `RELEASE.md`, a source/methods doc, …) — relative
+  path plus one line on what it is for. List only documents that exist.
+
+**Marks — three states, nothing more elaborate:**
+
+| Mark | Means |
+|---|---|
+| *(no icon)* or ⬜ | to do — not started or still being built (either is fine) |
+| ⚠️ | **action needed** — built and tested, waiting for Ron to verify; *or* Ron returned it with a comment; *or* blocked on an answer from Ron. Say what the action is in the row |
+| ✅ | done — built, tested, **and verified by Ron** |
+
+Dropped items may be struck through with ❌ and the reason (as LMS-2-Website does).
+
+**The flow each item moves through:** specification → questions → coding → testing →
+verification by Ron → ✅ verified, or returned with a comment/action (stays ⚠️ with the comment
+recorded, then back to coding). Claude never marks an item ✅ on its own — passing tests earns ⚠️;
+only Ron's confirmation earns ✅. Update the plan in the same commit as the work.
 
 ## Conventions shared by all the MAUI apps
 
