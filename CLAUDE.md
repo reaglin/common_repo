@@ -106,9 +106,30 @@ done, what needs him, and what is left.
 Dropped items may be struck through with ❌ and the reason (as LMS-2-Website does).
 
 **The flow each item moves through:** specification → questions → coding → testing →
-verification by Ron → ✅ verified, or returned with a comment/action (stays ⚠️ with the comment
-recorded, then back to coding). Claude never marks an item ✅ on its own — passing tests earns ⚠️;
-only Ron's confirmation earns ✅. Update the plan in the same commit as the work.
+UI/UX review → human testing (Ron or others) → ✅ verified, or returned with a comment/action
+(stays ⚠️ with the comment recorded, then back to coding). Claude never marks an item ✅ on its
+own — passing tests and a clean UX review earn ⚠️; only Ron's confirmation earns ✅. Update the
+plan in the same commit as the work.
+
+## Every project: the development cycle (decided 2026-09-17)
+
+Applies to all development, in every repo, in this order:
+
+1. **Operational first.** The code runs and does the task that was asked — including building
+   or extending its test suite as part of the work, not after. Nothing moves on until this holds.
+2. **UI/UX second.** Every interface that is added or changed must pass a **cognitive
+   walkthrough** and a **heuristic evaluation** (Nielsen's heuristics) before it goes to Ron.
+   Use the `ux-reviewer` agent on the screens/pages touched; fix what it finds, or record why
+   not. Record the review in the plan item (e.g. "UX: walkthrough + heuristics passed, 2 fixes").
+   - **Err on the side of better instructions. Never assume the user knows how to use the
+     software** — say what a screen is for, what to do next, what a setting means, and what
+     went wrong in words a first-time user can act on.
+   - A review read from source cannot judge rendered visuals (contrast, spacing, layout at
+     scale); look at the running app for those (see memory on WPF window capture).
+3. **Human testing.** Ron or other testers use it (hand-tests in `docs/MANUAL-TESTING.md`
+   where the repo has one). The item sits at ⚠️ until then.
+4. **Full circle.** What human testing returns — comments, confusion, bugs — becomes new plan
+   items or ⚠️ comments and feeds the next round of code generation, back through steps 1–3.
 
 ## Conventions shared by all the MAUI apps
 
