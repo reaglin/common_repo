@@ -49,6 +49,16 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   real 135 MB Brightspace export of EGN3443 (19 sections → 149 pages in ~1.5 s), 61 tests green.
   The GitHub **token** route has not yet run against GitHub (Ron's hand-test 5); Git-only publish
   is tested against a local repository. Phase 5 is the Store. **Start with its `CLAUDE.md`.**
+- **`GamifyPlus\`** — **Gamify+** (name reserved on the Microsoft Store): learning games for a
+  class, published as ordinary web pages. A teacher with no technical background picks a game type,
+  types the questions, and gets one self-contained HTML page per game plus a course website. A game
+  **type** is three shareable files (`gametype.json`, `template.html`, `instructions.md`) — data,
+  not code — so a new kind of game can be sent to a colleague or written by the AI. Students type
+  their name and hand in a signed result line the app verifies (it shows who took part; it is not
+  exam security, and the app says so). WPF/.NET 10, free Store app; AI goes through the shared
+  `AiManager` package. **Started and built to phase 4 on 2026-09-17** — 91 tests green, all four
+  shipped game types played end to end in headless Chrome. Phase 5 is the AI, phase 6 is GitHub
+  Pages publishing, phase 7 is the Store. **Start with its `CLAUDE.md`.**
 - **`EasyPeasyRetirement\`** — retirement "what if?" planner (when to retire, when to claim;
   Social Security, pensions, accounts, home, expenses; year-by-year projection with taxes and
   RMDs; scenarios compared side by side). All data local. WPF/.NET 10, Microsoft Store; repo
