@@ -56,9 +56,12 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   not code — so a new kind of game can be sent to a colleague or written by the AI. Students type
   their name and hand in a signed result line the app verifies (it shows who took part; it is not
   exam security, and the app says so). WPF/.NET 10, free Store app; AI goes through the shared
-  `AiManager` package. **Started and built to phase 4 on 2026-09-17** — 91 tests green, all four
-  shipped game types played end to end in headless Chrome. Phase 5 is the AI, phase 6 is GitHub
-  Pages publishing, phase 7 is the Store. **Start with its `CLAUDE.md`.**
+  `AiManager` package. Started 2026-09-17; "Course" became **Game File** (games in user-made
+  groups, five sections, Play and Versions tabs), fourteen game types, AI draft/revise, and
+  GitHub Pages publishing are built — 342 tests green. **1.0.0 submitted to the Microsoft Store
+  2026-09-24, in certification** (identity `DeanEaglin.Gamify`, WACK PASS 23/24; release docs in
+  `docs/release/`, privacy page `https://punchmonkeyserver.com/privacy/gamify`). Phase 8 (Professor
+  Stick, decision games) continues. **Start with its `CLAUDE.md`.**
 - **`EasyPeasyRetirement\`** — retirement "what if?" planner (when to retire, when to claim;
   Social Security, pensions, accounts, home, expenses; year-by-year projection with taxes and
   RMDs; scenarios compared side by side). All data local. WPF/.NET 10, Microsoft Store; repo
@@ -120,6 +123,31 @@ UI/UX review → human testing (Ron or others) → ✅ verified, or returned wit
 (stays ⚠️ with the comment recorded, then back to coding). Claude never marks an item ✅ on its
 own — passing tests and a clean UX review earn ⚠️; only Ron's confirmation earns ✅. Update the
 plan in the same commit as the work.
+
+## Every program: "Created by Dr. Ron Eaglin" in About (decided 2026-09-25)
+
+Ron: "it is time to start the marketing." Every program's **Help ▸ About** (or its About page)
+shows **"Created by Dr. Ron Eaglin"** with his picture. **Not retrofitted now**: add it the next
+time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and tick it off here.
+
+- **The picture:** `C:\Users\ronal\OneDrive - Daytona State College\Pictures\Ron Eaglin (self)\Dr_Ron_Icon.jpg`
+  (1024 × 1024; a copy is in `GamifyPlus\resources\images\dr-ron-eaglin-1024.jpg`). Ship a 256 px
+  copy with the app (`magick … -resize 256x256 -quality 88`), shown at about 96 px with rounded corners.
+- **The words:** "Created by Dr. Ron Eaglin" as a heading beside the picture, and a line under it
+  suited to the program. **GamifyPlus** is the model (MainWindow.xaml, About: an `ImageBrush` on a
+  rounded `Border`, the jpg as a WPF `Resource`).
+- **MAUI apps:** the same card on the About/Settings page. Store listings keep the developer name
+  each store has (Dean Eaglin on Play).
+- **Games** made with a program credit the designer where Ron designed the game: GamifyPlus writes
+  "Original game design by Dr. Ron Eaglin" on Pyramath, Fractazmic and I See Cards, and "Made with
+  Gamify+" on every game.
+
+| Program | Created-by in About |
+|---|---|
+| GamifyPlus | ✅ done 2026-09-25 |
+| SMADA10, AuthorPlus, Statistle, LMS-2-Website, EasyPeasyRetirement, AiManager (its exe) | on next update |
+| EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
+| PreseMaker, CIATLE, others | on next update |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
