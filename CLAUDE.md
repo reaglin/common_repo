@@ -126,6 +126,38 @@ UI/UX review → human testing (Ron or others) → ✅ verified, or returned wit
 own — passing tests and a clean UX review earn ⚠️; only Ron's confirmation earns ✅. Update the
 plan in the same commit as the work.
 
+## Every program: the "+" names (decided 2026-09-26)
+
+Ron likes the **Gamify+ / Author+** naming and is moving the Store programs to it. A rename is an
+ordinary Store **update**, not a new app: the Store listing, its link and Store ID, the installs,
+ratings and reviews all stay; the **package identity never changes** (Gamify+ is
+`DeanEaglin.Gamify` and shows "Gamify+"). **Each rename is done with that program's next version,
+as Ron works on it** — not all at once.
+
+**Names reserved in Partner Center by Ron (2026-09-26):**
+
+| Program (repo) | Store name now | New name — reserved | Status |
+|---|---|---|---|
+| PreseMaker (`PreseMaker\`) | PreseMaker | **CourseBuilder+** | with the next version |
+| CIATLE (`CIATLE\`, the CIATLE.FCE app) | CIATLE-FCE | **ProgramAssessment+** | with the next version |
+
+Others Ron has floated (not reserved yet): SMADA → **Hydrology+**.
+
+**What a rename changes** (in the program's next version):
+- The package manifest's **DisplayName** (and the VisualElements display name) — it must match the
+  reserved name exactly, or Partner Center refuses the upload.
+- What a person reads: window titles, Help ▸ About, help text, dialogs, generated documents that
+  name the program, the Store listing text, and any logo or screenshot that shows the name.
+- The privacy page: a new page under the new name on PunchMonkeyServer, **with the old address
+  kept working** (Gamify+'s page answers on three routes).
+- Partner Center, when it is submitted: the listing's **Product name** set to the new name; after
+  it is live, the old name may be deleted (an app always keeps at least one).
+
+**What a rename does not change:** code names, namespaces, assembly and repo names, the package
+identity, and the folders people's files are saved in (Gamify+ still saves to
+`Documents\GamifyPlus`) — renaming those would lose people's work or break installs. "The program
+is called X+ in front of a person, and keeps its code name in the code" — Gamify+'s rule.
+
 ## Every program: "Created by Dr. Ron Eaglin" in About (decided 2026-09-25)
 
 Ron: "it is time to start the marketing." Every program's **Help ▸ About** (or its About page)
