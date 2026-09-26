@@ -58,10 +58,12 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   exam security, and the app says so). WPF/.NET 10, free Store app; AI goes through the shared
   `AiManager` package. Started 2026-09-17; "Course" became **Game File** (games in user-made
   groups, five sections, Play and Versions tabs), fourteen game types, AI draft/revise, and
-  GitHub Pages publishing are built — 342 tests green. **1.0.0 submitted to the Microsoft Store
-  2026-09-24, in certification** (identity `DeanEaglin.Gamify`, WACK PASS 23/24; release docs in
-  `docs/release/`, privacy page `https://punchmonkeyserver.com/privacy/gamify`). Phase 8 (Professor
-  Stick, decision games) continues. **Start with its `CLAUDE.md`.**
+  GitHub Pages publishing are built. **1.0.0 is live on the Microsoft Store**
+  (https://apps.microsoft.com/detail/9nt6tccndc1v, tagged `v1.0.0`); **1.1.0 submitted 2026-09-25, in
+  certification** — card games (Pyramath, Fractazmic-Rummy, I See Cards, Klondike), 3D games (Robot
+  Golf), import a game and grow it by asking (Revise, Make my own version), Professor Ron; 550 tests
+  green (identity `DeanEaglin.Gamify`, WACK PASS 23/24; release docs in `docs/release/`, privacy page
+  `https://punchmonkeyserver.com/privacy/gamify`, revised for 1.1). **Start with its `CLAUDE.md`.**
 - **`EasyPeasyRetirement\`** — retirement "what if?" planner (when to retire, when to claim;
   Social Security, pensions, accounts, home, expenses; year-by-year projection with taxes and
   RMDs; scenarios compared side by side). All data local. WPF/.NET 10, Microsoft Store; repo
