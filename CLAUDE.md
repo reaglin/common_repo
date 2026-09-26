@@ -147,9 +147,9 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | Program | Created-by in About |
 |---|---|
 | GamifyPlus | ✅ done 2026-09-25 |
-| SMADA10, AuthorPlus, Statistle, LMS-2-Website, EasyPeasyRetirement, AiManager (its exe) | on next update |
+| AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
+| AiManager (its exe) | on next update |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
-| PreseMaker, CIATLE, others | on next update |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
