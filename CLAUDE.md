@@ -138,7 +138,7 @@ as Ron works on it** — not all at once.
 
 | Program (repo) | Store name now | New name — reserved | Status |
 |---|---|---|---|
-| PreseMaker (`PreseMaker\`) | PreseMaker | **CourseBuilder+** | **2.0.0.0 submitted 2026-09-28** (name moved onto the existing PreseMaker product; privacy `https://punchmonkeyserver.com/privacy/coursebuilder`) |
+| PreseMaker (`PreseMaker\`) | PreseMaker | **CourseBuilder+** | **2.0.0.0 live 2026-09-29** (tagged `v2.0.0`) (name moved onto the existing PreseMaker product; privacy `https://punchmonkeyserver.com/privacy/coursebuilder`) |
 | CIATLE (`CIATLE\`, the CIATLE.FCE app) | CIATLE-FCE | **ProgramAssessment+** | with the next version |
 
 Others Ron has floated (not reserved yet): SMADA → **Hydrology+**.
