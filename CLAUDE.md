@@ -71,6 +71,22 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   yet; `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/RULES-AND-SOURCES.md`. Copies SMADA's
   metadata-on-the-property core rather than referencing it. **Start with its `CLAUDE.md`.**
 
+## The website: SoftwarePlus.ai
+
+- **`SoftwarePlus\`** — **https://softwareplus.ai**, the home of the Store programs (domain
+  registered by Ron 2026-09-30). Plain static HTML: a home page for the family and **one folder per
+  program** (`site/gamify/`, `site/coursebuilder/`, …) that grows into that program's own site.
+  Served by Nginx on the **PunchMonkey VPS** (Ubuntu 24.04, `129.121.103.24`) beside
+  punchmonkeyserver.com; `.\deploy.ps1` publishes. Built 2026-09-30; DNS and server setup wait on
+  Ron (`docs/SERVER-SETUP.md`). When a program gets a new version, name, icon or screenshots,
+  update its page there too. **Start with its `CLAUDE.md`.**
+- **Privacy policies move to SoftwarePlus.ai** (decided 2026-09-30): each Store program's policy
+  moves from `punchmonkeyserver.com/privacy/<app>` to `softwareplus.ai/<program>/privacy/` **with
+  that program's next version** — the Store listing's privacy URL changes in the same submission,
+  and the old address keeps working. A program not yet shipped (Author+, LMS-2-Website,
+  EasyPeasyRetirement) starts there. Tracked in `SoftwarePlus\docs\DEVELOPMENT-PLAN.md`, phase 3.
+  The Play Store apps keep theirs on PunchMonkeyServer.
+
 ## Shared libraries
 
 - **`AiManager\`** — **the one AI layer for every AI-enabled app** (decided 2026-09-12): a
@@ -157,6 +173,14 @@ Others Ron has floated (not reserved yet): SMADA → **Hydrology+**.
 identity, and the folders people's files are saved in (Gamify+ still saves to
 `Documents\GamifyPlus`) — renaming those would lose people's work or break installs. "The program
 is called X+ in front of a person, and keeps its code name in the code" — Gamify+'s rule.
+
+**The "+" is in the icon too — it is the suite's theme** (Ron, 2026-09-29: *"The + is in the icon
+for Gamify+, CourseBuilder+, and now in Assessment+ so it is the theme"*). Every "+" program's icon
+is one simple white mark on the program's own colour, with a **"+"** as part of the mark: Gamify+,
+CourseBuilder+ (the open book and plus), Assessment+ (the Plan → Implement → Assess → Revise loop
+round a plus, `CIATLE\msix\make-store-assets.py`). **Author+ is next** — Ron: *"for Author+ we will
+want to stick to the theme with the + in the icon"* (a task in `AuthorPlus\docs\DEVELOPMENT-PLAN.md`).
+Hydrology+ follows if SMADA is renamed.
 
 ## Every program: "Created by Dr. Ron Eaglin" in About (decided 2026-09-25)
 
