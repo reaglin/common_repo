@@ -181,7 +181,7 @@ as Ron works on it** — not all at once.
 | Program (repo) | Store name now | New name — reserved | Status |
 |---|---|---|---|
 | PreseMaker (`PreseMaker\`) | PreseMaker | **CourseBuilder+** | **2.0.0.0 live 2026-09-29** (tagged `v2.0.0`) (name moved onto the existing PreseMaker product; privacy `https://punchmonkeyserver.com/privacy/coursebuilder`) |
-| CIATLE (`CIATLE\`, the CIATLE.FCE app) | CIATLE-FCE | **Assessment+** (changed from ProgramAssessment+ by Ron, 2026-09-29; reserved — on the existing CIATLE-FCE product via Manage app names, not a new product) | with the next version, together with the move to AI Manager |
+| CIATLE (`CIATLE\`, the CIATLE.FCE app) | CIATLE-FCE | **Assessment+** (changed from ProgramAssessment+ by Ron, 2026-09-29; reserved — on the existing CIATLE-FCE product via Manage app names, not a new product) | **2.0.0.0 live as Assessment+ 2026-10-01** (tagged `v2.0.0`; .NET 10, AI Manager; privacy `https://softwareplus.ai/assessment/privacy/index.html`) |
 
 Others Ron has floated (not reserved yet): SMADA → **Hydrology+**.
 
@@ -246,7 +246,7 @@ updated in the same release (above). Tick it off here.
 |---|---|---|
 | Gamify+ (`GamifyPlus`) | https://softwareplus.ai/gamify/ | on next update |
 | CourseBuilder+ (`PreseMaker`) | https://softwareplus.ai/coursebuilder/ | on next update |
-| Assessment+ (`CIATLE`) | https://softwareplus.ai/assessment/ | on next update (2.0.0.0, out 2026-10-01, was already built) |
+| Assessment+ (`CIATLE`) | https://softwareplus.ai/assessment/ | ✅ in 2.0.0.0 (live 2026-10-01): About links to softwareplus.ai, the Assessment+ page and its privacy policy |
 | Author+ (`AuthorPlus`) | https://softwareplus.ai/author/ | on next update (before 1.0 ships, if possible) |
 | Statistle | https://softwareplus.ai/statistle/ | on next update |
 | SMADA (`SMADA10`) | https://softwareplus.ai/smada/ | on next update |
