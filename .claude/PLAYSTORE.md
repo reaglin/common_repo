@@ -91,6 +91,7 @@ Proven on EasyPeasyGPX 2026-08-16; repeat for each app:
   - Set Play Console → App content → Privacy policy URL to `https://punchmonkeyserver.com/privacy/any6fitness`.
   - Trim `net10.0-maccatalyst` (+ windows/tizen leftovers) if out of scope.
   - Production-access request pending (submitted 2026-08-19); when granted upload **1.1 (versionCode 5)** and tag `v1.1`.
+  - **Next time Any 6 is worked on: take phone screenshots** (Play listing has none in the repo) and add them to its page on SoftwarePlus.ai (`SoftwarePlus\site\projects\any6\`). Noted 2026-10-01. Its listing is public on Google Play as of 2026-10-01.
 - **NaViViewer** — ~~add a `RELEASE.md`~~ done 2026-08-17 (1.0 / 6). Submitted to Production + tagged `v1.0` 2026-08-17.
 - **PunchMonkey** — ~~add a `RELEASE.md`~~ done 2026-08-18 (1.22 / 22). Smoke test passed 2026-08-18. Remaining: upload to Production, tag `v1.22`, then bump server `LatestAppVersion` to 1.22 + deploy.
 

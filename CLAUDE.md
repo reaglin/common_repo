@@ -71,14 +71,21 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   yet; `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/RULES-AND-SOURCES.md`. Copies SMADA's
   metadata-on-the-property core rather than referencing it. **Start with its `CLAUDE.md`.**
 
+- **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
+  program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
+  Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
+  year license with course and certification), not on the Microsoft Store. Its page on SoftwarePlus.ai
+  is `site/bmpfast/` (added 2026-10-01).
+
 ## The website: SoftwarePlus.ai
 
 - **`SoftwarePlus\`** — **https://softwareplus.ai**, the home of the Store programs (domain
-  registered by Ron 2026-09-30). Plain static HTML: a home page for the family and **one folder per
+  registered by Ron 2026-09-30; repo `github.com/reaglin/SoftwarePlus`, private). Plain static HTML: a home page for the family and **one folder per
   program** (`site/gamify/`, `site/coursebuilder/`, …) that grows into that program's own site.
-  Served by Nginx on the **PunchMonkey VPS** (Ubuntu 24.04, `129.121.103.24`) beside
-  punchmonkeyserver.com; `.\deploy.ps1` publishes. Built 2026-09-30; DNS and server setup wait on
-  Ron (`docs/SERVER-SETUP.md`). When a program gets a new version, name, icon or screenshots,
+  Served by Nginx on **its own Bluehost VPS** (self-managed NVMe 4, Ubuntu 26.04 LTS), bought
+  2026-09-30: `server1.softwareplus.ai`, `50.6.227.129`, HTTPS by Let's Encrypt; `.\deploy.ps1`
+  publishes. **Live since 2026-09-30** (setup guide: `docs/SERVER-SETUP.md`). Has an **Other
+  projects** section (Android apps, websites) and BMPFast since 2026-10-01. When a program gets a new version, name, icon or screenshots,
   update its page there too. **Start with its `CLAUDE.md`.**
 - **Privacy policies move to SoftwarePlus.ai** (decided 2026-09-30): each Store program's policy
   moves from `punchmonkeyserver.com/privacy/<app>` to `softwareplus.ai/<program>/privacy/` **with
@@ -86,6 +93,22 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   and the old address keeps working. A program not yet shipped (Author+, LMS-2-Website,
   EasyPeasyRetirement) starts there. Tracked in `SoftwarePlus\docs\DEVELOPMENT-PLAN.md`, phase 3.
   The Play Store apps keep theirs on PunchMonkeyServer.
+- **Every Store release updates SoftwarePlus.ai** (decided 2026-09-30). Ron: *"Each publish of a
+  software will also be accompanied by updates to the softwareplus.ai web site."* A release is
+  not finished until the program's page matches it: name, version, price, Store link, features,
+  screenshots, privacy if it moves, release notes, then `.\deploy.ps1`. The steps are in
+  `SoftwarePlus\CLAUDE.md`, and each release is logged in its plan's phase 5. The Store's own list
+  of what is published:
+  https://apps.microsoft.com/search/publisher?name=Dean+Eaglin&hl=en-US&gl=US
+- **Other Projects on SoftwarePlus.ai** (decided 2026-09-30): the Android apps (PunchMonkey,
+  EasyPeasyGPX, Any6, NaViViewer, later AppOpenerAndTimer) and the websites (PunchMonkeyServer,
+  Florida Course Repository at floridacourserepo.com) each get a page under `site/projects/`,
+  linked from the home page's Other Projects section. A release of any of them updates its page
+  too (`SoftwarePlus\docs\DEVELOPMENT-PLAN.md`, phase 6).
+- **Each program's folder covers every feature** (decided 2026-09-30): a summary page, feature
+  pages and live examples. Ron's examples: Gamify+ shows all its built-in games, playable;
+  CourseBuilder+ shows a course it built, with each type of content. These are added as each
+  program is worked on (`SoftwarePlus\docs\DEVELOPMENT-PLAN.md`, phase 4).
 
 ## Shared libraries
 
@@ -206,6 +229,27 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
 | AiManager (its exe) | on next update |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
+
+## Every program: Help ▸ About links to its SoftwarePlus.ai page (decided 2026-09-30)
+
+Each Store program's **Help ▸ About** (or About page) gets a link to **its own page on
+https://softwareplus.ai**. The link goes beside the "Created by Dr. Ron Eaglin" card, with the
+words "More about {program}, with help and examples: softwareplus.ai/{folder}". **Not
+retrofitted now**: add it the next time each program is worked on, as a task in its
+`docs/DEVELOPMENT-PLAN.md`. It **ships with that program's next Store release**, and the site is
+updated in the same release (above). Tick it off here.
+
+| Program | Its page | About link |
+|---|---|---|
+| Gamify+ (`GamifyPlus`) | https://softwareplus.ai/gamify/ | on next update |
+| CourseBuilder+ (`PreseMaker`) | https://softwareplus.ai/coursebuilder/ | on next update |
+| Assessment+ (`CIATLE`) | https://softwareplus.ai/assessment/ | on next update (2.0.0.0, out 2026-10-01, was already built) |
+| Author+ (`AuthorPlus`) | https://softwareplus.ai/author/ | on next update (before 1.0 ships, if possible) |
+| Statistle | https://softwareplus.ai/statistle/ | on next update |
+| SMADA (`SMADA10`) | https://softwareplus.ai/smada/ | on next update |
+| SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
+| LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
+| EasyPeasyRetirement | https://softwareplus.ai/retirement/ | before 1.0 ships |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
