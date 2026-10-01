@@ -87,12 +87,12 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   publishes. **Live since 2026-09-30** (setup guide: `docs/SERVER-SETUP.md`). Has an **Other
   projects** section (Android apps, websites) and BMPFast since 2026-10-01. When a program gets a new version, name, icon or screenshots,
   update its page there too. **Start with its `CLAUDE.md`.**
-- **Privacy policies move to SoftwarePlus.ai** (decided 2026-09-30): each Store program's policy
-  moves from `punchmonkeyserver.com/privacy/<app>` to `softwareplus.ai/<program>/privacy/` **with
-  that program's next version** — the Store listing's privacy URL changes in the same submission,
-  and the old address keeps working. A program not yet shipped (Author+, LMS-2-Website,
-  EasyPeasyRetirement) starts there. Tracked in `SoftwarePlus\docs\DEVELOPMENT-PLAN.md`, phase 3.
-  The Play Store apps keep theirs on PunchMonkeyServer.
+- **Privacy policies live on SoftwarePlus.ai** (decided 2026-09-30; **all ten copied 2026-10-01**,
+  word for word, Windows programs and Android apps alike): `softwareplus.ai/<program>/privacy/` and
+  `softwareplus.ai/projects/<app>/privacy/`. **Edit them there.** With each program's next release
+  its Store or Play listing's privacy URL moves to the new address, and Ron then removes the page from
+  PunchMonkeyServer, preferably as a redirect, since older installs and listings link to it. Until
+  then both show the same text. Tracked in `SoftwarePlus\docs\DEVELOPMENT-PLAN.md`, phase 3.
 - **Every Store release updates SoftwarePlus.ai** (decided 2026-09-30). Ron: *"Each publish of a
   software will also be accompanied by updates to the softwareplus.ai web site."* A release is
   not finished until the program's page matches it: name, version, price, Store link, features,

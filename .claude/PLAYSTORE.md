@@ -48,6 +48,11 @@ Privacy policy URL for each app to its own page:**
 | EasyPeasyGPX | `https://punchmonkeyserver.com/privacy/easypeasygpx` |
 | Any6_FitnessTracker | `https://punchmonkeyserver.com/privacy/any6fitness` |
 
+**Moving to SoftwarePlus.ai (2026-10-01):** all four policies were copied word for word to
+`https://softwareplus.ai/projects/{punchmonkey,naviviewer,easypeasygpx,any6}/privacy/`. With each
+app's **next Play upload**, set Play Console → App content → Privacy policy URL to the new address;
+then the PunchMonkeyServer page comes down (preferably as a redirect). Edit the policies on SoftwarePlus.ai.
+
 `/privacy` is now an index of the four. All pages name the developer as **Dean Eaglin** (matching the
 Play Console account name), updated + deployed 2026-08-22 (PunchMonkeyServer commit `0d8eeec`); the
 contact email remains ron.eaglin@gmail.com.
