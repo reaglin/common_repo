@@ -105,6 +105,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   Florida Course Repository at floridacourserepo.com) each get a page under `site/projects/`,
   linked from the home page's Other Projects section. A release of any of them updates its page
   too (`SoftwarePlus\docs\DEVELOPMENT-PLAN.md`, phase 6).
+- **Classes on SoftwarePlus.ai** (2026-10-01): `softwareplus.ai/classes/` lists Ron's class websites —
+  CourseBuilder+ courses on GitHub Pages at `https://reaglin.github.io/<COURSE>/`: EGN3214, EGN3443,
+  COP3530, COP4708, COP4813, CEN3722. A new class is one more entry (plan phase 7).
 - **Each program's folder covers every feature** (decided 2026-09-30): a summary page, feature
   pages and live examples. Ron's examples: Gamify+ shows all its built-in games, playable;
   CourseBuilder+ shows a course it built, with each type of content. These are added as each
