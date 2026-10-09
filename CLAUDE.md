@@ -78,7 +78,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   previews the page, publishes to **GitHub Pages**, and students **hand in the link**. Classroom
   game + lab (budget, plan, scored test). The engine stays JavaScript because it runs in the page.
   WPF/.NET 10, free Store app; repo `github.com/reaglin/TrafficLabPlus`. Started 2026-10-09;
-  **phases 0–6 built the same day** (engine matches LPGA exactly, one-file page; page opens blank as a
+  **phases 0–7 built the same day** (engine matches LPGA exactly, one-file page; page opens blank as a
   puzzle, Submit plan → printout, name optional; `.trafficlab` study file, start screen, network editor
   with the page rebuilt beside it, New study with its budget, About; built-in examples LPGA and
   Four-Way; the Map section finds a place, loads its roads from OpenStreetMap and makes a study from
@@ -87,7 +87,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   page as the index. Phase 6 (the AI over AiManager 1.4.1: fill in the network, estimate traffic,
   write the challenge, coach — it only proposes), the icon (a traffic signal on a "+") and the privacy
   policy (live at softwareplus.ai/trafficlab/privacy/) done 2026-10-09. Ron plans the Store submission
-  for 2026-10-10. Next: publishing (phase 7) and packaging (phase 8).
+  for 2026-10-10. Phase 7 (publish every ticked study to one GitHub Pages repository with a summary
+  page) and the Store screenshots (tools/store-shots.ps1) done the same day. Next: packaging (8.3),
+  which needs the Partner Center identity values.
   **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
