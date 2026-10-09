@@ -78,8 +78,10 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   previews the page, publishes to **GitHub Pages**, and students **hand in the link**. Classroom
   game + lab (budget, plan, scored test). The engine stays JavaScript because it runs in the page.
   WPF/.NET 10, free Store app; repo `github.com/reaglin/TrafficLabPlus`. Started 2026-10-09;
-  **phases 0–2 built the same day** (engine matches LPGA exactly, one-file page, preview window;
-  page opens blank as a puzzle, Submit plan → printout, name optional). **Start with its `CLAUDE.md`.**
+  **phases 0–3 built the same day** (engine matches LPGA exactly, one-file page; page opens blank as a
+  puzzle, Submit plan → printout, name optional; `.trafficlab` study file, start screen, network editor
+  with the page rebuilt beside it, New study with its budget, About). Next: the map/OSM (phase 4).
+  **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
@@ -241,7 +243,7 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | GamifyPlus | ✅ done 2026-09-25 |
 | AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
 | AiManager (its exe) | on next update |
-| TrafficLabPlus | before 1.0 ships (plan task 3.6) |
+| TrafficLabPlus | built 2026-10-09 (plan task 3.6); ⚠️ waits for Ron to look, ships with 1.0 |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
 
 ## Every program: Help ▸ About links to its SoftwarePlus.ai page (decided 2026-09-30)
@@ -264,7 +266,7 @@ updated in the same release (above). Tick it off here.
 | SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
 | EasyPeasyRetirement | https://softwareplus.ai/retirement/ | before 1.0 ships |
-| TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | before 1.0 ships (plan task 3.6) |
+| TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | built 2026-10-09 (plan task 3.6); ⚠️ ships with 1.0 |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
