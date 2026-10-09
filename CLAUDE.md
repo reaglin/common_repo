@@ -77,8 +77,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   volumes typed, from **FDOT AADT**, or estimated by the AI (shared `AiManager`); the program
   previews the page, publishes to **GitHub Pages**, and students **hand in the link**. Classroom
   game + lab (budget, plan, scored test). The engine stays JavaScript because it runs in the page.
-  WPF/.NET 10, free Store app; repo `github.com/reaglin/TrafficLabPlus`. **Plan stage, started
-  2026-10-09.** **Start with its `CLAUDE.md`.**
+  WPF/.NET 10, free Store app; repo `github.com/reaglin/TrafficLabPlus`. Started 2026-10-09;
+  **phases 0–2 built the same day** (engine matches LPGA exactly, one-file page, preview window;
+  page opens blank as a puzzle, Submit plan → printout, name optional). **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
