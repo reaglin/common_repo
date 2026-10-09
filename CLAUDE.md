@@ -71,6 +71,15 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   yet; `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/RULES-AND-SOURCES.md`. Copies SMADA's
   metadata-on-the-property core rather than referencing it. **Start with its `CLAUDE.md`.**
 
+- **`TrafficLabPlus\`** — **TrafficLab+**: turns a real intersection, or a corridor of up to ~10,
+  into a **web page with a live traffic simulation** like Ron's LPGA Traffic Lab artifact (kept in
+  `reference/`). Roads from **OpenStreetMap** (not Google — its terms forbid deriving geometry);
+  volumes typed, from **FDOT AADT**, or estimated by the AI (shared `AiManager`); the program
+  previews the page, publishes to **GitHub Pages**, and students **hand in the link**. Classroom
+  game + lab (budget, plan, scored test). The engine stays JavaScript because it runs in the page.
+  WPF/.NET 10, free Store app; repo `github.com/reaglin/TrafficLabPlus`. **Plan stage, started
+  2026-10-09.** **Start with its `CLAUDE.md`.**
+
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
@@ -231,6 +240,7 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | GamifyPlus | ✅ done 2026-09-25 |
 | AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
 | AiManager (its exe) | on next update |
+| TrafficLabPlus | before 1.0 ships (plan task 3.6) |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
 
 ## Every program: Help ▸ About links to its SoftwarePlus.ai page (decided 2026-09-30)
@@ -253,6 +263,7 @@ updated in the same release (above). Tick it off here.
 | SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
 | EasyPeasyRetirement | https://softwareplus.ai/retirement/ | before 1.0 ships |
+| TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | before 1.0 ships (plan task 3.6) |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
