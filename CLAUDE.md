@@ -90,8 +90,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   for 2026-10-10. Phase 7 (publish every ticked study to one GitHub Pages repository with a summary
   page) and the Store screenshots (tools/store-shots.ps1) done the same day. Ron's real publish worked
   2026-10-10. **Store package 1.0.0 built 2026-10-10** (identity `DeanEaglin.TrafficLab`, Store ID
-  9P5NGQF4HRPD; packaging ported from Gamify+; release docs in `docs/release/`). Next: Ron runs WACK
-  and submits; when live, tag `v1.0.0` and update softwareplus.ai/trafficlab/.
+  9P5NGQF4HRPD; packaging ported from Gamify+; release docs in `docs/release/`). WACK PASS 23/24;
+  **submitted to the Store 2026-10-10, in certification**; its softwareplus.ai page, home-page tile
+  and two playable examples are live. When live: tag `v1.0.0` and add the Store link to the site.
   **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
