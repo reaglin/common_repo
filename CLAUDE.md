@@ -64,7 +64,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   Golf), import a game and grow it by asking (Revise, Make my own version), Professor Ron; 550 tests
   green (identity `DeanEaglin.Gamify`, WACK PASS 23/24; release docs in `docs/release/`, privacy page
   `https://punchmonkeyserver.com/privacy/gamify`, revised for 1.1). **Start with its `CLAUDE.md`.**
-- **`EasyPeasyRetirement\`** — retirement "what if?" planner (when to retire, when to claim;
+- **`EasyPeasyRetirement\`** — **Retirement+** (renamed 2026-10-10): retirement "what if?" planner (when to retire, when to claim;
   Social Security, pensions, accounts, home, expenses; year-by-year projection with taxes and
   RMDs; scenarios compared side by side). All data local. WPF/.NET 10, Microsoft Store; repo
   `github.com/reaglin/EasyPeasyRetirement` (private). **Plan stage as of 2026-09-05** — no code
@@ -93,8 +93,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   9P5NGQF4HRPD; packaging ported from Gamify+; release docs in `docs/release/`). WACK PASS 23/24;
   **1.0.0 live on the Microsoft Store 2026-10-10** (submitted and approved the same day;
   https://apps.microsoft.com/detail/9p5ngqf4hrpd; tagged `v1.0.0`). Its softwareplus.ai page links to
-  the Store and plays two examples; the home page has its tile.
-  **Start with its `CLAUDE.md`.**
+  the Store and plays two examples; the home page has its tile. **Next version (1.1)**, started
+  2026-10-10: every page it makes has a footer, "Created with TrafficLab+ · SoftwarePlus.ai", both
+  linked (Ron; plan 9.1, ✅ Ron 2026-10-10). **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
@@ -209,6 +210,11 @@ as Ron works on it** — not all at once.
 | CIATLE (`CIATLE\`, the CIATLE.FCE app) | CIATLE-FCE | **Assessment+** (changed from ProgramAssessment+ by Ron, 2026-09-29; reserved — on the existing CIATLE-FCE product via Manage app names, not a new product) | **2.0.0.0 live as Assessment+ 2026-10-01** (tagged `v2.0.0`; .NET 10, AI Manager; privacy `https://softwareplus.ai/assessment/privacy/index.html`) |
 
 Others Ron has floated (not reserved yet): SMADA → **Hydrology+**.
+**EasyPeasyRetirement → Retirement+** (Ron, 2026-10-10; **reserved in Partner Center** the same day):
+not yet on the Store, so it ships as Retirement+ at 1.0. Done 2026-10-10: the icon (the shaded nest
+egg with a blue "+" on #1F4E8C, `EasyPeasyRetirement\packaging\make-icon.py`), SoftwarePlus.ai, and
+the in-app name (manifest DisplayName, window title, About with its softwareplus.ai link, dialogs);
+⚠️ Ron to look.
 
 **What a rename changes** (in the program's next version):
 - The package manifest's **DisplayName** (and the VisualElements display name) — it must match the
@@ -278,7 +284,7 @@ updated in the same release (above). Tick it off here.
 | SMADA (`SMADA10`) | https://softwareplus.ai/smada/ | on next update |
 | SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
-| EasyPeasyRetirement | https://softwareplus.ai/retirement/ | before 1.0 ships |
+| Retirement+ (`EasyPeasyRetirement`) | https://softwareplus.ai/retirement/ | built 2026-10-10 (About links to softwareplus.ai/retirement); ships in 1.0; ⚠️ waits for Ron to look |
 | TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | shipped in 1.0 (live 2026-10-10): About links to the TrafficLab+ page; ⚠️ waits for Ron to look |
 
 ## Every project: the development cycle (decided 2026-09-17)
