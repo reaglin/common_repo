@@ -104,9 +104,10 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   Pictures ▸ Assemble ▸ Export), series templates, 16:9 + 9:16 + review copy + .srt; local Whisper with a
   cloud option; ffmpeg renders. WPF/.NET 10, free Store app; AI through the shared `AiManager`; repo
   `github.com/reaglin/VideoStoriesPlus` (private). The pilot, *AR Stories: Deep Hole*
-  (`C:\Claude_Shared`, not shipped), is the test case. **Started 2026-10-10; phases 0–1 built the same
+  (`C:\Claude_Shared`, not shipped), is the test case. **Started 2026-10-10; phases 0–2 built the same
   day**: the render engine rebuilds Deep Hole from a story file (109.03 s against the pilot's 109.10 s),
-  41 tests green; ⚠️ Ron's hand-test 1. (The empty `StoryBuilderPlus\` folder can be deleted.)
+  and the guided seven-step window with Series, Settings and About; 57 tests green; ⚠️ Ron's hand-tests
+  1–2 (`manual-test\VideoStoriesPlus.exe`). GPL ffmpeg ships beside it; no music (Ron). (The empty `StoryBuilderPlus\` folder can be deleted.)
   **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
