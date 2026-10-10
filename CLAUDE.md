@@ -262,7 +262,7 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | GamifyPlus | ✅ done 2026-09-25 |
 | AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
 | AiManager (its exe) | on next update |
-| TrafficLabPlus | shipped in 1.0 (live 2026-10-10); ⚠️ waits for Ron to look |
+| TrafficLabPlus | ✅ shipped in 1.0 (live 2026-10-10); Ron looked 2026-10-10 |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
 
 ## Every program: Help ▸ About links to its SoftwarePlus.ai page (decided 2026-09-30)
@@ -285,7 +285,7 @@ updated in the same release (above). Tick it off here.
 | SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
 | Retirement+ (`EasyPeasyRetirement`) | https://softwareplus.ai/retirement/ | built 2026-10-10 (About links to softwareplus.ai/retirement); ships in 1.0; ⚠️ waits for Ron to look |
-| TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | shipped in 1.0 (live 2026-10-10): About links to the TrafficLab+ page; ⚠️ waits for Ron to look |
+| TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | shipped in 1.0 (live 2026-10-10): About links to the TrafficLab+ page; ✅ Ron looked 2026-10-10 |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
