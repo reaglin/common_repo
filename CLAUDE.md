@@ -91,8 +91,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   page) and the Store screenshots (tools/store-shots.ps1) done the same day. Ron's real publish worked
   2026-10-10. **Store package 1.0.0 built 2026-10-10** (identity `DeanEaglin.TrafficLab`, Store ID
   9P5NGQF4HRPD; packaging ported from Gamify+; release docs in `docs/release/`). WACK PASS 23/24;
-  **submitted to the Store 2026-10-10, in certification**; its softwareplus.ai page, home-page tile
-  and two playable examples are live. When live: tag `v1.0.0` and add the Store link to the site.
+  **1.0.0 live on the Microsoft Store 2026-10-10** (submitted and approved the same day;
+  https://apps.microsoft.com/detail/9p5ngqf4hrpd; tagged `v1.0.0`). Its softwareplus.ai page links to
+  the Store and plays two examples; the home page has its tile.
   **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
@@ -255,7 +256,7 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | GamifyPlus | ✅ done 2026-09-25 |
 | AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
 | AiManager (its exe) | on next update |
-| TrafficLabPlus | built 2026-10-09 (plan task 3.6); ⚠️ waits for Ron to look, ships with 1.0 |
+| TrafficLabPlus | shipped in 1.0 (live 2026-10-10); ⚠️ waits for Ron to look |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
 
 ## Every program: Help ▸ About links to its SoftwarePlus.ai page (decided 2026-09-30)
@@ -278,7 +279,7 @@ updated in the same release (above). Tick it off here.
 | SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
 | EasyPeasyRetirement | https://softwareplus.ai/retirement/ | before 1.0 ships |
-| TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | built 2026-10-09 (plan task 3.6); ⚠️ ships with 1.0 |
+| TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | shipped in 1.0 (live 2026-10-10): About links to the TrafficLab+ page; ⚠️ waits for Ron to look |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
