@@ -88,8 +88,10 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   write the challenge, coach — it only proposes), the icon (a traffic signal on a "+") and the privacy
   policy (live at softwareplus.ai/trafficlab/privacy/) done 2026-10-09. Ron plans the Store submission
   for 2026-10-10. Phase 7 (publish every ticked study to one GitHub Pages repository with a summary
-  page) and the Store screenshots (tools/store-shots.ps1) done the same day. Next: packaging (8.3),
-  which needs the Partner Center identity values.
+  page) and the Store screenshots (tools/store-shots.ps1) done the same day. Ron's real publish worked
+  2026-10-10. **Store package 1.0.0 built 2026-10-10** (identity `DeanEaglin.TrafficLab`, Store ID
+  9P5NGQF4HRPD; packaging ported from Gamify+; release docs in `docs/release/`). Next: Ron runs WACK
+  and submits; when live, tag `v1.0.0` and update softwareplus.ai/trafficlab/.
   **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
