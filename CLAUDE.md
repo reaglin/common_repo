@@ -97,6 +97,18 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   2026-10-10: every page it makes has a footer, "Created with TrafficLab+ · SoftwarePlus.ai", both
   linked (Ron; plan 9.1, ✅ Ron 2026-10-10). **Start with its `CLAUDE.md`.**
 
+- **`VideoStoriesPlus\`** — **VideoStories+** (name reserved by Ron 2026-10-10; StoryBuilder+ was taken):
+  turns a person's spoken, phone-recorded story into a short captioned video (60–120 s): their own
+  voice and face, photos placed on the words they illustrate, and AI cutaway animations the user makes
+  in Google Flow from prompts the program writes. Guided steps (Story ▸ Record ▸ Transcript ▸ Plan ▸
+  Pictures ▸ Assemble ▸ Export), series templates, 16:9 + 9:16 + review copy + .srt; local Whisper with a
+  cloud option; ffmpeg renders. WPF/.NET 10, free Store app; AI through the shared `AiManager`; repo
+  `github.com/reaglin/VideoStoriesPlus` (private). The pilot, *AR Stories: Deep Hole*
+  (`C:\Claude_Shared`, not shipped), is the test case. **Started 2026-10-10; phases 0–1 built the same
+  day**: the render engine rebuilds Deep Hole from a story file (109.03 s against the pilot's 109.10 s),
+  41 tests green; ⚠️ Ron's hand-test 1. (The empty `StoryBuilderPlus\` folder can be deleted.)
+  **Start with its `CLAUDE.md`.**
+
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
@@ -210,6 +222,8 @@ as Ron works on it** — not all at once.
 | CIATLE (`CIATLE\`, the CIATLE.FCE app) | CIATLE-FCE | **Assessment+** (changed from ProgramAssessment+ by Ron, 2026-09-29; reserved — on the existing CIATLE-FCE product via Manage app names, not a new product) | **2.0.0.0 live as Assessment+ 2026-10-01** (tagged `v2.0.0`; .NET 10, AI Manager; privacy `https://softwareplus.ai/assessment/privacy/index.html`) |
 
 Others Ron has floated (not reserved yet): SMADA → **Hydrology+**.
+**VideoStories+** (`VideoStoriesPlus`, Ron, 2026-10-10; **reserved in Partner Center**): new, so it ships
+as VideoStories+ at 1.0; its icon carries the "+" (plan 7.1).
 **EasyPeasyRetirement → Retirement+** (Ron, 2026-10-10; **reserved in Partner Center** the same day):
 not yet on the Store, so it ships as Retirement+ at 1.0. Done 2026-10-10: the icon (the shaded nest
 egg with a blue "+" on #1F4E8C, `EasyPeasyRetirement\packaging\make-icon.py`), SoftwarePlus.ai, and
@@ -263,6 +277,7 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
 | AiManager (its exe) | on next update |
 | TrafficLabPlus | ✅ shipped in 1.0 (live 2026-10-10); Ron looked 2026-10-10 |
+| VideoStoriesPlus | in phase 2 (task 2.7), ships in 1.0 |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
 
 ## Every program: Help ▸ About links to its SoftwarePlus.ai page (decided 2026-09-30)
@@ -286,6 +301,7 @@ updated in the same release (above). Tick it off here.
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
 | Retirement+ (`EasyPeasyRetirement`) | https://softwareplus.ai/retirement/ | built 2026-10-10 (About links to softwareplus.ai/retirement); ships in 1.0; ⚠️ waits for Ron to look |
 | TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | shipped in 1.0 (live 2026-10-10): About links to the TrafficLab+ page; ✅ Ron looked 2026-10-10 |
+| VideoStories+ (`VideoStoriesPlus`) | https://softwareplus.ai/videostories/ | in phase 2 (task 2.7), ships in 1.0 |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
