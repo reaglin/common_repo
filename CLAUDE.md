@@ -114,7 +114,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   proposed from the transcript (real Claude run on Deep Hole matched the pilot's structure and cuts), revision notes,
   photos placed on words, clip prompts with the pilot's rules, and **Cast & sets** — one library of characters (with
   permission, reference photos, every version and prompt), sets/locations and looks for all stories (Ron) — plus a
-  guide to Google Flow / Veo; ⚠️ Ron's hand-test 4. Deep Hole will be the example on softwareplus.ai (Manny agreed). GPL ffmpeg ships beside it; no music (Ron). (The empty `StoryBuilderPlus\` folder can be deleted.)
+  guide to Google Flow / Veo; ⚠️ Ron's hand-test 4. **Phase 5 built 2026-10-10:** a beat editor (drag a picture onto
+  the word it comes in on), clip review (frames, notes, where the action starts — it finds the pilot's gator wink), and a
+  one-beat preview played in the window; ⚠️ Ron's hand-test 5. Deep Hole will be the example on softwareplus.ai (Manny agreed). GPL ffmpeg ships beside it; no music (Ron). (The empty `StoryBuilderPlus\` folder can be deleted.)
   **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
