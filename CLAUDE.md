@@ -106,8 +106,12 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   `github.com/reaglin/VideoStoriesPlus` (private). The pilot, *AR Stories: Deep Hole*
   (`C:\Claude_Shared`, not shipped), is the test case. **Started 2026-10-10; phases 0–2 built the same
   day**: the render engine rebuilds Deep Hole from a story file (109.03 s against the pilot's 109.10 s),
-  and the guided seven-step window with Series, Settings and About; 57 tests green; ⚠️ Ron's hand-tests
-  1–2 (`manual-test\VideoStoriesPlus.exe`). GPL ffmpeg ships beside it; no music (Ron). (The empty `StoryBuilderPlus\` folder can be deleted.)
+  and the guided seven-step window with Series, Settings and About; Ron's hand-test of Deep Hole worked
+  2026-10-10. **Phase 3 (transcription) built 2026-10-10:** Whisper on this computer (Whisper.net, DTW word
+  times; Deep Hole within 0.05 s of the pilot's captions) or in the cloud through **AI Manager 1.5.0**
+  (new: speech to text), the transcript editor, and the OneDrive question for where stories are kept; 74 tests
+  green; ⚠️ Ron's hand-test 3. Next, phase 4 (the AI) now includes a cast library and a sets/locations library
+  (reference photos + every generated version + prompts) and advice on Veo/Flow (Ron). GPL ffmpeg ships beside it; no music (Ron). (The empty `StoryBuilderPlus\` folder can be deleted.)
   **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
