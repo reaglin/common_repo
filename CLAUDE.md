@@ -119,6 +119,15 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   one-beat preview played in the window; ⚠️ Ron's hand-test 5. Deep Hole will be the example on softwareplus.ai (Manny agreed). GPL ffmpeg ships beside it; no music (Ron). (The empty `StoryBuilderPlus\` folder can be deleted.)
   **Start with its `CLAUDE.md`.**
 
+- **`MySocialPlus\`** — **MySocial+**: Ron's social media his way instead of the algorithm's — a
+  topic tree on the left (roots **My Posts** and **My Friends**, more later), content on the right,
+  a badge on every node with something new, everything in time order. Official APIs and RSS only
+  (Bluesky, Mastodon, YouTube, RSS, Reddit fully; Facebook/Instagram limited to Ron's own posts —
+  comment counts even where Meta hides names, which Ron finds worthwhile). WPF/.NET 10; AI through
+  the shared `AiManager`. **Personal use, not a Store program; Bluesky first, then Facebook**
+  (Ron, 2026-10-11). **Plan stage, started 2026-10-11** — `docs/PLAN.md`,
+  `docs/DEVELOPMENT-PLAN.md`. **Start with its `CLAUDE.md`.**
+
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
