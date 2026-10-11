@@ -178,6 +178,35 @@ production-release protocol, open to-dos) is imported here so it is always in co
 
 @.claude/PLAYSTORE.md
 
+## Every AI program: the latest AI Manager with every release (decided 2026-10-11)
+
+Ron: *"the new releases will need to update to the latest version and this will be something that
+must occur with every version that we release of all the programs that use the AI Manager."*
+
+- **Every release of a program that uses AI Manager first moves it to the latest AI Manager
+  version** (the csproj's `Eaglin.AiManager` + its WPF or WinForms package), even when the release
+  needs nothing new from it. Every program then shows the same AI Settings, key help and fixes.
+  Read AI Manager's `docs/DEVELOPMENT-PLAN.md` for what changed, fix what it changes, tests green.
+- **Then a hand-test exe in that repo's `manual-test\`** (gitignored; the command is in its
+  `docs/MANUAL-TESTING.md`). Ron tests that exe before anything goes to the Store. All the AI
+  programs use this same pattern.
+- **The packages are built locally, not kept in git.** On a computer that has just pulled AI Manager,
+  run `AiManager\build\pack.ps1` to put the latest version in `C:\nuget-local` before building a program.
+- Each program's `CLAUDE.md` says this at the top, and its `docs/DEVELOPMENT-PLAN.md` carries the
+  two standing items (R.1 move to the latest AI Manager, R.2 the manual-test build).
+
+| Program (repo) | AI Manager pinned | Hand-test exe |
+|---|---|---|
+| CourseBuilder+ (`PreseMaker`) | **1.6.0** (latest, 2026-10-11) | `manual-test\PreseMaker.exe` |
+| VideoStories+ (`VideoStoriesPlus`) | 1.5.0 | `manual-test\VideoStoriesPlus.exe` |
+| Assessment+ (`CIATLE`) | 1.4.1 | `manual-test\CIATLE.FCE.exe` |
+| TrafficLab+ (`TrafficLabPlus`) | 1.4.1 | `manual-test\TrafficLabPlus.exe` |
+| Gamify+ (`GamifyPlus`) | 1.3.0 | `manual-test\GamifyPlus.exe` |
+| Author+ (`AuthorPlus`) | 1.2.0 | `manual-test\AuthorPlus.exe` |
+| Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
+
+Update the "pinned" column when a program moves.
+
 ## Every project: `docs/DEVELOPMENT-PLAN.md` (decided 2026-09-16)
 
 Every program Ron and Claude work on keeps its plan in **`{repo}\docs\DEVELOPMENT-PLAN.md`** —
