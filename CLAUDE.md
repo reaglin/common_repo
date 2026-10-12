@@ -101,7 +101,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   turns a person's spoken, phone-recorded story into a short captioned video (60–120 s): their own
   voice and face, photos placed on the words they illustrate, and AI cutaway animations the user makes
   in Google Flow from prompts the program writes. Guided steps (Story ▸ Record ▸ Transcript ▸ Plan ▸
-  Pictures ▸ Assemble ▸ Export), series templates, 16:9 + 9:16 + review copy + .srt; local Whisper with a
+  Pictures ▸ Assemble ▸ Produce ▸ Export), series templates, 16:9 + 9:16 + review copy + .srt; local Whisper with a
   cloud option; ffmpeg renders. WPF/.NET 10, free Store app; AI through the shared `AiManager`; repo
   `github.com/reaglin/VideoStoriesPlus` (private). The pilot, *AR Stories: Deep Hole*
   (`C:\Claude_Shared`, not shipped), is the test case. **Started 2026-10-10; phases 0–2 built the same
