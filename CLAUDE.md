@@ -207,7 +207,7 @@ must occur with every version that we release of all the programs that use the A
 | Program (repo) | AI Manager pinned | Hand-test exe |
 |---|---|---|
 | CourseBuilder+ (`PreseMaker`) | **1.6.0** (latest, 2026-10-11) | `manual-test\PreseMaker.exe` |
-| VideoStories+ (`VideoStoriesPlus`) | 1.5.0 | `manual-test\VideoStoriesPlus.exe` |
+| VideoStories+ (`VideoStoriesPlus`) | **1.6.0** (2026-10-12) | `manual-test\VideoStoriesPlus.exe` |
 | Assessment+ (`CIATLE`) | 1.4.1 | `manual-test\CIATLE.FCE.exe` |
 | TrafficLab+ (`TrafficLabPlus`) | 1.4.1 | `manual-test\TrafficLabPlus.exe` |
 | Gamify+ (`GamifyPlus`) | 1.3.0 | `manual-test\GamifyPlus.exe` |
