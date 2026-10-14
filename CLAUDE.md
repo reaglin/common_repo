@@ -345,7 +345,7 @@ updated in the same release (above). Tick it off here.
 | Assessment+ (`CIATLE`) | https://softwareplus.ai/assessment/ | ✅ in 2.0.0.0 (live 2026-10-01): About links to softwareplus.ai, the Assessment+ page and its privacy policy |
 | Author+ (`AuthorPlus`) | https://softwareplus.ai/author/ | on next update (before 1.0 ships, if possible) |
 | Statistle | https://softwareplus.ai/statistle/ | on next update |
-| SMADA (`SMADA10`) | https://softwareplus.ai/smada/ | on next update |
+| SMADA (`SMADA10`) | https://softwareplus.ai/smada/ | built 2026-10-14 (About links to the SMADA page and its privacy policy); ships in 1.1.0; ⚠️ waits for Ron to look |
 | SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
 | Retirement+ (`EasyPeasyRetirement`) | https://softwareplus.ai/retirement/ | built 2026-10-10 (About links to softwareplus.ai/retirement); ships in 1.0; ⚠️ waits for Ron to look |
