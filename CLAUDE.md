@@ -23,7 +23,10 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
 - **`SMADA10\`** — SMADA (Stormwater Management and Design Aid), a WPF/.NET 10 rebuild of the
   hydrology package that accompanies *Hydrology: Water Quantity and Quality Control*. Free
   software, intended for the Microsoft Store, supporting Ron's paid products. Phases 0-5 of
-  `docs/DEVELOPMENT-PLAN.md` are complete as of 2026-09-03; phase 6 is Store submission.
+  `docs/DEVELOPMENT-PLAN.md` are complete as of 2026-09-03. On the Microsoft Store
+  (https://apps.microsoft.com/detail/9nntz8389wtk): 1.0.0 live 2026-10-13 (tag `v1.0.0`), **1.1.0 live
+  2026-10-15** (tag `v1.1.0`; Weir calculator, Regression rebuilt, Flow/Statistics drop-downs;
+  privacy now `https://softwareplus.ai/smada/privacy/`).
   **Start with that repo's `CLAUDE.md` and `docs/DEVELOPMENT-PLAN.md`.** Hand-test build lives
   in `SMADA10\manual-test\SMADA.exe` (see its `docs/MANUAL-TESTING.md`).
   Shares an approach with `reaglin\BMPTrains` — property metadata via an attribute.
@@ -345,7 +348,7 @@ updated in the same release (above). Tick it off here.
 | Assessment+ (`CIATLE`) | https://softwareplus.ai/assessment/ | ✅ in 2.0.0.0 (live 2026-10-01): About links to softwareplus.ai, the Assessment+ page and its privacy policy |
 | Author+ (`AuthorPlus`) | https://softwareplus.ai/author/ | on next update (before 1.0 ships, if possible) |
 | Statistle | https://softwareplus.ai/statistle/ | on next update |
-| SMADA (`SMADA10`) | https://softwareplus.ai/smada/ | built 2026-10-14 (About links to the SMADA page and its privacy policy); ships in 1.1.0; ⚠️ waits for Ron to look |
+| SMADA (`SMADA10`) | https://softwareplus.ai/smada/ | shipped in 1.1.0 (live 2026-10-15): About links to the SMADA page and its privacy policy; ⚠️ waits for Ron to look |
 | SEAGit (`SeaGit`) | https://softwareplus.ai/seagit/ | on next update |
 | LMS-2-Website | https://softwareplus.ai/lms-2-website/ | before 1.0 ships |
 | Retirement+ (`EasyPeasyRetirement`) | https://softwareplus.ai/retirement/ | built 2026-10-10 (About links to softwareplus.ai/retirement); ships in 1.0; ⚠️ waits for Ron to look |
