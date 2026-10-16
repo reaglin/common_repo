@@ -176,7 +176,8 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
 
 ## Shared libraries
 
-- **`AiManager\`** — **the one AI layer for every AI-enabled app** (decided 2026-09-12): a
+- **`AiManager\`** — **the one AI layer for every AI-enabled app** (decided 2026-09-12; **1.7.0, 2026-10-16, makes pictures** —
+  OpenAI, Gemini or xAI, chosen in AI Settings ▸ Provider for pictures): a
   `Eaglin.AiManager` class library (net10.0, providers Claude/Gemini/OpenAI/Mistral/xAI,
   DPAPI key store in `Documents\AiManager\`, activity log, usage ledger, prompt templates,
   model catalog), WPF and WinForms settings/dashboard packages, and a standalone AI Manager
@@ -210,7 +211,7 @@ must occur with every version that we release of all the programs that use the A
 
 | Program (repo) | AI Manager pinned | Hand-test exe |
 |---|---|---|
-| CourseBuilder+ (`PreseMaker`) | **1.6.0** (latest, 2026-10-11) | `manual-test\PreseMaker.exe` |
+| CourseBuilder+ (`PreseMaker`) | **1.6.0** — moves to **1.7.0** (latest, 2026-10-16: pictures) with the image plan's phase 5 | `manual-test\PreseMaker.exe` |
 | VideoStories+ (`VideoStoriesPlus`) | **1.6.0** (2026-10-12) | `manual-test\VideoStoriesPlus.exe` |
 | Assessment+ (`CIATLE`) | 1.4.1 | `manual-test\CIATLE.FCE.exe` |
 | TrafficLab+ (`TrafficLabPlus`) | 1.4.1 | `manual-test\TrafficLabPlus.exe` |
