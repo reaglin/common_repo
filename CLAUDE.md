@@ -137,6 +137,13 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
   year license with course and certification), not on the Microsoft Store. Its page on SoftwarePlus.ai
   is `site/bmpfast/` (added 2026-10-01).
+- **`BMPFast_2\`** — **BMPFast Version 2**: WPF/.NET 10 rebuild of BMPFast with SMADA10's interface
+  (tree: General Site Information → Catchments → Treatments, Catchment Routings, Calculators; tabs Entry,
+  Plots, Report, Help). Any number of treatments of one type per catchment; several routings compared
+  side by side. Engine ported as a copy of v1's (parity tests on v1's projects; later v1 fixes logged in
+  `docs/V1-SYNC.md`); opens `.bmpt`, saves `.bmpf`; same bmpfast.com license keys as v1, sold at bmpfast.com and also listed free on the Microsoft Store (users buy licenses, not the software). Users choose the calculation method wherever there is more than one; v1's unfinished features are finished here (phase 11). Repo
+  `github.com/reaglin/BMPFast_V2` (private). **Planned 2026-10-17** — `docs/DEVELOPMENT-PLAN.md`,
+  phases 0–11. **Start with its `CLAUDE.md`.**
 
 ## The website: SoftwarePlus.ai
 
