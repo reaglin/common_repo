@@ -211,7 +211,7 @@ must occur with every version that we release of all the programs that use the A
 
 | Program (repo) | AI Manager pinned | Hand-test exe |
 |---|---|---|
-| CourseBuilder+ (`PreseMaker`) | **1.6.0** — moves to **1.7.0** (latest, 2026-10-16: pictures) with the image plan's phase 5 | `manual-test\PreseMaker.exe` |
+| CourseBuilder+ (`PreseMaker`) | **1.7.0** (latest, 2026-10-16: pictures) | `manual-test\PreseMaker.exe` |
 | VideoStories+ (`VideoStoriesPlus`) | **1.6.0** (2026-10-12) | `manual-test\VideoStoriesPlus.exe` |
 | Assessment+ (`CIATLE`) | 1.4.1 | `manual-test\CIATLE.FCE.exe` |
 | TrafficLab+ (`TrafficLabPlus`) | 1.4.1 | `manual-test\TrafficLabPlus.exe` |
