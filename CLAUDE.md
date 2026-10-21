@@ -155,6 +155,19 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   publishes. **Live since 2026-09-30** (setup guide: `docs/SERVER-SETUP.md`). Has an **Other
   projects** section (Android apps, websites) and BMPFast since 2026-10-01. When a program gets a new version, name, icon or screenshots,
   update its page there too. **Start with its `CLAUDE.md`.**
+- **SoftwarePlus.ai is the central home for help and information for every program on its home page**
+  (Ron, 2026-10-21: *"I am centralizing help for all the applications on this site."*). Many sessions, for
+  many programs, publish to it — so deploys are controlled in one place:
+  - **Before every deploy, check:** `.\deploy.ps1 -Status` (in `SoftwarePlus\`) shows the deploy running now and
+    the requests waiting. Say so in the session if another one is running.
+  - **Publish only with `SoftwarePlus\deploy.ps1`** (add `-Reason "<program>: what changed"`). It is the controller
+    (Ron: *"An agent should control all the deploys and it should manage for all applications that use the site"*):
+    every call joins one queue, one deploy runs at a time, the requests waiting are covered together by the next
+    run, and each run has its own server folder and a server lock, so no deploy can wipe or overlap another.
+    Run it in the background and wait for its result; a queued call can take a while.
+  - **Never** copy to the server by hand (scp, rsync, ssh to `/var/www/softwareplus`), never stop, kill or restart
+    another session's deploy, and never run the old `/tmp/softwareplus-deploy` steps. If a deploy fails, read its log
+    (the path is in the error; all are in `%LOCALAPPDATA%\SoftwarePlus\deploy\runs\`) and tell Ron before trying again.
 - **Privacy policies live on SoftwarePlus.ai** (decided 2026-09-30; **all ten copied 2026-10-01**,
   word for word, Windows programs and Android apps alike): `softwareplus.ai/<program>/privacy/` and
   `softwareplus.ai/projects/<app>/privacy/`. **Edit them there.** With each program's next release
