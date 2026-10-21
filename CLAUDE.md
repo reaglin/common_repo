@@ -143,7 +143,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   side by side. Engine ported as a copy of v1's (parity tests on v1's projects; later v1 fixes logged in
   `docs/V1-SYNC.md`); opens `.bmpt`, saves `.bmpf`; same bmpfast.com license keys as v1, sold at bmpfast.com and also listed free on the Microsoft Store (users buy licenses, not the software). Users choose the calculation method wherever there is more than one; v1's unfinished features are finished here (phase 11). Repo
   `github.com/reaglin/BMPFast_V2` (private). **Planned 2026-10-17** — `docs/DEVELOPMENT-PLAN.md`,
-  phases 0–11. **Start with its `CLAUDE.md`.**
+  phases 0–12. **Release candidate 2.0.2** (tagged `v2.0.2`) sent to the testers 2026-10-21; the reviewers' approval turns a
+  candidate into the commercial release, **target mid-November 2026**; significant changes make the next candidate (2.0.3, …).
+  **Start with its `CLAUDE.md`.**
 
 ## The website: SoftwarePlus.ai
 
