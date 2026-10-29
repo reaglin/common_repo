@@ -157,7 +157,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   `github.com/reaglin/BMPFast_V2` (private). **Planned 2026-10-17** — `docs/DEVELOPMENT-PLAN.md`,
   phases 0–12. **Release candidate 2.0.2** (tagged `v2.0.2`) sent to the testers 2026-10-21; the reviewers' approval turns a
   candidate into the commercial release, **target mid-November 2026**; significant changes make the next candidate (2.0.3, …).
-  **Start with its `CLAUDE.md`.**
+  **Named BMPFast Plus on the Microsoft Store** (identity `DeanEaglin.BMPFastPlus`, Store ID 9N19ZF13ML3X): **2.0.3 submitted
+  for certification 2026-10-29** (WACK PASS 23/24; packaging ported from TrafficLab+; privacy `softwareplus.ai/bmpfast/privacy/`;
+  release docs in `docs/release/`). **Start with its `CLAUDE.md`.**
 
 ## The website: SoftwarePlus.ai
 
