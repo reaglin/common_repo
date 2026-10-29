@@ -138,8 +138,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   ones the person accepts (a URL's changes go to a downloaded copy). The engine is **copied from
   CourseBuilder+** and grows beyond it (WCAG 2.2, checks on the rendered page, …); later it becomes a
   shared package CourseBuilder+ moves to. WPF/.NET 10, free Store app; AI through the shared `AiManager`;
-  repo `github.com/reaglin/AccessibilityPlus` (Ron creating it). **Plan stage, 2026-10-29** —
-  `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md` (6 open questions). **Start with its `CLAUDE.md`.**
+  repo `github.com/reaglin/AccessibilityPlus` (private). Identity `DeanEaglin.Accessibility`, Store ID
+  9P89JG9TR6TB. Pass/fail line WCAG 2.1 AA, 2.2 reported beside it; no logins in 1.0. **Plan stage,
+  2026-10-29** — `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`. **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
