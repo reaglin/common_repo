@@ -139,8 +139,10 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   CourseBuilder+** and grows beyond it (WCAG 2.2, checks on the rendered page, …); later it becomes a
   shared package CourseBuilder+ moves to. WPF/.NET 10, free Store app; AI through the shared `AiManager`;
   repo `github.com/reaglin/AccessibilityPlus` (private). Identity `DeanEaglin.Accessibility`, Store ID
-  9P89JG9TR6TB. Pass/fail line WCAG 2.1 AA, 2.2 reported beside it; no logins in 1.0. **Plan stage,
-  2026-10-29** — `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`. **Start with its `CLAUDE.md`.**
+  9P89JG9TR6TB. Pass/fail line WCAG 2.1 AA, 2.2 reported beside it; no logins in 1.0. **Phases 0–1 built
+  2026-10-29:** engine copied from PreseMaker `9acc2f3`, identical findings on all 13 real D2L exports, 102
+  tests green, a first window that checks a `.imscc`; ⚠️ Ron's hand-tests 1–4. Assessment+ (CIATLE) holds a
+  third, rules-only copy of the engine (`docs/ENGINE-SYNC.md`). **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
@@ -249,7 +251,7 @@ must occur with every version that we release of all the programs that use the A
 | TrafficLab+ (`TrafficLabPlus`) | 1.4.1 | `manual-test\TrafficLabPlus.exe` |
 | Gamify+ (`GamifyPlus`) | 1.3.0 | `manual-test\GamifyPlus.exe` |
 | Author+ (`AuthorPlus`) | 1.2.0 | `manual-test\AuthorPlus.exe` |
-| Accessibility+ (`AccessibilityPlus`) | none yet — starts on the latest (1.7.0) in phase 0 | `manual-test\AccessibilityPlus.exe` |
+| Accessibility+ (`AccessibilityPlus`) | **1.7.0** (2026-10-29) | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
 
 Update the "pinned" column when a program moves.
