@@ -132,6 +132,15 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   (Ron, 2026-10-11). **Plan stage, started 2026-10-11** — `docs/PLAN.md`,
   `docs/DEVELOPMENT-PLAN.md`. **Start with its `CLAUDE.md`.**
 
+- **`AccessibilityPlus\`** — **Accessibility+** (name reserved on the Microsoft Store by Ron, 2026-10-29):
+  checks a **website** (URL), a **folder or file**, or an **`.imscc`** course export for accessibility,
+  writes CourseBuilder+'s full report, then **suggests changes**, shows each as a **diff**, and makes the
+  ones the person accepts (a URL's changes go to a downloaded copy). The engine is **copied from
+  CourseBuilder+** and grows beyond it (WCAG 2.2, checks on the rendered page, …); later it becomes a
+  shared package CourseBuilder+ moves to. WPF/.NET 10, free Store app; AI through the shared `AiManager`;
+  repo `github.com/reaglin/AccessibilityPlus` (Ron creating it). **Plan stage, 2026-10-29** —
+  `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md` (6 open questions). **Start with its `CLAUDE.md`.**
+
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
@@ -239,6 +248,7 @@ must occur with every version that we release of all the programs that use the A
 | TrafficLab+ (`TrafficLabPlus`) | 1.4.1 | `manual-test\TrafficLabPlus.exe` |
 | Gamify+ (`GamifyPlus`) | 1.3.0 | `manual-test\GamifyPlus.exe` |
 | Author+ (`AuthorPlus`) | 1.2.0 | `manual-test\AuthorPlus.exe` |
+| Accessibility+ (`AccessibilityPlus`) | none yet — starts on the latest (1.7.0) in phase 0 | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
 
 Update the "pinned" column when a program moves.
