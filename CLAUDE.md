@@ -142,7 +142,12 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   9P89JG9TR6TB. Pass/fail line WCAG 2.1 AA, 2.2 reported beside it; no logins in 1.0. **Phases 0–1 built
   2026-10-29:** engine copied from PreseMaker `9acc2f3`, identical findings on all 13 real D2L exports, 102
   tests green, a first window that checks a `.imscc`; ⚠️ Ron's hand-tests 1–4. Assessment+ (CIATLE) holds a
-  third, rules-only copy of the engine (`docs/ENGINE-SYNC.md`). **Start with its `CLAUDE.md`.**
+  third, rules-only copy of the engine (`docs/ENGINE-SYNC.md`). **The editor built 2026-10-29** (phase 4, Ron hand-testing
+  the same day): every fix shown as a change to approve, suggested words, colours, captions, buttons, assignments and
+  discussions, list by type of problem, projects, putting the fixes into the course; 138 tests green. **1.0.0 uploaded to
+  Partner Center by Ron 2026-10-29** (identity `DeanEaglin.Accessibility`, Store ID 9P89JG9TR6TB; release docs in
+  `docs/release/`); **1.0.1** (Help ▸ About) built, to submit once 1.0.0 is approved. Privacy policy, program page and
+  help live on softwareplus.ai/accessibility/. **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
@@ -367,6 +372,7 @@ time each program is updated, as a task in its `docs/DEVELOPMENT-PLAN.md`, and t
 | AuthorPlus, CIATLE (CIATLE-FCE), EasyPeasyRetirement, LMS-2-Website, PreseMaker, SeaGit (SEAGit), SMADA10, Statistle | built 2026-09-26 (Ron asked for all the Store programs at once) — committed and pushed; ⚠️ each waits for Ron to look, and ships with that program's next Store update |
 | AiManager (its exe) | on next update |
 | TrafficLabPlus | ✅ shipped in 1.0 (live 2026-10-10); Ron looked 2026-10-10 |
+| AccessibilityPlus | built 2026-10-29; ships in 1.0.1 (the 1.0.0 package has no About); ⚠️ waits for Ron to look |
 | VideoStoriesPlus | ✅ shipped in 1.0 (live 2026-10-14) |
 | EasyPeasyGPX, Any6_FitnessTracker, NaViViewer, PunchMonkey, AppOpenerAndTimer | on next update |
 
@@ -392,6 +398,7 @@ updated in the same release (above). Tick it off here.
 | Retirement+ (`EasyPeasyRetirement`) | https://softwareplus.ai/retirement/ | built 2026-10-10 (About links to softwareplus.ai/retirement); ships in 1.0; ⚠️ waits for Ron to look |
 | TrafficLab+ (`TrafficLabPlus`) | https://softwareplus.ai/trafficlab/ | shipped in 1.0 (live 2026-10-10): About links to the TrafficLab+ page; ✅ Ron looked 2026-10-10 |
 | VideoStories+ (`VideoStoriesPlus`) | https://softwareplus.ai/videostories/ | shipped in 1.0 (live 2026-10-14): About links to the VideoStories+ page |
+| Accessibility+ (`AccessibilityPlus`) | https://softwareplus.ai/accessibility/ | built 2026-10-29 (About links to the page and its privacy policy); ships in 1.0.1 |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
