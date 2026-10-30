@@ -431,6 +431,30 @@ Partner Center gives its Store ID. A **new** program has all three from its firs
 | LMS-2-Website | not on the Store yet | `12685de` page + all programs (plan 6.13); Store link when there is an ID (5.6) |
 | Retirement+ (`EasyPeasyRetirement`) | not on the Store yet | `92350c9` all programs added (plan 4.6); Store link when there is an ID (5.6). Its build failed the NuGet audit (NU1902/NU1903, `System.Security.Cryptography.Pkcs` 8.0.1 via PDFsharp): fixed in `2aac223` with a direct Pkcs 10.0.13 reference (plan 4.7) |
 
+## Every program: Help ▸ Check for a new version (decided 2026-10-30)
+
+Ron: *"Is it possible on the Help menu to add a 'check for new version?'"* … *"Add this to all the Windows Store Apps."*
+Each Store program's **Help** menu has **Check for a new version…**: it asks the Microsoft Store (`Windows.Services.Store`,
+so the App project targets `net10.0-windows10.0.19041.0`) whether a newer version is out — "You have the latest version
+(x.y.z)", or it offers to download and install it (the Store shows its progress). A copy not installed from the Store (a
+hand-test exe) says it cannot check and offers the Store page. **Accessibility+ is the model**
+(`AccessibilityPlus\src\AccessibilityPlus.App\StoreUpdates.cs`). Built for every Store program at once; each ships with that
+program's next Store release, and its Store path can only be tried in the Store-installed copy after that (⚠️ in each plan).
+A **new** Store program has it from its first version (Author+, LMS-2-Website and Retirement+ when they reach the Store).
+
+| Program | Built (commit, plan item) |
+|---|---|
+| Accessibility+ (`AccessibilityPlus`) | `60134f0` (plan 7.9), ships in 1.0.2 |
+| Gamify+ (`GamifyPlus`) | `4da1205` (plan 9.26); a button in its About section (it has no Help menu) |
+| CourseBuilder+ (`PreseMaker`) | `922c259` (plan 20.17); a button in its About window (no menu bar); in the 2.0.2 notes |
+| Assessment+ (`CIATLE`) | `8eacb68` (plan 45.8); in both Help menus (main window and course editor). One test fails on the new EGN3214 FA26 export in Downloads (27 items, the test expects more than 40) — not this change |
+| Statistle | `29fb5ee` (plan 5.7; 5.8 Pkcs audit fix). ⚠️ Its privacy policy says it "makes no network connections … checks for updates": Ron to decide the wording before the release that ships it |
+| SEAGit (`SeaGit\SEAGit`) | `1d33aee` (no plan file, no tests). ⚠️ The next Store build must be 1.0.6 (the 1.0.5.0 .msixupload in `AppPackages` was rebuilt with this change); the untracked Inno Setup script still points at `bin\Release\net8.0-windows`; its privacy page and About say it makes no connection |
+| SMADA (`SMADA10`) | `3ea38d7` (plan 7.11); its Store listing says "no network use" — soften at the next release (the check goes online only when asked) |
+| TrafficLab+ (`TrafficLabPlus`) | `2e251e9` (plan 9.3) |
+| VideoStories+ (`VideoStoriesPlus`) | `8107226` (plan 7.9) |
+| BMPFast Plus (`BMPFast_2`) | `9800e38` (plan 10.45); a copy from a setup file is pointed to the Store. `tools/review_outstanding.py` not run yet (it writes SoftwarePlus and the BMPTrains spreadsheet, then needs a deploy) |
+
 ## Every project: the development cycle (decided 2026-09-17)
 
 Applies to all development, in every repo, in this order:
