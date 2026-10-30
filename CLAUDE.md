@@ -410,23 +410,26 @@ should also have a link to their subdirectory on SoftwarePlus.ai and a link to a
 - "{program} on the Microsoft Store (updates, ratings and reviews): apps.microsoft.com/detail/{Store ID}"
 - "All of Dr. Ron Eaglin's programs: softwareplus.ai" → `https://softwareplus.ai/#programs`
 
-**Accessibility+ is the model** (`AccessibilityPlus\src\AccessibilityPlus.App\AboutWindow.xaml`). As with the other About
-rules, each program gets it **the next time it is worked on**, as a task in its `docs/DEVELOPMENT-PLAN.md`, and ships with
-its next Store release. A program not yet on the Store shows the Store link once it has a Store ID. Tick it off here.
+**Accessibility+ is the model** (`AccessibilityPlus\src\AccessibilityPlus.App\AboutWindow.xaml`). **Ron asked for every
+program at once (2026-10-30: "Update all the other apps' About now")** — all built, tested and pushed the same day, each with
+a ⚠️ plan item; each ships with that program's next Store release. A program not yet on the Store adds the Store link once
+Partner Center gives its Store ID. A **new** program has all three from its first version.
 
-| Program | Store page | About links |
+| Program | Store page | About links (built 2026-10-30, commit; ⚠️ Ron to look, ships with the next release) |
 |---|---|---|
-| Accessibility+ (`AccessibilityPlus`) | https://apps.microsoft.com/detail/9P89JG9TR6TB | built 2026-10-30, ships in 1.0.1; ⚠️ Ron to look |
-| Gamify+ (`GamifyPlus`) | https://apps.microsoft.com/detail/9NT6TCCNDC1V | on next update |
-| CourseBuilder+ (`PreseMaker`) | https://apps.microsoft.com/detail/9MT854NV3FGF | on next update |
-| Assessment+ (`CIATLE`) | https://apps.microsoft.com/detail/9PFNSN40RBZ4 | on next update |
-| Statistle | https://apps.microsoft.com/detail/9MV608S7M9X6 | on next update |
-| SEAGit (`SeaGit`) | https://apps.microsoft.com/detail/9P7Z72K774JN | on next update |
-| SMADA (`SMADA10`) | https://apps.microsoft.com/detail/9NNTZ8389WTK | on next update |
-| TrafficLab+ (`TrafficLabPlus`) | https://apps.microsoft.com/detail/9P5NGQF4HRPD | on next update |
-| VideoStories+ (`VideoStoriesPlus`) | https://apps.microsoft.com/detail/9NZWP2LCCPK7 | on next update |
-| BMPFast Plus (`BMPFast_2`) | https://apps.microsoft.com/detail/9N19ZF13ML3X | on next update |
-| Author+, LMS-2-Website, Retirement+ | not on the Store yet: Store ID from Partner Center | before 1.0 ships |
+| Accessibility+ (`AccessibilityPlus`) | https://apps.microsoft.com/detail/9P89JG9TR6TB | `173e8b4`, ships in 1.0.1 |
+| Gamify+ (`GamifyPlus`) | https://apps.microsoft.com/detail/9NT6TCCNDC1V | `cbcddb9` (plan 9.25) |
+| CourseBuilder+ (`PreseMaker`) | https://apps.microsoft.com/detail/9MT854NV3FGF | `5b0dc0f` (plan 20.16) |
+| Assessment+ (`CIATLE`) | https://apps.microsoft.com/detail/9PFNSN40RBZ4 | `73de8bd` (plan 45.7) |
+| Statistle | https://apps.microsoft.com/detail/9MV608S7M9X6 | `dfa8a63` (plan 5.6) |
+| SEAGit (`SeaGit\SEAGit`) | https://apps.microsoft.com/detail/9P7Z72K774JN | `ef748b1` (no plan file in that repo) |
+| SMADA (`SMADA10`) | https://apps.microsoft.com/detail/9NNTZ8389WTK | `c0f5681` (plan 7.9); its About's Close button works only with Esc (older bug) |
+| TrafficLab+ (`TrafficLabPlus`) | https://apps.microsoft.com/detail/9P5NGQF4HRPD | `01a1065` (plan 9.2) |
+| VideoStories+ (`VideoStoriesPlus`) | https://apps.microsoft.com/detail/9NZWP2LCCPK7 | `48180b1` (plan 7.8) |
+| BMPFast Plus (`BMPFast_2`) | https://apps.microsoft.com/detail/9N19ZF13ML3X | `a3b45b6` (plan 10.44); its missing privacy link added too |
+| Author+ (`AuthorPlus`) | not on the Store yet | `b07b674` page + all programs (plan 4.10); Store link when there is an ID (4.11) |
+| LMS-2-Website | not on the Store yet | `12685de` page + all programs (plan 6.13); Store link when there is an ID (5.6) |
+| Retirement+ (`EasyPeasyRetirement`) | not on the Store yet | `92350c9` all programs added (plan 4.6); Store link when there is an ID (5.6). Its build fails NuGet audit (NU1902/NU1903, `System.Security.Cryptography.Pkcs` 8.0.1 via PDFsharp) — needs a patched Pkcs reference |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
