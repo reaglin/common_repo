@@ -423,13 +423,13 @@ Partner Center gives its Store ID. A **new** program has all three from its firs
 | Assessment+ (`CIATLE`) | https://apps.microsoft.com/detail/9PFNSN40RBZ4 | `73de8bd` (plan 45.7) |
 | Statistle | https://apps.microsoft.com/detail/9MV608S7M9X6 | `dfa8a63` (plan 5.6) |
 | SEAGit (`SeaGit\SEAGit`) | https://apps.microsoft.com/detail/9P7Z72K774JN | `ef748b1` (no plan file in that repo) |
-| SMADA (`SMADA10`) | https://apps.microsoft.com/detail/9NNTZ8389WTK | `c0f5681` (plan 7.9); its About's Close button works only with Esc (older bug) |
+| SMADA (`SMADA10`) | https://apps.microsoft.com/detail/9NNTZ8389WTK | `c0f5681` (plan 7.9); the About's Close button (worked only with Esc) fixed in `0066dad` (plan 7.10) |
 | TrafficLab+ (`TrafficLabPlus`) | https://apps.microsoft.com/detail/9P5NGQF4HRPD | `01a1065` (plan 9.2) |
 | VideoStories+ (`VideoStoriesPlus`) | https://apps.microsoft.com/detail/9NZWP2LCCPK7 | `48180b1` (plan 7.8) |
 | BMPFast Plus (`BMPFast_2`) | https://apps.microsoft.com/detail/9N19ZF13ML3X | `a3b45b6` (plan 10.44); its missing privacy link added too |
 | Author+ (`AuthorPlus`) | not on the Store yet | `b07b674` page + all programs (plan 4.10); Store link when there is an ID (4.11) |
 | LMS-2-Website | not on the Store yet | `12685de` page + all programs (plan 6.13); Store link when there is an ID (5.6) |
-| Retirement+ (`EasyPeasyRetirement`) | not on the Store yet | `92350c9` all programs added (plan 4.6); Store link when there is an ID (5.6). Its build fails NuGet audit (NU1902/NU1903, `System.Security.Cryptography.Pkcs` 8.0.1 via PDFsharp) — needs a patched Pkcs reference |
+| Retirement+ (`EasyPeasyRetirement`) | not on the Store yet | `92350c9` all programs added (plan 4.6); Store link when there is an ID (5.6). Its build failed the NuGet audit (NU1902/NU1903, `System.Security.Cryptography.Pkcs` 8.0.1 via PDFsharp): fixed in `2aac223` with a direct Pkcs 10.0.13 reference (plan 4.7) |
 
 ## Every project: the development cycle (decided 2026-09-17)
 
