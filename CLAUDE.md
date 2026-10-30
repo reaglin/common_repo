@@ -144,9 +144,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   tests green, a first window that checks a `.imscc`; ⚠️ Ron's hand-tests 1–4. Assessment+ (CIATLE) holds a
   third, rules-only copy of the engine (`docs/ENGINE-SYNC.md`). **The editor built 2026-10-29** (phase 4, Ron hand-testing
   the same day): every fix shown as a change to approve, suggested words, colours, captions, buttons, assignments and
-  discussions, list by type of problem, projects, putting the fixes into the course; 138 tests green. **1.0.0 uploaded to
-  Partner Center by Ron 2026-10-29** (identity `DeanEaglin.Accessibility`, Store ID 9P89JG9TR6TB; release docs in
-  `docs/release/`); **1.0.1** (Help ▸ About) built, to submit once 1.0.0 is approved. Privacy policy, program page and
+  discussions, list by type of problem, projects, putting the fixes into the course; 138 tests green. **1.0.0 live on the Microsoft Store
+  2026-10-30** (https://apps.microsoft.com/detail/9p89jg9tr6tb; tagged `v1.0.0`; submitted 2026-10-29) (identity `DeanEaglin.Accessibility`, Store ID 9P89JG9TR6TB; release docs in
+  `docs/release/`); **1.0.1** (Help ▸ About) built, ready to submit now that 1.0.0 is approved. Privacy policy, program page and
   help live on softwareplus.ai/accessibility/. **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
