@@ -400,6 +400,34 @@ updated in the same release (above). Tick it off here.
 | VideoStories+ (`VideoStoriesPlus`) | https://softwareplus.ai/videostories/ | shipped in 1.0 (live 2026-10-14): About links to the VideoStories+ page |
 | Accessibility+ (`AccessibilityPlus`) | https://softwareplus.ai/accessibility/ | built 2026-10-29 (About links to the page and its privacy policy); ships in 1.0.1 |
 
+## Every program: Help ▸ About links to its Store page, its page and all programs (decided 2026-10-30)
+
+Ron: *"The Help->About on all the apps should have a link to the location of the app on the Windows App Store. They
+should also have a link to their subdirectory on SoftwarePlus.ai and a link to all programs."* So each program's
+**Help ▸ About** has three links, beside the "Created by Dr. Ron Eaglin" card (and the privacy link where it has one):
+
+- "More about {program}, with help and examples: softwareplus.ai/{folder}" (the rule above)
+- "{program} on the Microsoft Store (updates, ratings and reviews): apps.microsoft.com/detail/{Store ID}"
+- "All of Dr. Ron Eaglin's programs: softwareplus.ai" → `https://softwareplus.ai/#programs`
+
+**Accessibility+ is the model** (`AccessibilityPlus\src\AccessibilityPlus.App\AboutWindow.xaml`). As with the other About
+rules, each program gets it **the next time it is worked on**, as a task in its `docs/DEVELOPMENT-PLAN.md`, and ships with
+its next Store release. A program not yet on the Store shows the Store link once it has a Store ID. Tick it off here.
+
+| Program | Store page | About links |
+|---|---|---|
+| Accessibility+ (`AccessibilityPlus`) | https://apps.microsoft.com/detail/9P89JG9TR6TB | built 2026-10-30, ships in 1.0.1; ⚠️ Ron to look |
+| Gamify+ (`GamifyPlus`) | https://apps.microsoft.com/detail/9NT6TCCNDC1V | on next update |
+| CourseBuilder+ (`PreseMaker`) | https://apps.microsoft.com/detail/9MT854NV3FGF | on next update |
+| Assessment+ (`CIATLE`) | https://apps.microsoft.com/detail/9PFNSN40RBZ4 | on next update |
+| Statistle | https://apps.microsoft.com/detail/9MV608S7M9X6 | on next update |
+| SEAGit (`SeaGit`) | https://apps.microsoft.com/detail/9P7Z72K774JN | on next update |
+| SMADA (`SMADA10`) | https://apps.microsoft.com/detail/9NNTZ8389WTK | on next update |
+| TrafficLab+ (`TrafficLabPlus`) | https://apps.microsoft.com/detail/9P5NGQF4HRPD | on next update |
+| VideoStories+ (`VideoStoriesPlus`) | https://apps.microsoft.com/detail/9NZWP2LCCPK7 | on next update |
+| BMPFast Plus (`BMPFast_2`) | https://apps.microsoft.com/detail/9N19ZF13ML3X | on next update |
+| Author+, LMS-2-Website, Retirement+ | not on the Store yet: Store ID from Partner Center | before 1.0 ships |
+
 ## Every project: the development cycle (decided 2026-09-17)
 
 Applies to all development, in every repo, in this order:
