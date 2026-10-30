@@ -146,7 +146,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   the same day): every fix shown as a change to approve, suggested words, colours, captions, buttons, assignments and
   discussions, list by type of problem, projects, putting the fixes into the course; 138 tests green. **1.0.0 live on the Microsoft Store
   2026-10-30** (https://apps.microsoft.com/detail/9p89jg9tr6tb; tagged `v1.0.0`; submitted 2026-10-29) (identity `DeanEaglin.Accessibility`, Store ID 9P89JG9TR6TB; release docs in
-  `docs/release/`); **1.0.1** collects Help ▸ About and the features added 2026-10-30 (Ron), then is rebuilt and submitted. Privacy policy, program page and
+  `docs/release/`); **1.0.1** (Help ▸ About and every feature added 2026-10-30: the new main window, right-click Copy as HTML / paste instructions / Mark as completed with an upload icon, …) **submitted for certification 2026-10-30** (WACK PASS 23/24); when live: tag `v1.0.1` and deploy its SoftwarePlus.ai page (SoftwarePlus `f7865a9`). Privacy policy, program page and
   help live on softwareplus.ai/accessibility/. **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
