@@ -181,6 +181,9 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   many programs, publish to it — so deploys are controlled in one place:
   - **Before every deploy, check:** `.\deploy.ps1 -Status` (in `SoftwarePlus\`) shows the deploy running now and
     the requests waiting. Say so in the session if another one is running.
+  - **A program's changes publish only its own folder:** `.\deploy.ps1 -Only <folder> -Reason "…"` (Ron, 2026-10-31: *"The
+    deploy for each of the software products should not interfere with the other software subdirectories"*). Every deploy
+    sends only the files that changed (checksums against the server), so it takes seconds; `-Check` lists what would go.
   - **Publish only with `SoftwarePlus\deploy.ps1`** (add `-Reason "<program>: what changed"`). It is the controller
     (Ron: *"An agent should control all the deploys and it should manage for all applications that use the site"*):
     every call joins one queue, one deploy runs at a time, the requests waiting are covered together by the next
@@ -253,10 +256,10 @@ must occur with every version that we release of all the programs that use the A
 | Program (repo) | AI Manager pinned | Hand-test exe |
 |---|---|---|
 | CourseBuilder+ (`PreseMaker`) | **1.7.0** (latest, 2026-10-16: pictures) | `manual-test\PreseMaker.exe` |
-| VideoStories+ (`VideoStoriesPlus`) | **1.6.0** (2026-10-12) | `manual-test\VideoStoriesPlus.exe` |
-| Assessment+ (`CIATLE`) | 1.4.1 | `manual-test\CIATLE.FCE.exe` |
-| TrafficLab+ (`TrafficLabPlus`) | 1.4.1 | `manual-test\TrafficLabPlus.exe` |
-| Gamify+ (`GamifyPlus`) | 1.3.0 | `manual-test\GamifyPlus.exe` |
+| VideoStories+ (`VideoStoriesPlus`) | **1.7.0** (2026-10-31) | `manual-test\VideoStoriesPlus.exe` |
+| Assessment+ (`CIATLE`) | **1.7.0** (2026-10-31) | `manual-test\CIATLE.FCE.exe` |
+| TrafficLab+ (`TrafficLabPlus`) | **1.7.0** (2026-10-31, for 1.1) | `manual-test\TrafficLabPlus.exe` |
+| Gamify+ (`GamifyPlus`) | **1.7.0** (2026-10-31, for 1.2.0) | `manual-test\GamifyPlus.exe` |
 | Author+ (`AuthorPlus`) | 1.2.0 | `manual-test\AuthorPlus.exe` |
 | Accessibility+ (`AccessibilityPlus`) | **1.7.0** (2026-10-29) | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
@@ -454,6 +457,18 @@ A **new** Store program has it from its first version (Author+, LMS-2-Website an
 | TrafficLab+ (`TrafficLabPlus`) | `2e251e9` (plan 9.3) |
 | VideoStories+ (`VideoStoriesPlus`) | `8107226` (plan 7.9) |
 | BMPFast Plus (`BMPFast_2`) | `9800e38` (plan 10.45); a copy from a setup file is pointed to the Store. `tools/review_outstanding.py` not run yet (it writes SoftwarePlus and the BMPTrains spreadsheet, then needs a deploy) |
+
+## Every Store program: the usability checklist (decided 2026-10-31)
+
+Ron: *"The most important items for this round is to ensure that every application has a high level of usability …
+localized help, tooltips, descriptive labels"* and *"we are looking for some consistency in the applications."*
+**`USABILITY-CHECKLIST.md`** (in this folder) is the one list every program meets the same way: each screen says what it
+is for with local help, every control has a label and a tooltip (disabled ones say why), inputs say what to type, feedback
+and errors in plain words, no surprise loss of work, the same Help menu, About and Check-for-a-new-version wording. Its end
+holds the **manual-test template**: each program's `docs/MANUAL-TESTING.md` has a "Round 2026-11 — usability" part in that
+shape, and a current hand-test exe in `manual-test\`. UX reviews check against the list. The 2026-10-31 round's reviews are
+in each repo's `docs/ux-reviews/2026-10-31-pre-release.md`; the fixes are ⚠️ plan rows tagged "UX review 2026-10-31".
+`https://softwareplus.ai/status.html` (not linked) shows every program's version, release status, changes and site state.
 
 ## Every project: the development cycle (decided 2026-09-17)
 
