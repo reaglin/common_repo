@@ -146,7 +146,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   the same day): every fix shown as a change to approve, suggested words, colours, captions, buttons, assignments and
   discussions, list by type of problem, projects, putting the fixes into the course; 138 tests green. **1.0.0 live on the Microsoft Store
   2026-10-30** (https://apps.microsoft.com/detail/9p89jg9tr6tb; tagged `v1.0.0`; submitted 2026-10-29) (identity `DeanEaglin.Accessibility`, Store ID 9P89JG9TR6TB; release docs in
-  `docs/release/`); **1.0.1** (Help ▸ About and every feature added 2026-10-30: the new main window, right-click Copy as HTML / paste instructions / Mark as completed with an upload icon, …) **submitted for certification 2026-10-30** (WACK PASS 23/24); when live: tag `v1.0.1` and deploy its SoftwarePlus.ai page (SoftwarePlus `f7865a9`). Privacy policy, program page and
+  `docs/release/`); **1.0.1** (Help ▸ About and every feature added 2026-10-30: the new main window, right-click Copy as HTML / paste instructions / Mark as completed with an upload icon, …) **live on the Microsoft Store 2026-10-31** (tagged `v1.0.1`; WACK PASS 23/24; its SoftwarePlus.ai page deployed the same day). **1.0.2** starts with Help ▸ Check for a new version. Privacy policy, program page and
   help live on softwareplus.ai/accessibility/. **Start with its `CLAUDE.md`.**
 
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
@@ -417,7 +417,7 @@ Partner Center gives its Store ID. A **new** program has all three from its firs
 
 | Program | Store page | About links (built 2026-10-30, commit; ⚠️ Ron to look, ships with the next release) |
 |---|---|---|
-| Accessibility+ (`AccessibilityPlus`) | https://apps.microsoft.com/detail/9P89JG9TR6TB | `173e8b4`, ships in 1.0.1 |
+| Accessibility+ (`AccessibilityPlus`) | https://apps.microsoft.com/detail/9P89JG9TR6TB | `173e8b4`, shipped in 1.0.1 (live 2026-10-31) |
 | Gamify+ (`GamifyPlus`) | https://apps.microsoft.com/detail/9NT6TCCNDC1V | `cbcddb9` (plan 9.25) |
 | CourseBuilder+ (`PreseMaker`) | https://apps.microsoft.com/detail/9MT854NV3FGF | `5b0dc0f` (plan 20.16) |
 | Assessment+ (`CIATLE`) | https://apps.microsoft.com/detail/9PFNSN40RBZ4 | `73de8bd` (plan 45.7) |
