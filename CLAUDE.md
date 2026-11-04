@@ -170,7 +170,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   - no AI in Phase 1; Ron signs the content when it is published;
   - learners must back up their files; only the name is required on a report.
 
-  ⚠️ Ron: hand-test 0. PLC+ reserved in Partner Center; repo public at https://github.com/reaglin/PLCPlus (2026-11-04). Phase 1 started 2026-11-04.
+  ⚠️ Ron: hand-test 0. PLC+ reserved in Partner Center; repo public at https://github.com/reaglin/PLCPlus (2026-11-04). Phase 1 (engine: arrays, breakpoints, traces, reference programs R01–R11, the Allen-Bradley lab guide, which waits for the lab instructor) and **phase 2 (six simulated machines, each with a challenge, a working program and a common mistake) built 2026-11-04**; the window is a preview for the PLC instructors' review (`PLCPlus\docs\INSTRUCTOR-REVIEW.md`; self-contained zip in the gitignored `PLCPluseview\`); 130 tests. ⚠️ Ron: hand-test 2, then send the preview to the instructors.
   **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
