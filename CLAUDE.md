@@ -149,6 +149,22 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   `docs/release/`); **1.0.1** (Help ▸ About and every feature added 2026-10-30: the new main window, right-click Copy as HTML / paste instructions / Mark as completed with an upload icon, …) **live on the Microsoft Store 2026-10-31** (tagged `v1.0.1`; WACK PASS 23/24; its SoftwarePlus.ai page deployed the same day). **1.0.2** (Check for a new version, the form for every problem, Word/PowerPoint/PDF fixes, colour schemes, the AI check) **submitted for certification 2026-11-03** (WACK PASS 23/24) (Ron: ready to release with the current features; plan 7.15). Privacy policy, program page and
   help live on softwareplus.ai/accessibility/. **Start with its `CLAUDE.md`.**
 
+- **`PLCPlus\`** — **PLC Plus** (PLC+ if Ron agrees, plan question 1): learn PLC programming at home, from electrical
+  and logic basics to advanced ladder logic, with **simulated machines in place of real hardware**; the self-paced half
+  of a PLC course (the lab is the other half), for students, a grant's faculty training cohort, and instructors who
+  receive PDF progress reports. WPF/.NET 10, offline, many learners per computer with PIN-locked portable progress files.
+  **Started 2026-11-04 from Ron's specification** (`docs/SPECIFICATION.pdf`). Its **`Learning.Core` is the shared
+  learning engine** for this and Ron's other learning software: results, submission that works on every platform or
+  straight to the instructor (like the Gamify+ games' signed result line), and many learners on one computer (Ron,
+  2026-11-04). It becomes a `C:\nuget-local` package once a second program uses it. **Stay with what works** (Ron): MSIX on
+  the Store, WPF drawing, .NET's own cryptography. **Phase 0 built 2026-11-04:**
+  - the IEC engine on a simulated clock;
+  - the grader;
+  - the motor start/stop scene and challenge;
+  - a first-look window.
+
+  74 tests pass. ⚠️ Ron: hand-test 0 and plan questions 1–14. The GitHub repo is not created yet (Ron's go-ahead).
+  **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
