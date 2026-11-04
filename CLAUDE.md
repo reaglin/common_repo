@@ -170,7 +170,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   - no AI in Phase 1; Ron signs the content when it is published;
   - learners must back up their files; only the name is required on a report.
 
-  ⚠️ Ron: hand-test 0. The GitHub repo is not created yet (Ron's go-ahead).
+  ⚠️ Ron: hand-test 0. PLC+ reserved in Partner Center; repo public at https://github.com/reaglin/PLCPlus (2026-11-04). Phase 1 started 2026-11-04.
   **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
