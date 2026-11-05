@@ -31,13 +31,18 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   in `SMADA10\manual-test\SMADA.exe` (see its `docs/MANUAL-TESTING.md`).
   Shares an approach with `reaglin\BMPTrains` — property metadata via an attribute.
 - **`AuthorPlus\`** — AI-enhanced book-authoring tool (chapters in a rich-text editor, characters,
-  timeline, plotlines in one tree). WPF/.NET 10, paid Microsoft Store app; repo
+  timeline, plotlines in one tree). WPF/.NET 10, Microsoft Store app — free at 1.0 (Ron, 2026-11-05); repo
   `github.com/reaglin/AuthorPlus`. Scaffolded 2026-09-04 (phase 0 of `docs/DEVELOPMENT-PLAN.md`).
   Book = folder of files under `Documents\AuthorPlus\Books`. **Re-planned 2026-09-12:** tree is
   Book → Sections → Chapters → Items (CIATLE Program Assessment style); Ron's own trilogy
   (*The Book of One*, three parts of DOCX chapters) is the live test case
   (`docs/TRILOGY-TEST-CASE.md`); AI goes through the shared `AiManager` package below, replacing
-  its copied `AuthorPlus.AI`. **Start with its `CLAUDE.md`.**
+  its copied `AuthorPlus.AI`. **1.0.0 prepared for the Store 2026-11-05**: identity `DeanEaglin.Author`, Store ID
+  9MZCBQVSSDVG (https://apps.microsoft.com/detail/9MZCBQVSSDVG); new **File › Export Project / Import Project** (the whole
+  book with its versions as one `.authorplus` file, to work on another computer and back); AI Manager 1.7.0; Check for a new
+  version; the program says Author+; the icon with the title under the page (Ron chose B); **free**; WACK PASS 23/24;
+  Ron's hand-tests passed; **submitted for certification 2026-11-05**. After it is live: tag `v1.0.0` and switch its
+  softwareplus.ai page from "Coming soon" to the Store link. **Start with its `CLAUDE.md`.**
 - **`Statistle\`** — statistics calculation and learning app following Ron's EGN3443 course
   (`github.com/reaglin/egn3443`): data tables on the left, analyses on the right, every
   parameter explained with its source, and a **Code tab that writes the Python and R** for the
@@ -180,7 +185,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   modules 1–8 and 11, a testing guide at softwareplus.ai/plcplus/testing/. **Phase 10 first drafts 2026-11-05**: modules 6, 7, 8 and 11
   (50 items, 40 machines; TONR, thumbwheel, numeric display, cylinder, device faults, find-and-fix exercises), **Pop out** for Examples
   and Exercises (Ron); 374 tests. **Phase 11 (the release gate) built 2026-11-05**: a full UX sweep fixed, "preview" gone, version 1.0.0,
-  Help ▸ Testing guide and feedback; ⚠️ Ron: the round manual test (`docs/MANUAL-TESTING.md`, top) on `manual-test\PLCPlus.exe`. ⚠️ Ron: hand-tests 4–10, the outcomes, the instructors' review of modules 1–5; send reviewers the
+  Help ▸ Testing guide and feedback; ⚠️ Ron: the round manual test (`docs/MANUAL-TESTING.md`, top) on `manual-test\PLCPlus.exe`. **Phase 12 (the Store) built 2026-11-05**: the icon (a ladder rung with the amber "+" as its coil), MSIX
+  packaging from Author+ (`packaging/`, 68.8 MB), `docs/release/STORE-SUBMISSION.md` and `LAB-INSTALL.md`, screenshots, and on softwareplus.ai
+  the privacy policy and the instructors' testing guide; ⚠️ Ron: the Package/Identity/Name and Store ID from Partner Center, WACK, then submit
+  (hidden, direct link). ⚠️ Ron: hand-tests 4–10, the outcomes, the instructors' review of modules 1–5; send reviewers the
   review address ending `?user=yes`. Question 15 waits for the faculty's use cases (Ron).
   **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
@@ -294,7 +302,7 @@ must occur with every version that we release of all the programs that use the A
 | Assessment+ (`CIATLE`) | **1.7.0** (2026-10-31) | `manual-test\CIATLE.FCE.exe` |
 | TrafficLab+ (`TrafficLabPlus`) | **1.7.0** (2026-10-31, for 1.1) | `manual-test\TrafficLabPlus.exe` |
 | Gamify+ (`GamifyPlus`) | **1.7.0** (2026-10-31, for 1.2.0) | `manual-test\GamifyPlus.exe` |
-| Author+ (`AuthorPlus`) | 1.2.0 | `manual-test\AuthorPlus.exe` |
+| Author+ (`AuthorPlus`) | **1.7.0** (2026-11-05, for 1.0.0) | `manual-test\AuthorPlus.exe` |
 | Accessibility+ (`AccessibilityPlus`) | **1.7.0** (2026-10-29) | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
 
@@ -464,7 +472,7 @@ Partner Center gives its Store ID. A **new** program has all three from its firs
 | TrafficLab+ (`TrafficLabPlus`) | https://apps.microsoft.com/detail/9P5NGQF4HRPD | `01a1065` (plan 9.2) |
 | VideoStories+ (`VideoStoriesPlus`) | https://apps.microsoft.com/detail/9NZWP2LCCPK7 | `48180b1` (plan 7.8) |
 | BMPFast Plus (`BMPFast_2`) | https://apps.microsoft.com/detail/9N19ZF13ML3X | `a3b45b6` (plan 10.44); its missing privacy link added too |
-| Author+ (`AuthorPlus`) | not on the Store yet | `b07b674` page + all programs (plan 4.10); Store link when there is an ID (4.11) |
+| Author+ (`AuthorPlus`) | https://apps.microsoft.com/detail/9MZCBQVSSDVG | `b07b674` page + all programs (plan 4.10); Store link added 2026-11-05 (4.11), ships in 1.0.0 |
 | LMS-2-Website | not on the Store yet | `12685de` page + all programs (plan 6.13); Store link when there is an ID (5.6) |
 | Retirement+ (`EasyPeasyRetirement`) | not on the Store yet | `92350c9` all programs added (plan 4.6); Store link when there is an ID (5.6). Its build failed the NuGet audit (NU1902/NU1903, `System.Security.Cryptography.Pkcs` 8.0.1 via PDFsharp): fixed in `2aac223` with a direct Pkcs 10.0.13 reference (plan 4.7) |
 
@@ -491,6 +499,7 @@ A **new** Store program has it from its first version (Author+, LMS-2-Website an
 | TrafficLab+ (`TrafficLabPlus`) | `2e251e9` (plan 9.3) |
 | VideoStories+ (`VideoStoriesPlus`) | `8107226` (plan 7.9) |
 | BMPFast Plus (`BMPFast_2`) | `9800e38` (plan 10.45); a copy from a setup file is pointed to the Store. `tools/review_outstanding.py` not run yet (it writes SoftwarePlus and the BMPTrains spreadsheet, then needs a deploy) |
+| Author+ (`AuthorPlus`) | 2026-11-05 (plan 4.13), ships in 1.0.0 |
 
 ## Every Store program: the usability checklist (decided 2026-10-31)
 
