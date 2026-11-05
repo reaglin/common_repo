@@ -146,7 +146,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   the same day): every fix shown as a change to approve, suggested words, colours, captions, buttons, assignments and
   discussions, list by type of problem, projects, putting the fixes into the course; 138 tests green. **1.0.0 live on the Microsoft Store
   2026-10-30** (https://apps.microsoft.com/detail/9p89jg9tr6tb; tagged `v1.0.0`; submitted 2026-10-29) (identity `DeanEaglin.Accessibility`, Store ID 9P89JG9TR6TB; release docs in
-  `docs/release/`); **1.0.1** (Help ▸ About and every feature added 2026-10-30: the new main window, right-click Copy as HTML / paste instructions / Mark as completed with an upload icon, …) **live on the Microsoft Store 2026-10-31** (tagged `v1.0.1`; WACK PASS 23/24; its SoftwarePlus.ai page deployed the same day). **1.0.2** (Check for a new version, the form for every problem, Word/PowerPoint/PDF fixes, colour schemes, the AI check) **submitted for certification 2026-11-03** (WACK PASS 23/24) (Ron: ready to release with the current features; plan 7.15). Privacy policy, program page and
+  `docs/release/`); **1.0.1** (Help ▸ About and every feature added 2026-10-30: the new main window, right-click Copy as HTML / paste instructions / Mark as completed with an upload icon, …) **live on the Microsoft Store 2026-10-31** (tagged `v1.0.1`; WACK PASS 23/24; its SoftwarePlus.ai page deployed the same day). **1.0.2** (Check for a new version, the form for every problem, Word/PowerPoint/PDF fixes, colour schemes, the AI check) **live on the Microsoft Store 2026-11-05** (tagged `v1.0.2`; WACK PASS 23/24; its SoftwarePlus.ai page deployed the same day; plan 7.15). Privacy policy, program page and
   help live on softwareplus.ai/accessibility/. **Start with its `CLAUDE.md`.**
 
 - **`PLCPlus\`** — **PLC+** (Ron, 2026-11-04; free on the Microsoft Store, name to reserve in Partner Center): learn PLC programming at home, from electrical
@@ -471,7 +471,7 @@ A **new** Store program has it from its first version (Author+, LMS-2-Website an
 
 | Program | Built (commit, plan item) |
 |---|---|
-| Accessibility+ (`AccessibilityPlus`) | `60134f0` (plan 7.9), ships in 1.0.2 |
+| Accessibility+ (`AccessibilityPlus`) | `60134f0` (plan 7.9), shipped in 1.0.2 (live 2026-11-05); ⚠️ Ron to try it in the Store copy |
 | Gamify+ (`GamifyPlus`) | `4da1205` (plan 9.26); a button in its About section (it has no Help menu) |
 | CourseBuilder+ (`PreseMaker`) | `922c259` (plan 20.17); a button in its About window (no menu bar); in the 2.0.2 notes |
 | Assessment+ (`CIATLE`) | `8eacb68` (plan 45.8); in both Help menus (main window and course editor). One test fails on the new EGN3214 FA26 export in Downloads (27 items, the test expects more than 40) — not this change |
