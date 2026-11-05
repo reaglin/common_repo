@@ -176,7 +176,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   code), the signed result line `PLC1|…`, Send to my instructor, the reports made, and File ▸ Check a report (for instructors); help page
   updated; 248 tests. **Phase 9 (content for Units 1–5) first drafts 2026-11-05**: modules 1–5 written with practice questions and checks,
   a typed-answer question (binary, hex, BCD), five example machines (each Example is a machine like its exercise's, D21), the outcomes
-  list `docs/OUTCOMES.md`; 277 tests. ⚠️ Ron: hand-tests 4–9, the outcomes, the instructors' review of modules 1–5; send reviewers the
+  list `docs/OUTCOMES.md`; 277 tests. **The instructors' release planned (D24, 2026-11-05)**: on the Store, hidden (direct link),
+  modules 1–8 and 11, a testing guide at softwareplus.ai/plcplus/testing/. **Phase 10 first drafts 2026-11-05**: modules 6, 7, 8 and 11
+  (50 items, 40 machines; TONR, thumbwheel, numeric display, cylinder, device faults, find-and-fix exercises), **Pop out** for Examples
+  and Exercises (Ron); 374 tests. ⚠️ Ron: hand-tests 4–10, the outcomes, the instructors' review of modules 1–5; send reviewers the
   review address ending `?user=yes`. Question 15 waits for the faculty's use cases (Ron).
   **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
