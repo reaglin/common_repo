@@ -41,8 +41,8 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   9MZCBQVSSDVG (https://apps.microsoft.com/detail/9MZCBQVSSDVG); new **File › Export Project / Import Project** (the whole
   book with its versions as one `.authorplus` file, to work on another computer and back); AI Manager 1.7.0; Check for a new
   version; the program says Author+; the icon with the title under the page (Ron chose B); **free**; WACK PASS 23/24;
-  Ron's hand-tests passed; **submitted for certification 2026-11-05**. After it is live: tag `v1.0.0` and switch its
-  softwareplus.ai page from "Coming soon" to the Store link. **Start with its `CLAUDE.md`.**
+  Ron's hand-tests passed; submitted for certification 2026-11-05; **1.0.0 live on the Microsoft Store 2026-11-06** (tagged `v1.0.0`; its
+  softwareplus.ai page and home tile link to the Store). **1.1.0 live on the Microsoft Store 2026-11-06** (tagged `v1.1.0`; its softwareplus.ai page has the modes, voices, audiobook and *The Keeper of Gull Point* as an example; editor modes Write/Create/Analysis/Characters/Plotlines/Listen, Google voices, audiobook export with M4B, pronunciations; AI Manager 1.9.0; WACK PASS 23/24; privacy policy updated for Google Cloud Text-to-Speech). **Start with its `CLAUDE.md`.**
 - **`Statistle\`** — statistics calculation and learning app following Ron's EGN3443 course
   (`github.com/reaglin/egn3443`): data tables on the left, analyses on the right, every
   parameter explained with its source, and a **Code tab that writes the Python and R** for the
@@ -262,7 +262,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
 
 ## Shared libraries
 
-- **`AiManager\`** — **the one AI layer for every AI-enabled app** (decided 2026-09-12; **1.7.0, 2026-10-16, makes pictures** —
+- **`AiManager\`** — **the one AI layer for every AI-enabled app** (decided 2026-09-12; **1.9.0, 2026-11-06: 44.1 kHz speech and exact pronunciations (IPA)**; 1.8.0 the same day spoke — Google text-to-speech with an API key or service account, a voice chooser; 1.7.0 made pictures —
   OpenAI, Gemini or xAI, chosen in AI Settings ▸ Provider for pictures): a
   `Eaglin.AiManager` class library (net10.0, providers Claude/Gemini/OpenAI/Mistral/xAI,
   DPAPI key store in `Documents\AiManager\`, activity log, usage ledger, prompt templates,
@@ -297,12 +297,12 @@ must occur with every version that we release of all the programs that use the A
 
 | Program (repo) | AI Manager pinned | Hand-test exe |
 |---|---|---|
-| CourseBuilder+ (`PreseMaker`) | **1.7.0** (latest, 2026-10-16: pictures) | `manual-test\PreseMaker.exe` |
+| CourseBuilder+ (`PreseMaker`) | **1.7.0** (2026-10-16: pictures) | `manual-test\PreseMaker.exe` |
 | VideoStories+ (`VideoStoriesPlus`) | **1.7.0** (2026-10-31) | `manual-test\VideoStoriesPlus.exe` |
 | Assessment+ (`CIATLE`) | **1.7.0** (2026-10-31) | `manual-test\CIATLE.FCE.exe` |
 | TrafficLab+ (`TrafficLabPlus`) | **1.7.0** (2026-10-31, for 1.1) | `manual-test\TrafficLabPlus.exe` |
 | Gamify+ (`GamifyPlus`) | **1.7.0** (2026-10-31, for 1.2.0) | `manual-test\GamifyPlus.exe` |
-| Author+ (`AuthorPlus`) | **1.7.0** (2026-11-05, for 1.0.0) | `manual-test\AuthorPlus.exe` |
+| Author+ (`AuthorPlus`) | **1.9.0** (latest, 2026-11-06: store-quality speech and pronunciations, for the audiobook) | `manual-test\AuthorPlus.exe` |
 | Accessibility+ (`AccessibilityPlus`) | **1.7.0** (2026-10-29) | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
 
