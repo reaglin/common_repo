@@ -199,7 +199,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   but sound output and screens is in a plain `net10.0` Core so it can become a **phone app (MAUI)** if it works.
   Hearing safety first (volume cap, no clicks, Esc stops); claim: may help, no guarantee. **Started and phases 0–2
   built 2026-11-11**; the same day: spacing along the cochlea, the distances (nearest, farthest, spacing) set by the
-  person and logged, 1-cent buttons, octave coverage (tones also around the octave above/below, those pitches skipped too); 55 tests; ⚠️ Ron's hand-tests (`docs/MANUAL-TESTING.md`) and one open question (which experiments next).
+  person and logged, 1-cent buttons, octave coverage (tones also around the octave above/below, those pitches skipped too), the saved frequencies played together in step 1 (ringing is often several sounds), leaving step 1 stops its tone; 58 tests; ⚠️ Ron's hand-tests (`docs/MANUAL-TESTING.md`) and one open question (which experiments next).
   Personal use for now; the Microsoft Store if it works (Ron, 2026-11-11). Private repo https://github.com/reaglin/TinnitusPlus. **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
