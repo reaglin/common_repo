@@ -200,7 +200,9 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   Hearing safety first (volume cap, no clicks, Esc stops); claim: may help, no guarantee. **Started and phases 0–2
   built 2026-11-11**; the same day: spacing along the cochlea, the distances (nearest, farthest, spacing) set by the
   person and logged, 1-cent buttons, octave coverage (tones also around the octave above/below, those pitches skipped too), the saved frequencies played together in step 1 (ringing is often several sounds), leaving step 1 stops its tone; starting settings from Ron's trial (nearest 0.5 mm, farthest 2 mm, both octaves, 500 ms tones, 10 ms silence, random) and a Help tab with the research cited; 59 tests; ⚠️ Ron's hand-tests (`docs/MANUAL-TESTING.md`) and open questions (which experiments next; nearest tone exactly 0.5 mm).
-  Personal use for now; the Microsoft Store if it works (Ron, 2026-11-11). Private repo https://github.com/reaglin/TinnitusPlus. **Start with its `CLAUDE.md`.**
+  **Store 1.0.0 prepared 2026-11-11** (Ron: it worked well for him): name reserved, identity `DeanEaglin.Tinnitus` to confirm and
+  Store ID to come; icon an ear with a "+" on teal; `.msixupload` built; softwareplus.ai/tinnitus/ and its privacy page live;
+  ⚠️ Ron: release hand-test, WACK, submit (`docs/release/STORE_SUBMISSION.md`). Private repo https://github.com/reaglin/TinnitusPlus. **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
