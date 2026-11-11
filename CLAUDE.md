@@ -46,7 +46,11 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
 - **`Statistle\`** — statistics calculation and learning app following Ron's EGN3443 course
   (`github.com/reaglin/egn3443`): data tables on the left, analyses on the right, every
   parameter explained with its source, and a **Code tab that writes the Python and R** for the
-  data and the analysis. WPF/.NET 10, free Microsoft Store app. **Started 2026-09-08** from a copy
+  data and the analysis. WPF/.NET 10, free Microsoft Store app. **Becoming Statistics+ (Ron, 2026-11-11):** the name
+  is reserved and goes on the existing Store product. It becomes a learning program like PLC+ that follows the
+  course topic by topic (Learn / Example / Exercise / Reference, about 100 items), with the calculator kept as the
+  Workbench. PLC+'s `Learning.Core` becomes a shared package. Planned in its `docs/LEARNING-PATH.md` and
+  `docs/DEVELOPMENT-PLAN.md` phases 7–16. **Started 2026-09-08** from a copy
   of SMADA's core (`StatistleObject`, `Analysis`, the generic editor with help panel).
   `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/METHODS-AND-SOURCES.md` (every statistic
   with its formula, source, Python and R). **Start with its `CLAUDE.md`.**
