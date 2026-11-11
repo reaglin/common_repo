@@ -197,9 +197,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   next to the ringing nerves, not near in Hz) **skipping a gap around each frequency**, in patterns to experiment with (scale up/down, up and down,
   random, shuffle, random walk), with a session log and before/after ratings. WPF/.NET 10 + NAudio; everything
   but sound output and screens is in a plain `net10.0` Core so it can become a **phone app (MAUI)** if it works.
-  Hearing safety first (volume cap, no clicks, Esc stops); no medical claims. **Started and phases 0–2 built
-  2026-11-11**, 42 tests; ⚠️ Ron's hand-tests (`docs/MANUAL-TESTING.md`) and four open questions. Local git
-  only so far. **Start with its `CLAUDE.md`.**
+  Hearing safety first (volume cap, no clicks, Esc stops); claim: may help, no guarantee. **Started and phases 0–2
+  built 2026-11-11**; the same day: spacing along the cochlea, the distances (nearest, farthest, spacing) set by the
+  person and logged, 1-cent buttons; 49 tests; ⚠️ Ron's hand-tests (`docs/MANUAL-TESTING.md`) and two open questions.
+  Private repo https://github.com/reaglin/TinnitusPlus. **Start with its `CLAUDE.md`.**
 - **BMPFast** (`reaglin\BMPTrains`, solution `BMPFast.sln`) — Ron's **commercial** stormwater-permitting
   program (WinForms, .NET 4.8): Best Management Practices to meet the Florida Assessment of
   Stormwater Treatment, from the BMPTrains (FDOT) team. Sold at **https://bmpfast.com** ($500 single-user
