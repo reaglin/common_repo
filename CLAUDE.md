@@ -295,7 +295,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   progress files, mastery, the dashboard, signed reports. Subject-neutral: a program plugs in through `IChallengeRunner`
   and sets `LearningApp.Name` at start-up. Packed to `C:\nuget-local` by `build\pack.ps1`. Users: **Statistics+**
   (now); **PLC+** moves to it with its next release (its copies are frozen until then). Repo `github.com/reaglin/LearningCore`
-  (private; ⚠️ Ron to create it, plan 1.4). **Start with its `CLAUDE.md`.**
+  (private, created 2026-11-11). **Start with its `CLAUDE.md`.**
 
 The live cross-app tracker (API-36 deadline + extension, per-app versions, privacy URLs, the
 production-release protocol, open to-dos) is imported here so it is always in context:
