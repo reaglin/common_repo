@@ -295,7 +295,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   progress files, mastery, the dashboard, signed reports. Subject-neutral: a program plugs in through `IChallengeRunner`
   and sets `LearningApp.Name` at start-up. Packed to `C:\nuget-local` by `build\pack.ps1`. Users: **Statistics+**
   (now); **PLC+** moves to it with its next release (its copies are frozen until then). Repo `github.com/reaglin/LearningCore`
-  (private, created 2026-11-11). **Start with its `CLAUDE.md`.**
+  (private, created 2026-11-11). **The software textbook** (Ron, 2026-11-15): these programs are a new kind of textbook —
+  the edition, the instructor's course pack (by file or URL) and the learner's My Notes as layers; instructor tools in the
+  app; the core always free, content purchased or pay as you go. `LearningCore\docs\TEXTBOOK-VISION.md`, plan phases 3–8.
+  **Start with its `CLAUDE.md`.**
 
 The live cross-app tracker (API-36 deadline + extension, per-app versions, privacy URLs, the
 production-release protocol, open to-dos) is imported here so it is always in context:
