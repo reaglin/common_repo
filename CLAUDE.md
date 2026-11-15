@@ -332,6 +332,7 @@ must occur with every version that we release of all the programs that use the A
 | Author+ (`AuthorPlus`) | **1.9.0** (latest, 2026-11-06: store-quality speech and pronunciations, for the audiobook) | `manual-test\AuthorPlus.exe` |
 | Accessibility+ (`AccessibilityPlus`) | **1.7.0** (2026-10-29) | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
+| PLC+ (`PLCPlus`) | **1.9.0** (2026-11-15: Ask the AI on the My notes tab, optional; on the branch `my-notes`) | `manual-test-notes\PLCPlus.exe` (branch build) |
 
 Update the "pinned" column when a program moves.
 
