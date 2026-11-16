@@ -324,7 +324,7 @@ must occur with every version that we release of all the programs that use the A
 
 | Program (repo) | AI Manager pinned | Hand-test exe |
 |---|---|---|
-| CourseBuilder+ (`PreseMaker`) | **1.7.0** (2026-10-16: pictures) | `manual-test\PreseMaker.exe` |
+| CourseBuilder+ (`PreseMaker`) | **1.9.0** (2026-11-16, for 2.0.2) | `manual-test\PreseMaker.exe` |
 | VideoStories+ (`VideoStoriesPlus`) | **1.7.0** (2026-10-31) | `manual-test\VideoStoriesPlus.exe` |
 | Assessment+ (`CIATLE`) | **1.7.0** (2026-10-31) | `manual-test\CIATLE.FCE.exe` |
 | TrafficLab+ (`TrafficLabPlus`) | **1.7.0** (2026-10-31, for 1.1) | `manual-test\TrafficLabPlus.exe` |
