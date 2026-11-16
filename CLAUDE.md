@@ -395,7 +395,7 @@ as Ron works on it** — not all at once.
 
 | Program (repo) | Store name now | New name — reserved | Status |
 |---|---|---|---|
-| PreseMaker (`PreseMaker\`) | PreseMaker | **CourseBuilder+** | **2.0.0.0 live 2026-09-29** (tagged `v2.0.0`; name moved onto the existing PreseMaker product); **2.0.1.0 live 2026-10-05** (tagged `v2.0.1`); **2.0.2.0 live ~2026-10-15** (submission 14; the 2026-10-14 package, not recorded as live at the time; tagged `v2.0.2` 2026-11-16); **2.0.3.0** in Partner Center 2026-11-16 (Discussions, Course Project, …), Ron submits; privacy now `https://softwareplus.ai/coursebuilder/privacy/` (the old PunchMonkeyServer addresses redirect there) |
+| PreseMaker (`PreseMaker\`) | PreseMaker | **CourseBuilder+** | **2.0.0.0 live 2026-09-29** (tagged `v2.0.0`; name moved onto the existing PreseMaker product); **2.0.1.0 live 2026-10-05** (tagged `v2.0.1`); **2.0.2.0 live ~2026-10-15** (submission 14; the 2026-10-14 package, not recorded as live at the time; tagged `v2.0.2` 2026-11-16); **2.0.3.0 submitted for certification 2026-11-16** (Discussions, Course Project, …); privacy now `https://softwareplus.ai/coursebuilder/privacy/` (the old PunchMonkeyServer addresses redirect there) |
 | CIATLE (`CIATLE\`, the CIATLE.FCE app) | CIATLE-FCE | **Assessment+** (changed from ProgramAssessment+ by Ron, 2026-09-29; reserved — on the existing CIATLE-FCE product via Manage app names, not a new product) | **2.0.0.0 live as Assessment+ 2026-10-01** (tagged `v2.0.0`; .NET 10, AI Manager; privacy `https://softwareplus.ai/assessment/privacy/index.html`) |
 
 Others Ron has floated (not reserved yet): SMADA → **Hydrology+**.
