@@ -195,6 +195,14 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   (hidden, direct link). ⚠️ Ron: hand-tests 4–10, the outcomes, the instructors' review of modules 1–5; send reviewers the
   review address ending `?user=yes`. Question 15 waits for the faculty's use cases (Ron).
   **Start with its `CLAUDE.md`.**
+- **`AppliedDatabasePlus\`** — **AppliedDatabase+** (name reserved on the Microsoft Store by Ron; started 2026-11-16): the third
+  **PlusBook**, after PLC+ and Statistics+. Follows **Applied Database I** (COP4708, https://reaglin.github.io/COP4708/, 16 modules
+  ending in the Sandpiper Cove project) topic by topic; **Applied Database II** is added when Ron generates its site. The subject's
+  half is a real database inside the program (SQLite) with labs: SQL (answers checked against the reference SQL's results, with
+  hidden data), Design (FDs, keys, normal forms, decompositions), ER, Concurrency (a schedule simulator) and Security, plus a
+  Workbench. WPF/.NET 10, free Store app, on the Learning Core packages; the window comes from PLC+'s `Learning.Shell`.
+  **Phase 0 (the plan) 2026-11-16:** `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: 11 open
+  questions (which database system, the pilot module, Sandpiper Cove, ER notation, …). No GitHub remote yet. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
@@ -294,7 +302,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   packages (Markdown items, Learn / Example / Exercise / Reference, quizzes, module checks), learners with PIN-locked
   progress files, mastery, the dashboard, signed reports. Subject-neutral: a program plugs in through `IChallengeRunner`
   and sets `LearningApp.Name` at start-up. Packed to `C:\nuget-local` by `build\pack.ps1`. Users: **Statistics+**
-  (now); **PLC+** moves to it with its next release (its copies are frozen until then). Repo `github.com/reaglin/LearningCore`
+  (now); **PLC+** moves to it with its next release (its copies are frozen until then); **AppliedDatabase+** (from its
+  first build). Repo `github.com/reaglin/LearningCore`
   (private, created 2026-11-11). **The software textbook: PlusBooks** (Ron, 2026-11-15; the name chosen the same day): these programs are a new kind of textbook —
   the edition, the instructor's course pack (by file or URL) and the learner's My Notes as layers; instructor tools in the
   app; the core always free, content purchased or pay as you go. `LearningCore\docs\TEXTBOOK-VISION.md`, `PLUSBOOK-FEATURES.md` (the tabs and features against a printed textbook), plan phases 3–8.
