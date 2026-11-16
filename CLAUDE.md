@@ -201,8 +201,13 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   half is a real database inside the program (SQLite) with labs: SQL (answers checked against the reference SQL's results, with
   hidden data), Design (FDs, keys, normal forms, decompositions), ER, Concurrency (a schedule simulator) and Security, plus a
   Workbench. WPF/.NET 10, free Store app, on the Learning Core packages; the window comes from PLC+'s `Learning.Shell`.
-  **Phase 0 (the plan) 2026-11-16:** `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: 11 open
-  questions (which database system, the pilot module, Sandpiper Cove, ER notation, …). No GitHub remote yet. **Start with its `CLAUDE.md`.**
+  **Phase 0 (the plan) 2026-11-16**; Ron answered the same day: SQLite with notes on SQL Server, MySQL, PostgreSQL and Oracle,
+  Module 11 the pilot, crow's foot in a short typed notation, Python, a sister shelter for the capstone. Identity
+  `DeanEaglin.AppliedDatabase`, Store ID 9MWB6HZ97L8W (https://apps.microsoft.com/detail/9MWB6HZ97L8W); repo
+  `github.com/reaglin/AppliedDatabasePlus` (private). **Phases 1–3 first pass built 2026-11-16:** the window from PLC+'s `my-notes`
+  branch on Learning Core 1.5.0 and AI Manager 1.9.0, the SQL engine and grader (SQLite 3.54, hidden data, probes, recognised
+  mistakes), the SQL lab on Example/Exercise, Start here; UX review fixed; 86 tests; ⚠️ Ron: hand-test round 1
+  (`manual-test\AppliedDatabasePlus.exe`). Next: the Module 11 pilot. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
@@ -341,6 +346,7 @@ must occur with every version that we release of all the programs that use the A
 | Author+ (`AuthorPlus`) | **1.9.0** (latest, 2026-11-06: store-quality speech and pronunciations, for the audiobook) | `manual-test\AuthorPlus.exe` |
 | Accessibility+ (`AccessibilityPlus`) | **1.7.0** (2026-10-29) | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
+| AppliedDatabase+ (`AppliedDatabasePlus`) | **1.9.0** (2026-11-16, from its first build: Ask the AI and Google voices, optional) | `manual-test\AppliedDatabasePlus.exe` |
 | PLC+ (`PLCPlus`) | **1.9.0** (2026-11-15: Ask the AI on the My notes tab, optional; on the branch `my-notes`) | `manual-test-notes\PLCPlus.exe` (branch build) |
 
 Update the "pinned" column when a program moves.
