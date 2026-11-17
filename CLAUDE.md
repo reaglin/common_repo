@@ -347,7 +347,7 @@ must occur with every version that we release of all the programs that use the A
 | Accessibility+ (`AccessibilityPlus`) | **1.7.0** (2026-10-29) | `manual-test\AccessibilityPlus.exe` |
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
 | AppliedDatabase+ (`AppliedDatabasePlus`) | **1.9.0** (2026-11-16, from its first build: Ask the AI and Google voices, optional) | `manual-test\AppliedDatabasePlus.exe` |
-| PLC+ (`PLCPlus`) | **1.9.0** (2026-11-15: Ask the AI on the My notes tab, optional; on the branch `my-notes`) | `manual-test-notes\PLCPlus.exe` (branch build) |
+| PLC+ (`PLCPlus`) | **1.9.0** (2026-11-15: Ask the AI on the My notes tab, optional; merged to `main` 2026-11-17) | `manual-test\PLCPlus.exe` |
 
 Update the "pinned" column when a program moves.
 
