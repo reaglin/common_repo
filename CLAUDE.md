@@ -211,10 +211,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
 - **`PythonPlus\`** — **Python+** (name reserved on the Microsoft Store by Ron, 2026-11-18): the fourth **PlusBook**. Follows
   **Programming for Engineers** (EGN3214, https://reaglin.github.io/EGN3214/, 10 modules, 73 topics) topic by topic, from a
   first program to NumPy, Matplotlib, pandas, SciPy and scikit-learn. The subject's half is **a real Python inside the program**
-  (CPython 3.13 with those libraries, offline; each run its own process): an editor, a **Stepper** that replays a run line by
+  (CPython 3.14 with those libraries, offline; each run its own process): an editor, a **Stepper** that replays a run line by
   line with the variables and objects drawn, and exercises checked by running them against the reference solution with hidden
   tests (output, calls, values, code structure, plots, files). WPF/.NET 10, free Store app, on Learning Core 1.6.0, the window
-  from AppliedDatabase+. Identity `DeanEaglin.Python`, Store ID 9PGZ83LZ3HD1 (https://apps.microsoft.com/detail/9PGZ83LZ3HD1). **Phase 0 (the plan) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
+  from AppliedDatabase+. Identity `DeanEaglin.Python`, Store ID 9PGZ83LZ3HD1 (https://apps.microsoft.com/detail/9PGZ83LZ3HD1). **Phase 0 (the plan) and phase 1 (the Python inside: 3.14.8 and the five libraries, 292 MB; the runner, 18 tests, works read-only) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
   `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (the PSF's trademark rule before any paid
   content: email drafted in `docs/PSF-TRADEMARK-REQUEST.md`, Ron to send; the assignments `.imscc`). Real CPython and Module 3 as the pilot (Ron, 2026-11-18). Repo `github.com/reaglin/PythonPlus` (private). **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
