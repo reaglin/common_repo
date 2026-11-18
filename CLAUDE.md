@@ -214,8 +214,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   (CPython 3.13 with those libraries, offline; each run its own process): an editor, a **Stepper** that replays a run line by
   line with the variables and objects drawn, and exercises checked by running them against the reference solution with hidden
   tests (output, calls, values, code structure, plots, files). WPF/.NET 10, free Store app, on Learning Core 1.6.0, the window
-  from AppliedDatabase+. **Phase 0 (the plan) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
-  `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (Store identity, GitHub repo, the PSF's trademark rule before any paid
+  from AppliedDatabase+. Identity `DeanEaglin.Python`, Store ID 9PGZ83LZ3HD1 (https://apps.microsoft.com/detail/9PGZ83LZ3HD1). **Phase 0 (the plan) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
+  `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (GitHub repo, the PSF's trademark rule before any paid
   content, CPython vs Pyodide, the pilot module). Local repository only so far. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
