@@ -224,7 +224,9 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   in JavaScript (it leads to COP4813). Run, Check and the Stepper as in Python+, plus a structure view (nodes and arrows),
   sorting played back as bars and a Big O lab. Python through Python+'s engine made a shared package; JavaScript through Jint;
   C through TinyCC. **Phase 0 (the plan) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`;
-  ⚠️ Ron: the open questions (identity to come; GitHub repo; pilot module; Jint; JSFiddle). Local repository only.
+  Ron answered 2026-11-18: Module 12 the pilot, Jint, an item completes in any language, JSFiddle submissions until he has
+  tested the book (handing in from the book is the long-term goal); building starts after Python+'s hand-test round 2.
+  ⚠️ Ron: the Store identity; questions 7–9. Repo `github.com/reaglin/DataStructuresPlus` (private).
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
