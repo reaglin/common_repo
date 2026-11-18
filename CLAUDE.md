@@ -207,7 +207,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   `github.com/reaglin/AppliedDatabasePlus` (private). **Phases 1–3 first pass built 2026-11-16:** the window from PLC+'s `my-notes`
   branch on Learning Core 1.5.0 and AI Manager 1.9.0, the SQL engine and grader (SQLite 3.54, hidden data, probes, recognised
   mistakes), the SQL lab on Example/Exercise, Start here; UX review fixed; 86 tests; ⚠️ Ron: hand-test round 1
-  (`manual-test\AppliedDatabasePlus.exe`). Next: the Module 11 pilot. **Start with its `CLAUDE.md`.**
+  (`manual-test\AppliedDatabasePlus.exe`). **2026-11-17:** every Example is something to try with a picture (Ron's hand-test round 2 passed); Modules 0–11 of Part I written (8–10 the same day: DDL Examples draw what the SQL built and put its rules to the test); COP4709 mapped as Part II; 424 tests. ⚠️ Ron: hand-test round 3. Next: Modules 12–16. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
