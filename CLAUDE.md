@@ -208,6 +208,15 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   branch on Learning Core 1.5.0 and AI Manager 1.9.0, the SQL engine and grader (SQLite 3.54, hidden data, probes, recognised
   mistakes), the SQL lab on Example/Exercise, Start here; UX review fixed; 86 tests; ⚠️ Ron: hand-test round 1
   (`manual-test\AppliedDatabasePlus.exe`). **2026-11-17:** every Example is something to try with a picture (Ron's hand-test round 2 passed); Modules 0–11 of Part I written (8–10 the same day: DDL Examples draw what the SQL built and put its rules to the test); COP4709 mapped as Part II. **2026-11-18:** Modules 12–16 written, so Part I is complete: a Concurrency lab (Module 13) and a Security lab (Module 15), the capstone on a sister shelter (Heron Bay); Learn pages' Try it buttons as in PLC+ and Statistics+; Store package 1.0.0 built (`packaging/`, icon candidate C), SoftwarePlus page committed, not deployed; 541 tests. ⚠️ Ron: hand-test round 4, the icon, the deploy, WACK, submit. Next: Part II. **Start with its `CLAUDE.md`.**
+- **`PythonPlus\`** — **Python+** (name reserved on the Microsoft Store by Ron, 2026-11-18): the fourth **PlusBook**. Follows
+  **Programming for Engineers** (EGN3214, https://reaglin.github.io/EGN3214/, 10 modules, 73 topics) topic by topic, from a
+  first program to NumPy, Matplotlib, pandas, SciPy and scikit-learn. The subject's half is **a real Python inside the program**
+  (CPython 3.13 with those libraries, offline; each run its own process): an editor, a **Stepper** that replays a run line by
+  line with the variables and objects drawn, and exercises checked by running them against the reference solution with hidden
+  tests (output, calls, values, code structure, plots, files). WPF/.NET 10, free Store app, on Learning Core 1.6.0, the window
+  from AppliedDatabase+. **Phase 0 (the plan) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
+  `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (Store identity, GitHub repo, the PSF's trademark rule before any paid
+  content, CPython vs Pyodide, the pilot module). Local repository only so far. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
@@ -348,6 +357,7 @@ must occur with every version that we release of all the programs that use the A
 | Retirement+ (`EasyPeasyRetirement`) | none yet — the rule applies once it has an AI feature | `manual-test\EasyPeasyRetirement.exe` |
 | AppliedDatabase+ (`AppliedDatabasePlus`) | **1.9.0** (2026-11-16, from its first build: Ask the AI and Google voices, optional) | `manual-test\AppliedDatabasePlus.exe` |
 | PLC+ (`PLCPlus`) | **1.9.0** (2026-11-15: Ask the AI on the My notes tab, optional; merged to `main` 2026-11-17) | `manual-test\PLCPlus.exe` |
+| Python+ (`PythonPlus`) | **1.9.0** planned (Ask the AI and Module 7's AI exercises, optional) | `manual-test\PythonPlus.exe` |
 
 Update the "pinned" column when a program moves.
 
