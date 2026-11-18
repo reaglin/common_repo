@@ -215,8 +215,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   line with the variables and objects drawn, and exercises checked by running them against the reference solution with hidden
   tests (output, calls, values, code structure, plots, files). WPF/.NET 10, free Store app, on Learning Core 1.6.0, the window
   from AppliedDatabase+. Identity `DeanEaglin.Python`, Store ID 9PGZ83LZ3HD1 (https://apps.microsoft.com/detail/9PGZ83LZ3HD1). **Phase 0 (the plan) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
-  `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (GitHub repo, the PSF's trademark rule before any paid
-  content, CPython vs Pyodide, the pilot module). Local repository only so far. **Start with its `CLAUDE.md`.**
+  `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (the PSF's trademark rule before any paid
+  content: email drafted in `docs/PSF-TRADEMARK-REQUEST.md`, Ron to send; the assignments `.imscc`). Real CPython and Module 3 as the pilot (Ron, 2026-11-18). Repo `github.com/reaglin/PythonPlus` (private). **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
