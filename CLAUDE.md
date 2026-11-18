@@ -217,6 +217,15 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   from AppliedDatabase+. Identity `DeanEaglin.Python`, Store ID 9PGZ83LZ3HD1 (https://apps.microsoft.com/detail/9PGZ83LZ3HD1). **Phase 0 (the plan) and phase 1 (the Python inside: 3.14.8 and the five libraries, 292 MB; works read-only; Ron's hand-test round 1 passed) 2026-11-18; phases 2–5 the same day** (the checker with hidden tests and recognised mistakes, the window from AppliedDatabase+ with the code workspace, the Stepper, Start here and the Module 3 pilot, UX review fixed, 68 tests; **Modules 1–10 written the same afternoon** (the whole book, 75 topic items; 71 tests). ⚠️ Ron: hand-test rounds 2 and 3 on `manual-test\PythonPlus.exe`, the pilot's shape): `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
   `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (the PSF's trademark rule before any paid
   content: email drafted in `docs/PSF-TRADEMARK-REQUEST.md`, Ron to send; the assignments `.imscc`). Real CPython and Module 3 as the pilot (Ron, 2026-11-18). Repo `github.com/reaglin/PythonPlus` (private). **Start with its `CLAUDE.md`.**
+- **`DataStructuresPlus\`** — **DataStructures+** (name reserved on the Microsoft Store by Ron, 2026-11-18): the fifth
+  **PlusBook**. Follows **Data Structures** (COP3530, https://reaglin.github.io/COP3530/, 15 modules, 94 topics) topic by
+  topic. **One book in three languages** (Ron, 2026-11-18): every example and exercise in Python, JavaScript and C (C from
+  1.1), chosen by the learner or the course pack, with a side-by-side view to learn the other languages; Ron's own course stays
+  in JavaScript (it leads to COP4813). Run, Check and the Stepper as in Python+, plus a structure view (nodes and arrows),
+  sorting played back as bars and a Big O lab. Python through Python+'s engine made a shared package; JavaScript through Jint;
+  C through TinyCC. **Phase 0 (the plan) 2026-11-18**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`;
+  ⚠️ Ron: the open questions (identity to come; GitHub repo; pilot module; Jint; JSFiddle). Local repository only.
+  **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
