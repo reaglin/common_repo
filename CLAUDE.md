@@ -215,8 +215,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   line with the variables and objects drawn, and exercises checked by running them against the reference solution with hidden
   tests (output, calls, values, code structure, plots, files). WPF/.NET 10, free Store app, on Learning Core 1.6.0, the window
   from AppliedDatabase+. Identity `DeanEaglin.Python`, Store ID 9PGZ83LZ3HD1 (https://apps.microsoft.com/detail/9PGZ83LZ3HD1). **Phase 0 (the plan) and phase 1 (the Python inside: 3.14.8 and the five libraries, 292 MB; works read-only; Ron's hand-test round 1 passed) 2026-11-18; phases 2–5 the same day** (the checker with hidden tests and recognised mistakes, the window from AppliedDatabase+ with the code workspace, the Stepper, Start here and the Module 3 pilot, UX review fixed, 68 tests; **Modules 1–10 written the same afternoon** (the whole book, 75 topic items; 71 tests). **Ron's hand-test rounds 2 and 3 passed 2026-11-18**: "functional and incredibly easy to use"): `docs/PLAN.md`, `docs/LEARNING-PATH.md`,
-  `docs/DEVELOPMENT-PLAN.md`; The PSF trademark email sent by Ron 2026-11-18 (answer awaited); ⚠️ Ron: the assignments `.imscc`, then
-  the icon, outcomes and the Store (phase 12). Real CPython and Module 3 as the pilot (Ron, 2026-11-18). Repo `github.com/reaglin/PythonPlus` (private). **Start with its `CLAUDE.md`.**
+  `docs/DEVELOPMENT-PLAN.md`; The PSF trademark email sent by Ron 2026-11-18 (answer awaited); The assignments `.imscc` read 2026-11-18 (no Exercise answers one).
+  ⚠️ Ron: Assignment 7's overlap; the icon, outcomes and the Store (phase 12). Real CPython and Module 3 as the pilot (Ron, 2026-11-18). Repo `github.com/reaglin/PythonPlus` (private). **Start with its `CLAUDE.md`.**
 - **`DataStructuresPlus\`** — **DataStructures+** (name reserved on the Microsoft Store by Ron, 2026-11-18): the fifth
   **PlusBook**. Follows **Data Structures** (COP3530, https://reaglin.github.io/COP3530/, 15 modules, 94 topics) topic by
   topic. **One book in three languages** (Ron, 2026-11-18): every example and exercise in Python, JavaScript and C (C from
@@ -228,7 +228,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   tested the book (handing in from the book is the long-term goal); building starts after Python+'s hand-test round 2.
   **Phase 1 built 2026-11-18** (Ron: start, Python+ passed): the shared Python engine `Eaglin.Learning.Python` 1.7.0 in
   LearningCore, Python+ moved to it. **Phase 2 (the Jint spike) built the same day**: JavaScript runs in its own process,
-  traced in the same records as Python; Run 160–177 ms (`docs/JINT-SPIKE.md`). ⚠️ Ron: agree to Jint on those numbers; the Store
+  traced in the same records as Python; Run 160–177 ms (`docs/JINT-SPIKE.md`). Ron agreed to Jint. ⚠️ Ron: the Store
   identity; questions 7–8. Repo `github.com/reaglin/DataStructuresPlus` (private).
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
