@@ -236,7 +236,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   (2026-11-19):** the Language box outlined, Module 1 item 1.1 *Choosing your language*, the drawings beside the code (an Example draws
   on opening, every Run draws), Python the default, softwareplus.ai/datastructures published; 84 tests; **Ron's round 2 passed 2026-11-19** ("The drawings now work"; "language is obvious").
   **Phase 5 (Module 12 in full, the pilot: seven topics and the module check) built 2026-11-19**; Store identity
-  `DeanEaglin.DataStructures`, Store ID 9N6VT9FL4JWN (https://apps.microsoft.com/detail/9N6VT9FL4JWN). ⚠️ Ron: hand-test round 3; questions 7–8. Repo `github.com/reaglin/DataStructuresPlus` (private).
+  `DeanEaglin.DataStructures`, Store ID 9N6VT9FL4JWN (https://apps.microsoft.com/detail/9N6VT9FL4JWN). Ron's round 3 passed ("Module 12 is good"); **Modules 1–15 all written 2026-11-19** (phase 7: 105 topic items and 15 module checks, tested in both languages, UX review fixed); ⚠️ Ron: hand-test round 4 (`manual-test\DataStructuresPlus.exe`). Repo `github.com/reaglin/DataStructuresPlus` (private).
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
