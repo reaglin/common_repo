@@ -232,8 +232,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   structure snapshots, rules such as an ordered BST or a heap) built the same day**; 47 tests. Ron approved `docs/CONTENT-FORMAT.md`
   2026-11-19. **Phase 4 (the window) built 2026-11-19**: Python+'s window renamed, a Language picker (Python / JavaScript) and side
   by side, Run / Check / Step through in both, and the structure view (lists, linked lists, trees, heaps, hash tables, graphs drawn
-  as nodes and arrows, in the Stepper and in Check); Start here and a Module 12 preview; UX review fixed; 83 tests. ⚠️ Ron: hand-test
-  round 1 (`manual-test\DataStructuresPlus.exe`, `docs/MANUAL-TESTING.md`); the Store identity; questions 7–8. Repo `github.com/reaglin/DataStructuresPlus` (private).
+  as nodes and arrows, in the Stepper and in Check); Start here and a Module 12 preview; UX review fixed; 83 tests. **Ron's round 1
+  (2026-11-19):** the Language box outlined, Module 1 item 1.1 *Choosing your language*, the drawings beside the code (an Example draws
+  on opening, every Run draws), Python the default, softwareplus.ai/datastructures published; 84 tests. ⚠️ Ron: hand-test
+  round 2 (`manual-test\DataStructuresPlus.exe`, `docs/MANUAL-TESTING.md`); the Store identity; questions 7–8. Repo `github.com/reaglin/DataStructuresPlus` (private).
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
