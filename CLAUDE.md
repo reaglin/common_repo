@@ -229,8 +229,11 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   **Phase 1 built 2026-11-18** (Ron: start, Python+ passed): the shared Python engine `Eaglin.Learning.Python` 1.7.0 in
   LearningCore, Python+ moved to it. **Phase 2 (the Jint spike) built the same day**: JavaScript runs in its own process,
   traced in the same records as Python; Run 160–177 ms (`docs/JINT-SPIKE.md`). Ron agreed to Jint. **Phase 3 (one check for every language: values and
-  structure snapshots, rules such as an ordered BST or a heap) built the same day**; 47 tests. ⚠️ Ron: `docs/CONTENT-FORMAT.md`;
-  the Store identity; questions 7–8. Repo `github.com/reaglin/DataStructuresPlus` (private).
+  structure snapshots, rules such as an ordered BST or a heap) built the same day**; 47 tests. Ron approved `docs/CONTENT-FORMAT.md`
+  2026-11-19. **Phase 4 (the window) built 2026-11-19**: Python+'s window renamed, a Language picker (Python / JavaScript) and side
+  by side, Run / Check / Step through in both, and the structure view (lists, linked lists, trees, heaps, hash tables, graphs drawn
+  as nodes and arrows, in the Stepper and in Check); Start here and a Module 12 preview; UX review fixed; 83 tests. ⚠️ Ron: hand-test
+  round 1 (`manual-test\DataStructuresPlus.exe`, `docs/MANUAL-TESTING.md`); the Store identity; questions 7–8. Repo `github.com/reaglin/DataStructuresPlus` (private).
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
