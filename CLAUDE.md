@@ -604,31 +604,35 @@ implementation or discard. I am really looking for the option that is easiest fo
 - **Implement → the plan.** At the start of every round of work on a program, a session reads that program's items marked
   Implement (SoftwarePlus 9.4) and adds each as a task in its `docs/DEVELOPMENT-PLAN.md`, quoting the item, date and
   version; the inbox then shows them In plan. Never acts on Discard or New items.
-- **Privacy:** each program's privacy page gets the paragraph from SoftwarePlus 9.5 in the release that ships the item.
-- Every program's plan carries **F.1** (the menu item) and **F.2** (Implement → plan) under "Priority for the next
+- **Privacy — part of the same release, not later** (Ron, 2026-11-20: *"when we update the software with the feedback, the
+  privacy policy changes will also need to be completed"*): the release that adds Help ▸ Send feedback also adds the section
+  "Feedback you send" (`SoftwarePlus\docs\FEEDBACK-SETUP.md`, "The privacy paragraph") to that program's privacy page on
+  SoftwarePlus.ai, updates its effective date, deploys it (`-Only <folder>`), and brings any privacy text in the program or
+  its Store listing in line. **A release with the menu item is not finished until its privacy page is live** — plan item F.3.
+- Every program's plan carries **F.1** (the menu item), **F.2** (Implement → plan) and **F.3** (its privacy page) under "Priority for the next
   version"; it ships with that program's next Store release. A **new** program has it from its first version. The Android
   apps (no plans yet) add it on their next update, on the About/Settings page.
 
 | Program | Site folder | Planned |
 |---|---|---|
-| CourseBuilder+ (`PreseMaker`) | `coursebuilder` | plan F.1, F.2 (2026-11-20) |
-| Assessment+ (`CIATLE`) | `assessment` | plan F.1, F.2 (2026-11-20) |
-| Gamify+ (`GamifyPlus`) | `gamify` | plan F.1, F.2 (2026-11-20) |
-| Author+ (`AuthorPlus`) | `author` | plan F.1, F.2 (2026-11-20) |
-| Statistics+ (`Statistle`) | `statistle` | plan F.1, F.2 (2026-11-20) |
-| SMADA (`SMADA10`) | `smada` | plan F.1, F.2 (2026-11-20) |
-| TrafficLab+ (`TrafficLabPlus`) | `trafficlab` | plan F.1, F.2 (2026-11-20) |
-| VideoStories+ (`VideoStoriesPlus`) | `videostories` | plan F.1, F.2 (2026-11-20) |
-| Accessibility+ (`AccessibilityPlus`) | `accessibility` | plan F.1, F.2 (2026-11-20) |
-| BMPFast Plus (`BMPFast_2`) | `bmpfast` | plan F.1, F.2 (2026-11-20) |
-| AppliedDatabase+ (`AppliedDatabasePlus`) | `applieddatabase` | plan F.1, F.2 (2026-11-20) |
-| DataStructures+ (`DataStructuresPlus`) | `datastructures` | plan F.1, F.2 (2026-11-20) |
-| Tinnitus+ (`TinnitusPlus`) | `tinnitus` | plan F.1, F.2 (2026-11-20) |
-| PLC+ (`PLCPlus`) | `plcplus` | plan F.1, F.2 (2026-11-20) |
-| Python+ (`PythonPlus`) | `python` | plan F.1, F.2 (2026-11-20) |
-| LMS-2-Website | `lms-2-website` | plan F.1, F.2 (2026-11-20) |
-| Retirement+ (`EasyPeasyRetirement`) | `retirement` | plan F.1, F.2 (2026-11-20) |
-| SEAGit (`SeaGit\SEAGit`) | `seagit` | plan F.1, F.2 (2026-11-20) |
+| CourseBuilder+ (`PreseMaker`) | `coursebuilder` | plan F.1–F.3 (2026-11-20) |
+| Assessment+ (`CIATLE`) | `assessment` | plan F.1–F.3 (2026-11-20) |
+| Gamify+ (`GamifyPlus`) | `gamify` | plan F.1–F.3 (2026-11-20) |
+| Author+ (`AuthorPlus`) | `author` | plan F.1–F.3 (2026-11-20) |
+| Statistics+ (`Statistle`) | `statistle` | plan F.1–F.3 (2026-11-20) |
+| SMADA (`SMADA10`) | `smada` | plan F.1–F.3 (2026-11-20) |
+| TrafficLab+ (`TrafficLabPlus`) | `trafficlab` | plan F.1–F.3 (2026-11-20) |
+| VideoStories+ (`VideoStoriesPlus`) | `videostories` | plan F.1–F.3 (2026-11-20) |
+| Accessibility+ (`AccessibilityPlus`) | `accessibility` | plan F.1–F.3 (2026-11-20) |
+| BMPFast Plus (`BMPFast_2`) | `bmpfast` | plan F.1–F.3 (2026-11-20) |
+| AppliedDatabase+ (`AppliedDatabasePlus`) | `applieddatabase` | plan F.1–F.3 (2026-11-20) |
+| DataStructures+ (`DataStructuresPlus`) | `datastructures` | plan F.1–F.3 (2026-11-20) |
+| Tinnitus+ (`TinnitusPlus`) | `tinnitus` | plan F.1–F.3 (2026-11-20) |
+| PLC+ (`PLCPlus`) | `plcplus` | plan F.1–F.3 (2026-11-20) |
+| Python+ (`PythonPlus`) | `python` | plan F.1–F.3 (2026-11-20) |
+| LMS-2-Website | `lms-2-website` | plan F.1–F.3 (2026-11-20) |
+| Retirement+ (`EasyPeasyRetirement`) | `retirement` | plan F.1–F.3 (2026-11-20) |
+| SEAGit (`SeaGit\SEAGit`) | `seagit` | plan F.1–F.3 (2026-11-20) |
 | EasyPeasyGPX, NaViViewer, PunchMonkey, Any6, AppOpenerAndTimer | `projects/<app>` | on next update (no plan file yet) |
 
 ## Every Store program: the usability checklist (decided 2026-10-31)
