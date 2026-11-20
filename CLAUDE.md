@@ -421,6 +421,16 @@ UI/UX review → human testing (Ron or others) → ✅ verified, or returned wit
 own — passing tests and a clean UX review earn ⚠️; only Ron's confirmation earns ✅. Update the
 plan in the same commit as the work.
 
+## Every Store submission: `RELEASES.md` (decided 2026-11-20)
+
+Ron: *"now that I have a lot of products going to the store"* — **`RELEASES.md`** (in this folder) is the one table of
+every product's versions: **Version, Submitted, Approved, Status** (Status: has the product changed since that
+submission — Superseded, In certification, Live — no changes, Live — changed since, Prepared, not submitted).
+**Every session that submits a version, hears that one is live, or prepares a new package updates its row**
+(and marks the version before it Superseded), in the same commit as the release work. A new product gets its rows
+from its first package. When a session finishes work on a product with a live version, it refreshes that row's
+Status (commits since the submission). Microsoft Store and Google Play alike.
+
 ## Every program: the "+" names (decided 2026-09-26)
 
 Ron likes the **Gamify+ / Author+** naming and is moving the Store programs to it. A rename is an
@@ -645,6 +655,7 @@ Applies to all development, in every repo, in this order:
 
 ## Useful references in this directory
 
+- `RELEASES.md` — every product's versions: submitted, approved, and whether it has changed since.
 - `maui_publish_to_google_play_guide.html` — step-by-step MAUI → Play publishing guide.
 - `.claude\PLAYSTORE.md` — the tracker imported above (edit it, not this file, for status).
 - `.claude\settings.local.json` — permission allow-list for this directory.
