@@ -168,7 +168,11 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   rubric but **Alignment+'s own standards from what the public rubrics share**; projects from Accessibility+'s folder or
   `Documents\Course Projects` (a choice); one `.a11yproject` file; **EGN3443 the pilot**; Accessibility+ changes too and the two
   are listed as **partner programs** (Accessibility+ plan P.1–P.5). Private repo `github.com/reaglin/AlignmentPlus`.
-  ⚠️ Ron: reserve the name. **Start with its `CLAUDE.md`.**
+  Store identity `DeanEaglin.Alignment`, Store ID 9NFGHG2RVK9G (https://apps.microsoft.com/detail/9NFGHG2RVK9G). **It never
+  judges a course** (Ron, 2026-11-20): no ratings or "meets / does not meet" — only suggestions for improvement under the
+  **eight areas**, drawn from what the public standards share (`docs/STANDARDS.md`: 49 shared by 3+ of 7 rubrics; the AI-use
+  policy optional); every change made only at the instructor's request and adopted only on approval. **Phase 1 built
+  2026-11-20**: the shared package `Eaglin.CourseProject` (above). **Start with its `CLAUDE.md`.**
 - **`PLCPlus\`** — **PLC+** (Ron, 2026-11-04; free on the Microsoft Store, name to reserve in Partner Center): learn PLC programming at home, from electrical
   and logic basics to advanced ladder logic, with **simulated machines in place of real hardware**; the self-paced half
   of a PLC course (the lab is the other half), for students, a grant's faculty training cohort, and instructors who
@@ -358,6 +362,15 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   `AuthorPlus.AI` copy), EasyPeasyRetirement, PreseMaker, CIATLE (`CIATLE.AICore` retired).
   Until an app has migrated, its own AI layer stands. **Start with its `CLAUDE.md` and
   `docs/PLAN.md`.**
+
+- **`CourseProject\`** — **`Eaglin.CourseProject`, the course project shared by Accessibility+ and Alignment+** (partner
+  programs; 1.0.0 built 2026-11-20, Alignment+ plan phase 1): the cartridge reader (moved out of Accessibility+),
+  `course-project.json` in each project folder, where projects are (Accessibility+'s folder or `Documents\Course Projects`),
+  finding projects, and the page store — one `{export}_fixed` copy of each page that either program changes, never
+  overwriting the other's change. Projects live in Documents because a Store program's AppData is private to it.
+  Packed to `C:
+uget-local` by `build\pack.ps1`; private repo `github.com/reaglin/CourseProject`. Users: Alignment+
+  (from its first build), Accessibility+ (its next release, plan P.1). **Start with its `CLAUDE.md`.**
 
 - **`LearningCore\`** — **the one learning engine for every learning program** (Ron, 2026-11-11: *"I have more
   projects"*). `Eaglin.Learning.Core` and `Eaglin.Learning.Reports.Pdf` 1.0.0 (net10.0), moved out of PLC+ (since 1.9.0, 2026-11-20, **`Eaglin.Learning.Wpf`**, the window parts every PlusBook shares: Tools, Check for a new
