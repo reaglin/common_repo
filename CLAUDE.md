@@ -252,7 +252,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   copy Accessibility+'s engine). **Phase 1 built 2026-11-20:** Learning Core 1.9.0 with the new `Eaglin.Learning.Wpf`
   (Tools, Check for a new version, Send feedback) and the shared Example splitter. **Phase 2 built the same day:** the browser
   inside (`docs/BROWSER-SPIKE.md`: offline, CDN libraries, pretend API, console, widths, a controlled clock; a check at three
-  widths 42 ms); ⚠️ Ron: read the spike, the Store identity. Private repo `github.com/reaglin/WebDevelopmentPlus`.
+  widths 42 ms); Ron agreed 2026-11-20. **Phase 3 (the check) built the same day** (`docs/CONTENT-FORMAT.md`: tests written once, run on the reference and the learner; a whole check 113 ms); ⚠️ Ron: read the content format. Identity `DeanEaglin.WebDevelopment`, Store ID 9NSV6R442B0M (https://apps.microsoft.com/detail/9NSV6R442B0M). Private repo `github.com/reaglin/WebDevelopmentPlus`.
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
