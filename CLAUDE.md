@@ -158,6 +158,14 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   `docs/release/`); **1.0.1** (Help ▸ About and every feature added 2026-10-30: the new main window, right-click Copy as HTML / paste instructions / Mark as completed with an upload icon, …) **live on the Microsoft Store 2026-10-31** (tagged `v1.0.1`; WACK PASS 23/24; its SoftwarePlus.ai page deployed the same day). **1.0.2** (Check for a new version, the form for every problem, Word/PowerPoint/PDF fixes, colour schemes, the AI check) **live on the Microsoft Store 2026-11-05** (tagged `v1.0.2`; WACK PASS 23/24; its SoftwarePlus.ai page deployed the same day; plan 7.15). Privacy policy, program page and
   help live on softwareplus.ai/accessibility/. **Start with its `CLAUDE.md`.**
 
+- **`AlignmentPlus\`** — **Alignment+** (Ron, 2026-11-20): **Accessibility+'s twin for course quality** — checks a
+  course (`.imscc`, folder, website) against a quality rubric for online courses (OSCQR by default and CVC-OEI, both
+  CC BY 4.0; the QM rubric is © and not shipped; a college's own as a rubric pack), with **alignment** (outcomes →
+  objectives → activities and assessments) at its centre, and fixes shown as diffs a person accepts. **Works on the same
+  projects as Accessibility+**: the project folder in Documents is the shared ground (Accessibility+'s project list is in
+  `%LOCALAPPDATA%`, which a second Store program cannot see); the shared code becomes `Eaglin.CourseProject`.
+  **Phase 0 (the plan) 2026-11-20**: `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: open questions 1–7, reserve the
+  name. **Start with its `CLAUDE.md`.**
 - **`PLCPlus\`** — **PLC+** (Ron, 2026-11-04; free on the Microsoft Store, name to reserve in Partner Center): learn PLC programming at home, from electrical
   and logic basics to advanced ladder logic, with **simulated machines in place of real hardware**; the self-paced half
   of a PLC course (the lab is the other half), for students, a grant's faculty training cohort, and instructors who
