@@ -238,6 +238,17 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   **Phase 5 (Module 12 in full, the pilot: seven topics and the module check) built 2026-11-19**; Store identity
   `DeanEaglin.DataStructures`, Store ID 9N6VT9FL4JWN (https://apps.microsoft.com/detail/9N6VT9FL4JWN). Ron's round 3 passed ("Module 12 is good"); **Modules 1–15 all written 2026-11-19** (phase 7: 105 topic items and 15 module checks, tested in both languages, UX review fixed); ⚠️ Ron: hand-test round 4 (`manual-test\DataStructuresPlus.exe`). **Store package 1.0.0 built 2026-11-19** (`packaging/`, ported from AppliedDatabase+; icon B, indigo, Ron's choice; `.msixupload` 190.5 MB; privacy and program page live on softwareplus.ai); WACK passed; **submitted for certification 2026-11-19** (free, direct link only, for his testers). Repo `github.com/reaglin/DataStructuresPlus` (private).
   **Start with its `CLAUDE.md`.**
+- **`WebDevelopmentPlus\`** — **WebDevelopment+** (name reserved on the Microsoft Store by Ron, 2026-11-20): the sixth
+  **PlusBook**, **chosen for its audience** (Ron, 2026-11-20: the widest technical audience gives the most feedback on the
+  PlusBook idea and the Learning Core, which he wants settled in the next few months; Hydrology+ set aside — it would be a new
+  product, not a SMADA rename). Follows **Web Systems I** (COP4813, https://reaglin.github.io/COP4813/, 14 modules, 88 topics,
+  all client-side) topic by topic. The subject's half: the site's files beside the **live page** in WebView2, device widths,
+  Inspect (DOM tree, box model, which rule won), and Check my answer in a hidden browser (DOM, computed styles per width,
+  simulated input, canvas pixels, animation on a controlled clock, accessibility from Accessibility+'s engine), with jQuery,
+  Bootstrap, Chart.js and a pretend API answering offline. WPF/.NET 10, free Store app. **Phase 0 (the plan) 2026-11-20**:
+  `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/REVIEW-LIST.md`; its phase 1 moves the shared
+  pieces (Tools, the Example tab's examples, the Help menu's shared items) into the Learning Core first. ⚠️ Ron: open
+  questions 1–9. Local repository only. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
@@ -630,6 +641,7 @@ implementation or discard. I am really looking for the option that is easiest fo
 | Tinnitus+ (`TinnitusPlus`) | `tinnitus` | plan F.1–F.3 (2026-11-20) |
 | PLC+ (`PLCPlus`) | `plcplus` | plan F.1–F.3 (2026-11-20) |
 | Python+ (`PythonPlus`) | `python` | plan F.1–F.3 (2026-11-20) |
+| WebDevelopment+ (`WebDevelopmentPlus`) | `webdevelopment` | plan F.1–F.4 from its first version (2026-11-20) |
 | LMS-2-Website | `lms-2-website` | plan F.1–F.3 (2026-11-20) |
 | Retirement+ (`EasyPeasyRetirement`) | `retirement` | plan F.1–F.3 (2026-11-20) |
 | SEAGit (`SeaGit\SEAGit`) | `seagit` | plan F.1–F.3 (2026-11-20) |
