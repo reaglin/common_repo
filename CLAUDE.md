@@ -615,7 +615,7 @@ implementation or discard. I am really looking for the option that is easiest fo
 
 | Program | Site folder | Planned |
 |---|---|---|
-| CourseBuilder+ (`PreseMaker`) | `coursebuilder` | plan F.1–F.3 (2026-11-20) |
+| CourseBuilder+ (`PreseMaker`) | `coursebuilder` | ⚠️ **built 2026-11-20** (Tools-row button + About link; privacy page committed, not deployed); ships in 2.0.5 |
 | Assessment+ (`CIATLE`) | `assessment` | plan F.1–F.3 (2026-11-20) |
 | Gamify+ (`GamifyPlus`) | `gamify` | plan F.1–F.3 (2026-11-20) |
 | Author+ (`AuthorPlus`) | `author` | plan F.1–F.3 (2026-11-20) |
