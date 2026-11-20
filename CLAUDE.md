@@ -586,6 +586,48 @@ A **new** Store program has it from its first version (Author+, LMS-2-Website an
 | BMPFast Plus (`BMPFast_2`) | `9800e38` (plan 10.45); a copy from a setup file is pointed to the Store. `tools/review_outstanding.py` not run yet (it writes SoftwarePlus and the BMPTrains spreadsheet, then needs a deploy) |
 | Author+ (`AuthorPlus`) | 2026-11-05 (plan 4.13), ships in 1.0.0 |
 
+## Every program: Help ▸ Send feedback (decided 2026-11-20) — priority for each next version
+
+Ron: *"creating a seamless path for feedback for all the programs … I would want to review the comments and mark for
+implementation or discard. I am really looking for the option that is easiest for me."* Chosen 2026-11-20:
+
+- **In each program:** **Help ▸ Send feedback…** beside Check for a new version, the same words everywhere. It opens
+  `https://softwareplus.ai/feedback/?program=<folder>&version=<x.y.z>` in the browser — no form inside the program, no
+  network code. Tooltip: "Tell us about a bug, a suggestion or anything you noticed — it goes to Dr. Ron Eaglin."
+- **On the site** (SoftwarePlus plan phase 9): one form (one text box — "bugs, suggestions or feedback, just let us know";
+  no kind to choose; an **optional** email, so a person may stay anonymous), and **one private inbox for every program**
+  where Ron marks each item **Implement** or **Discard**; where an email was left, **Copy reply** gives a reply to paste.
+  **No email to Ron** (Ron: *"I get too much email as it is"*). Not Isso: approving there publishes.
+- **Implement → the plan.** At the start of every round of work on a program, a session reads that program's items marked
+  Implement (SoftwarePlus 9.4) and adds each as a task in its `docs/DEVELOPMENT-PLAN.md`, quoting the item, date and
+  version; the inbox then shows them In plan. Never acts on Discard or New items.
+- **Privacy:** each program's privacy page gets the paragraph from SoftwarePlus 9.5 in the release that ships the item.
+- Every program's plan carries **F.1** (the menu item) and **F.2** (Implement → plan) under "Priority for the next
+  version"; it ships with that program's next Store release. A **new** program has it from its first version. The Android
+  apps (no plans yet) add it on their next update, on the About/Settings page.
+
+| Program | Site folder | Planned |
+|---|---|---|
+| CourseBuilder+ (`PreseMaker`) | `coursebuilder` | plan F.1, F.2 (2026-11-20) |
+| Assessment+ (`CIATLE`) | `assessment` | plan F.1, F.2 (2026-11-20) |
+| Gamify+ (`GamifyPlus`) | `gamify` | plan F.1, F.2 (2026-11-20) |
+| Author+ (`AuthorPlus`) | `author` | plan F.1, F.2 (2026-11-20) |
+| Statistics+ (`Statistle`) | `statistle` | plan F.1, F.2 (2026-11-20) |
+| SMADA (`SMADA10`) | `smada` | plan F.1, F.2 (2026-11-20) |
+| TrafficLab+ (`TrafficLabPlus`) | `trafficlab` | plan F.1, F.2 (2026-11-20) |
+| VideoStories+ (`VideoStoriesPlus`) | `videostories` | plan F.1, F.2 (2026-11-20) |
+| Accessibility+ (`AccessibilityPlus`) | `accessibility` | plan F.1, F.2 (2026-11-20) |
+| BMPFast Plus (`BMPFast_2`) | `bmpfast` | plan F.1, F.2 (2026-11-20) |
+| AppliedDatabase+ (`AppliedDatabasePlus`) | `applieddatabase` | plan F.1, F.2 (2026-11-20) |
+| DataStructures+ (`DataStructuresPlus`) | `datastructures` | plan F.1, F.2 (2026-11-20) |
+| Tinnitus+ (`TinnitusPlus`) | `tinnitus` | plan F.1, F.2 (2026-11-20) |
+| PLC+ (`PLCPlus`) | `plcplus` | plan F.1, F.2 (2026-11-20) |
+| Python+ (`PythonPlus`) | `python` | plan F.1, F.2 (2026-11-20) |
+| LMS-2-Website | `lms-2-website` | plan F.1, F.2 (2026-11-20) |
+| Retirement+ (`EasyPeasyRetirement`) | `retirement` | plan F.1, F.2 (2026-11-20) |
+| SEAGit (`SeaGit\SEAGit`) | `seagit` | plan F.1, F.2 (2026-11-20) |
+| EasyPeasyGPX, NaViViewer, PunchMonkey, Any6, AppOpenerAndTimer | `projects/<app>` | on next update (no plan file yet) |
+
 ## Every Store program: the usability checklist (decided 2026-10-31)
 
 Ron: *"The most important items for this round is to ensure that every application has a high level of usability …
