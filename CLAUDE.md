@@ -247,8 +247,13 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   simulated input, canvas pixels, animation on a controlled clock, accessibility from Accessibility+'s engine), with jQuery,
   Bootstrap, Chart.js and a pretend API answering offline. WPF/.NET 10, free Store app. **Phase 0 (the plan) 2026-11-20**:
   `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`, `docs/REVIEW-LIST.md`; its phase 1 moves the shared
-  pieces (Tools, the Example tab's examples, the Help menu's shared items) into the Learning Core first. ⚠️ Ron: open
-  questions 1–9. Local repository only. **Start with its `CLAUDE.md`.**
+  pieces (Tools, the Example tab's examples, the Help menu's shared items) into the Learning Core first. Ron answered the
+  questions 2026-11-20 (Module 4 the pilot, WebView2, students hand in their GitHub Pages URL, 1.0 public with Modules 1–6,
+  copy Accessibility+'s engine). **Phase 1 built 2026-11-20:** Learning Core 1.9.0 with the new `Eaglin.Learning.Wpf`
+  (Tools, Check for a new version, Send feedback) and the shared Example splitter. **Phase 2 built the same day:** the browser
+  inside (`docs/BROWSER-SPIKE.md`: offline, CDN libraries, pretend API, console, widths, a controlled clock; a check at three
+  widths 42 ms); ⚠️ Ron: read the spike, the Store identity. Private repo `github.com/reaglin/WebDevelopmentPlus`.
+  **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
@@ -344,7 +349,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   `docs/PLAN.md`.**
 
 - **`LearningCore\`** — **the one learning engine for every learning program** (Ron, 2026-11-11: *"I have more
-  projects"*). `Eaglin.Learning.Core` and `Eaglin.Learning.Reports.Pdf` 1.0.0 (net10.0), moved out of PLC+ (and since 1.7.0, 2026-11-18,
+  projects"*). `Eaglin.Learning.Core` and `Eaglin.Learning.Reports.Pdf` 1.0.0 (net10.0), moved out of PLC+ (since 1.9.0, 2026-11-20, **`Eaglin.Learning.Wpf`**, the window parts every PlusBook shares: Tools, Check for a new
+  version, Send feedback; and since 1.7.0, 2026-11-18,
   **`Eaglin.Learning.Python`**, the Python engine moved out of Python+ for DataStructures+): content
   packages (Markdown items, Learn / Example / Exercise / Reference, quizzes, module checks), learners with PIN-locked
   progress files, mastery, the dashboard, signed reports. Subject-neutral: a program plugs in through `IChallengeRunner`
