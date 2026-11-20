@@ -598,6 +598,9 @@ implementation or discard. I am really looking for the option that is easiest fo
   no kind to choose; an **optional** email, so a person may stay anonymous), and **one private inbox for every program**
   where Ron marks each item **Implement** or **Discard**; where an email was left, **Copy reply** gives a reply to paste.
   **No email to Ron** (Ron: *"I get too much email as it is"*). Not Isso: approving there publishes.
+  **Site side built 2026-11-20** (SoftwarePlus `761a1a3`: `site/feedback/`, `server/feedback/`); ⚠️ Ron: the server setup
+  (`SoftwarePlus\docs\FEEDBACK-SETUP.md`, about 15 minutes), then `.\deploy.ps1 -Only feedback`. Sessions read the
+  Implement list with the password in `%LOCALAPPDATA%\SoftwarePluseedback-credentials.txt` (its part 6).
 - **Implement → the plan.** At the start of every round of work on a program, a session reads that program's items marked
   Implement (SoftwarePlus 9.4) and adds each as a task in its `docs/DEVELOPMENT-PLAN.md`, quoting the item, date and
   version; the inbox then shows them In plan. Never acts on Discard or New items.
