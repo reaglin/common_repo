@@ -164,8 +164,11 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   objectives → activities and assessments) at its centre, and fixes shown as diffs a person accepts. **Works on the same
   projects as Accessibility+**: the project folder in Documents is the shared ground (Accessibility+'s project list is in
   `%LOCALAPPDATA%`, which a second Store program cannot see); the shared code becomes `Eaglin.CourseProject`.
-  **Phase 0 (the plan) 2026-11-20**: `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: open questions 1–7, reserve the
-  name. **Start with its `CLAUDE.md`.**
+  **Phase 0 (the plan) 2026-11-20**: `docs/PLAN.md`, `docs/DEVELOPMENT-PLAN.md`. Ron answered the same day: **free**; not one
+  rubric but **Alignment+'s own standards from what the public rubrics share**; projects from Accessibility+'s folder or
+  `Documents\Course Projects` (a choice); one `.a11yproject` file; **EGN3443 the pilot**; Accessibility+ changes too and the two
+  are listed as **partner programs** (Accessibility+ plan P.1–P.5). Private repo `github.com/reaglin/AlignmentPlus`.
+  ⚠️ Ron: reserve the name. **Start with its `CLAUDE.md`.**
 - **`PLCPlus\`** — **PLC+** (Ron, 2026-11-04; free on the Microsoft Store, name to reserve in Partner Center): learn PLC programming at home, from electrical
   and logic basics to advanced ladder logic, with **simulated machines in place of real hardware**; the self-paced half
   of a PLC course (the lab is the other half), for students, a grant's faculty training cohort, and instructors who
