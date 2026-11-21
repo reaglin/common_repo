@@ -477,6 +477,10 @@ submission — Superseded, In certification, Live — no changes, Live — chang
 (and marks the version before it Superseded), in the same commit as the release work. A new product gets its rows
 from its first package. When a session finishes work on a product with a live version, it refreshes that row's
 Status (commits since the submission). Microsoft Store and Google Play alike.
+**A session that adds or changes a row there also updates `SoftwarePlus\site\apps.json`** (a new program on the Store, a
+rename, a new icon, a new one-line summary) and deploys it (`.\deploy.ps1 -Only apps.json`): it is the list of every Store
+program that floridacourserepo.com's home-page panel shows at random (CIATLE-REPO plan Phase 10, 2026-11-21). Icons and
+pages must be on `https://softwareplus.ai`, Store links on `https://apps.microsoft.com`, or the panel leaves the program out.
 
 ## Every program: the "+" names (decided 2026-09-26)
 
