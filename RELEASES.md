@@ -23,7 +23,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | | 2.0.1 | — | 2026-10-05 | Superseded |
 | | 2.0.2 | 2026-10-14 | ~2026-10-15 | Superseded |
 | | 2.0.3 | 2026-11-16 | 2026-11-18 | Superseded |
-| | 2.0.4 | 2026-11-20 | | In certification |
+| | 2.0.4 | 2026-11-20 | 2026-11-21 | Live — changed since (5 commits, to 2026-11-20: Send feedback for 2.0.5) |
 | **Assessment+** (`CIATLE`) | 1.4.0 (CIATLE-FCE) | 2026-09-21 | — | Superseded |
 | | 1.5.0 | 2026-09-22 | — | Superseded |
 | | 1.6.0 | 2026-09-23 | — | Superseded |
