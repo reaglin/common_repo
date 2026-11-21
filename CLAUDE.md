@@ -175,8 +175,10 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   2026-11-20**: the shared package `Eaglin.CourseProject` (above). **Phases 2–4 built the same day**: the course model and
   the standards as data; 38 rules under the eight areas with each suggestion's states (Suggested, Set aside, …); the
   objectives found in the pages (CLO numbers too), each verb's Bloom level, the alignment map the instructor confirms; and
-  the **EGN3443 pilot window** (projects from both folders, Suggestions, Alignment map); 85 tests with Ron's 9 exports.
-  ⚠️ Ron: hand-test 1 (`manual-test\AlignmentPlus.exe`). **Start with its `CLAUDE.md`.**
+  the **EGN3443 pilot window** (projects from both folders, Suggestions, Alignment map). **Phase 5 (the window) built the
+  same day**: the course tree with counts, Area and Show filters, "Made in the LMS" apart from "Set aside", the report (HTML
+  that passes Accessibility+'s checker, and CSV), two UX reviews fixed; 92 tests. ⚠️ Ron: hand-tests 1 and 2
+  (`manual-test\AlignmentPlus.exe`). **Start with its `CLAUDE.md`.**
 - **`PLCPlus\`** — **PLC+** (Ron, 2026-11-04; free on the Microsoft Store, name to reserve in Partner Center): learn PLC programming at home, from electrical
   and logic basics to advanced ladder logic, with **simulated machines in place of real hardware**; the self-paced half
   of a PLC course (the lab is the other half), for students, a grant's faculty training cohort, and instructors who
