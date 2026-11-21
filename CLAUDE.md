@@ -177,8 +177,10 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   objectives found in the pages (CLO numbers too), each verb's Bloom level, the alignment map the instructor confirms; and
   the **EGN3443 pilot window** (projects from both folders, Suggestions, Alignment map). **Phase 5 (the window) built the
   same day**: the course tree with counts, Area and Show filters, "Made in the LMS" apart from "Set aside", the report (HTML
-  that passes Accessibility+'s checker, and CSV), two UX reviews fixed; 92 tests. ⚠️ Ron: hand-tests 1 and 2
-  (`manual-test\AlignmentPlus.exe`). **Start with its `CLAUDE.md`.**
+  that passes Accessibility+'s checker, and CSV), two UX reviews fixed; 92 tests. **Phase 6 (the changes the instructor asks for: Make this change, the Document tab, changes on
+  every document of a type, Upload status, editing any document, going back to the original, places to fill in in orange) built
+  2026-11-21**; Ron tested every item 2026-11-21 ("All items tested"). **Store package 1.0.0 prepared 2026-11-21** (`packaging/`,
+  `.msixupload` 69.3 MB; softwareplus.ai/alignment written, not deployed); ⚠️ Ron: the icon (A/B/C), WACK, the deploy, submit. **Start with its `CLAUDE.md`.**
 - **`PLCPlus\`** — **PLC+** (Ron, 2026-11-04; free on the Microsoft Store, name to reserve in Partner Center): learn PLC programming at home, from electrical
   and logic basics to advanced ladder logic, with **simulated machines in place of real hardware**; the self-paced half
   of a PLC course (the lab is the other half), for students, a grant's faculty training cohort, and instructors who
@@ -427,6 +429,7 @@ must occur with every version that we release of all the programs that use the A
 | AppliedDatabase+ (`AppliedDatabasePlus`) | **1.9.0** (2026-11-16, from its first build: Ask the AI and Google voices, optional) | `manual-test\AppliedDatabasePlus.exe` |
 | PLC+ (`PLCPlus`) | **1.9.0** (2026-11-15: Ask the AI on the My notes tab, optional; merged to `main` 2026-11-17) | `manual-test\PLCPlus.exe` |
 | Python+ (`PythonPlus`) | **1.9.0** planned (Ask the AI and Module 7's AI exercises, optional) | `manual-test\PythonPlus.exe` |
+| Alignment+ (`AlignmentPlus`) | **1.9.0** (from its first build, 2026-11-20: Suggest with AI, optional; checked latest for 1.0.0, 2026-11-21) | `manual-test\AlignmentPlus.exe` |
 
 Update the "pinned" column when a program moves.
 
