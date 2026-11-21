@@ -44,7 +44,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | **Accessibility+** (`AccessibilityPlus`) | 1.0.0 | 2026-10-29 | 2026-10-30 | Superseded |
 | | 1.0.1 | — | 2026-10-31 | Superseded |
 | | 1.0.2 | — | 2026-11-05 | Live — changed since (3 commits, 2026-11-05) |
-| **Alignment+** (`AlignmentPlus`) | 1.0.0 | — | — | Prepared, not submitted (2026-11-21: `.msixupload` 69.3 MB; waits for the icon choice, WACK, the privacy page deploy) |
+| **Alignment+** (`AlignmentPlus`) | 1.0.0 | 2026-11-21 | — | In certification (WACK run by Ron; submitted 2026-11-21) |
 | **BMPFast Plus** (`BMPFast_2`) | 2.0.3 | 2026-10-29 | — | Superseded |
 | | 2.0.4 | 2026-11-02 | by 2026-11-12 | Superseded |
 | | 2.0.5 | 2026-11-12 | 2026-11-20 | Superseded |
