@@ -381,7 +381,7 @@ uget-local` by `build\pack.ps1`; private repo `github.com/reaglin/CourseProject`
   (from its first build), Accessibility+ (its next release, plan P.1). **The course family** (Ron, 2026-11-22): CourseBuilder+, Accessibility+ and
   Alignment+ working together, each keeping its own job — CourseBuilder+ makes a project from its course (*Improve this course*),
   the partners open it, the changes come back into CourseBuilder+; one plan in `CourseProject\docs\DEVELOPMENT-PLAN.md`
-  (phase 0 ⚠️, six questions for Ron), with a phase "The course family" in each program's plan. **Start with its `CLAUDE.md`.**
+  (phase 0 ✅: Ron answered the six questions 2026-11-22 — changes back into CourseBuilder+, its outcomes used and returned, its light checks suggest the partners, the same projects-folder question, Accessibility+ and Alignment+ first, then CourseBuilder+), with a phase "The course family" in each program's plan. **Start with its `CLAUDE.md`.**
 
 - **`LearningCore\`** — **the one learning engine for every learning program** (Ron, 2026-11-11: *"I have more
   projects"*). `Eaglin.Learning.Core` and `Eaglin.Learning.Reports.Pdf` 1.0.0 (net10.0), moved out of PLC+ (1.10.1, 2026-11-20: written pieces in reports; since 1.9.0, 2026-11-20, **`Eaglin.Learning.Wpf`**, the window parts every PlusBook shares: Tools, Check for a new
