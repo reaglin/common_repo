@@ -180,7 +180,7 @@ Non-Play repos here: `PunchMonkeyServer` (Blazor server + privacy-policy pages f
   that passes Accessibility+'s checker, and CSV), two UX reviews fixed; 92 tests. **Phase 6 (the changes the instructor asks for: Make this change, the Document tab, changes on
   every document of a type, Upload status, editing any document, going back to the original, places to fill in in orange) built
   2026-11-21**; Ron tested every item 2026-11-21 ("All items tested"). **Store package 1.0.0 prepared 2026-11-21** (`packaging/`,
-  `.msixupload` 69.3 MB; softwareplus.ai/alignment written, not deployed); icon A; softwareplus.ai/alignment live; **submitted for certification 2026-11-21**. **Start with its `CLAUDE.md`.**
+  `.msixupload` 69.3 MB; softwareplus.ai/alignment written, not deployed); icon A; softwareplus.ai/alignment live; **submitted for certification 2026-11-21**; **1.0.0 live on the Microsoft Store 2026-11-22** (tagged `v1.0.0`; its softwareplus.ai page and home tile link to the Store). **Start with its `CLAUDE.md`.**
 - **`PLCPlus\`** — **PLC+** (Ron, 2026-11-04; free on the Microsoft Store, name to reserve in Partner Center): learn PLC programming at home, from electrical
   and logic basics to advanced ladder logic, with **simulated machines in place of real hardware**; the self-paced half
   of a PLC course (the lab is the other half), for students, a grant's faculty training cohort, and instructors who
