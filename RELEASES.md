@@ -55,7 +55,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | **PLC+** (`PLCPlus`) | 1.0.0 | — | by 2026-11-17 (hidden) | Live — changed since (2 commits, to 2026-11-18) |
 | | 1.0.1 | | | Prepared, not submitted |
 | **Tinnitus+** (`TinnitusPlus`) | 1.0.0 | | | Prepared, not submitted |
-| **Python+** (`PythonPlus`) | 1.0.0 | | | In development (Store phase 12) |
+| **Python+** (`PythonPlus`) | 1.0.0 | | | Prepared, not submitted (2026-11-22: `.msixupload` 188.5 MB, icon B, public; waits for Ron's hand-test, WACK and submission) |
 | **LMS-2-Website** | 1.0.0 | | | In development (phase 5 is the Store) |
 | **Retirement+** (`EasyPeasyRetirement`) | 1.0.0 | | | In development |
 
