@@ -378,7 +378,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   overwriting the other's change. Projects live in Documents because a Store program's AppData is private to it.
   Packed to `C:
 uget-local` by `build\pack.ps1`; private repo `github.com/reaglin/CourseProject`. Users: Alignment+
-  (from its first build), Accessibility+ (its next release, plan P.1). **Start with its `CLAUDE.md`.**
+  (from its first build), Accessibility+ (its next release, plan P.1). **The course family** (Ron, 2026-11-22): CourseBuilder+, Accessibility+ and
+  Alignment+ working together, each keeping its own job — CourseBuilder+ makes a project from its course (*Improve this course*),
+  the partners open it, the changes come back into CourseBuilder+; one plan in `CourseProject\docs\DEVELOPMENT-PLAN.md`
+  (phase 0 ⚠️, six questions for Ron), with a phase "The course family" in each program's plan. **Start with its `CLAUDE.md`.**
 
 - **`LearningCore\`** — **the one learning engine for every learning program** (Ron, 2026-11-11: *"I have more
   projects"*). `Eaglin.Learning.Core` and `Eaglin.Learning.Reports.Pdf` 1.0.0 (net10.0), moved out of PLC+ (1.10.1, 2026-11-20: written pieces in reports; since 1.9.0, 2026-11-20, **`Eaglin.Learning.Wpf`**, the window parts every PlusBook shares: Tools, Check for a new
