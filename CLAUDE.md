@@ -279,7 +279,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   **Part II (Ron, 2026-11-22): Web Systems II (COP4834,
   https://reaglin.github.io/COP4834/)** — the basics of client-side programming and its environments (the book's own Modules
   15–16), then managing and executing a web project (course Modules 1–15 as book Modules 17–31); mapped 2026-11-22 (plan
-  phase 12); ⚠️ Ron: questions 11–15.
+  phase 12); Ron answered the questions the same day (earned value from labour only). **All of Part II built 2026-11-22**: a pretend
+  REST server inside the book, CRUD and learner-written-tests exercises, React and Vue offline, the **Project tool** (stories, PERT,
+  budget, sprints, burndown, SPI/CPI, risks), Modules 15–31 written and every exercise passing in the hidden browser; reviews
+  fixed; ⚠️ Ron: hand-test round 7.
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
