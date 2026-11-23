@@ -286,7 +286,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   Server Side** (no course codes), Module 15 is Client Side Programming Review. Next version (plan phase 13): a **Web Technologies**
   section and the Project tool grown from testers' feedback. **Part III · Web Technologies built 2026-11-22**
   (Ron): stand-alone Modules 32 jQuery, 33 Bootstrap, 34 React, 35 Vue, 36 JSON, 37 Node.js, a page per part saying more
-  technologies will be added based on demand; review fixed; round 8 passed (Ron, 2026-11-23). **Parts that fold** (2026-11-23, plan 13.3): each part holds its modules in the path and opens on its own, Show the parts only folds them all; 76 tests; ⚠️ Ron: hand-test round 9.
+  technologies will be added based on demand; review fixed; round 8 passed (Ron, 2026-11-23). **Parts that fold** (2026-11-23, plan 13.3): each part holds its modules in the path and opens on its own, Show the parts only folds them all; round 9 passed (Ron, 2026-11-23). **PlusBook Tools** (plan 13.4): My progress, reports, notes, glossary and tools in one folding row first in the path, the path's totals and key at the bottom; 76 tests; ⚠️ Ron: hand-test round 10.
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
