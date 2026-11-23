@@ -282,7 +282,9 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   phase 12); Ron answered the questions the same day (earned value from labour only). **All of Part II built 2026-11-22**: a pretend
   REST server inside the book, CRUD and learner-written-tests exercises, React and Vue offline, the **Project tool** (stories, PERT,
   budget, sprints, burndown, SPI/CPI, risks), Modules 15–31 written and every exercise passing in the hidden browser; reviews
-  fixed; ⚠️ Ron: hand-test round 7.
+  fixed; **round 7 passed (Ron, 2026-11-22)**. In the book the parts are **Web Systems I – Client Side** and **Web Systems II –
+  Server Side** (no course codes), Module 15 is Client Side Programming Review. Next version (plan phase 13): a **Web Technologies**
+  section (learning per technology: jQuery, Bootstrap, React, …) and the Project tool grown from testers' feedback.
   **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
