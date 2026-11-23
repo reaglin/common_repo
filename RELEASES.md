@@ -59,7 +59,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | | 1.0.1 | | | Prepared, not submitted |
 | **Tinnitus+** (`TinnitusPlus`) | 1.0.0 | | | Prepared, not submitted |
 | **PythonProgramming+** (`PythonPlus`), a new product, 9NNW39ZSGGGN (reserved 2026-11-23 at the PSF's request; plan phase 13) | 1.0.0 | | | Prepared, not submitted (renamed build; Ron's hand-test round 5) |
-| Python+ (`PythonPlus`), 9PGZ83LZ3HD1: replaced by PythonProgramming+ | 1.0.0 | 2026-11-22 | | In certification; to withdraw, then release the name (plan 13.1, 13.15) |
+| Python+ (`PythonPlus`), 9PGZ83LZ3HD1: replaced by PythonProgramming+ | 1.0.0 | 2026-11-22 | | Withdrawn from certification 2026-11-23 (never published); the product to delete (plan 13.15) |
 | **LMS-2-Website** | 1.0.0 | | | In development (phase 5 is the Store) |
 | **Retirement+** (`EasyPeasyRetirement`) | 1.0.0 | | | In development |
 
