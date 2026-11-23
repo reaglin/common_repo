@@ -58,11 +58,11 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | **PLC+** (`PLCPlus`) | 1.0.0 | — | by 2026-11-17 (hidden) | Live — changed since (2 commits, to 2026-11-18) |
 | | 1.0.1 | | | Prepared, not submitted |
 | **Tinnitus+** (`TinnitusPlus`) | 1.0.0 | | | Prepared, not submitted |
-| **PythonProgramming+** (`PythonPlus`), a new product, 9NNW39ZSGGGN (reserved 2026-11-23 at the PSF's request; plan phase 13) | 1.0.0 | | | Prepared, not submitted (package built 2026-11-23: the new name, three parts, the PlusBooks' window; WACK and submit by Ron) |
+| **PythonProgramming+** (`PythonPlus`), a new product, 9NNW39ZSGGGN (reserved 2026-11-23 at the PSF's request; plan phase 13) | 1.0.0 |  2026-11-23 | | In certification (public, discoverable, free) |
 | Python+ (`PythonPlus`), 9PGZ83LZ3HD1: replaced by PythonProgramming+ | 1.0.0 | 2026-11-22 | | Withdrawn from certification 2026-11-23 (never published); the product deleted by Ron 2026-11-23 |
 | **LMS-2-Website** | 1.0.0 | | | In development (phase 5 is the Store) |
 | **Retirement+** (`EasyPeasyRetirement`) | 1.0.0 | | | In development |
-| **WebDevelopment+** (`WebDevelopmentPlus`), 9NSV6R442B0M | 1.0.0 | | | Prepared, not submitted (2026-11-23: the whole book, public and discoverable; `.msixupload` 84 MB; Ron: hand-test round 13, WACK, submit) |
+| **WebDevelopment+** (`WebDevelopmentPlus`), 9NSV6R442B0M | 1.0.0 |  2026-11-23 | | In certification (public, discoverable, free; the whole book) |
 
 ## Google Play
 
