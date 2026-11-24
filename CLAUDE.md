@@ -218,6 +218,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   the privacy policy and the instructors' testing guide; ⚠️ Ron: the Package/Identity/Name and Store ID from Partner Center, WACK, then submit
   (hidden, direct link). ⚠️ Ron: hand-tests 4–10, the outcomes, the instructors' review of modules 1–5; send reviewers the
   review address ending `?user=yes`. Question 15 waits for the faculty's use cases (Ron).
+  **1.1.0 live on the Microsoft Store 2026-11-24** (submitted 2026-11-23; the PlusBooks' window, Send feedback, 1.0.1's features; tagged `v1.1.0`).
   **Start with its `CLAUDE.md`.**
 - **`AppliedDatabasePlus\`** — **AppliedDatabase+** (name reserved on the Microsoft Store by Ron; started 2026-11-16): the third
   **PlusBook**, after PLC+ and Statistics+. Follows **Applied Database I** (COP4708, https://reaglin.github.io/COP4708/, 16 modules

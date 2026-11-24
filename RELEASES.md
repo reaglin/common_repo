@@ -58,9 +58,9 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | | 1.1.0 | — | 2026-11-19 | Live — changed since (Part II, the window, Send feedback) |
 | | 1.2.0 | 2026-11-24 | | In certification (Part II, the Python and Document labs) |
 | **DataStructures+** (`DataStructuresPlus`) | 1.0.0 | 2026-11-19 | | In certification (direct link only) |
-| **PLC+** (`PLCPlus`) | 1.0.0 | — | by 2026-11-17 (hidden; public since 2026-11-18) | Live — superseded on approval of 1.1.0 |
+| **PLC+** (`PLCPlus`) | 1.0.0 | — | by 2026-11-17 (hidden; public since 2026-11-18) | Superseded |
 | | 1.0.1 | | | ❌ never submitted; superseded by 1.1.0 |
-| | 1.1.0 | 2026-11-23 | | In certification (the PlusBooks' window, Send feedback, 1.0.1's features; WACK PASS 23/24) |
+| | 1.1.0 | 2026-11-23 | 2026-11-24 | Live — no changes (the PlusBooks' window, Send feedback, 1.0.1's features; WACK PASS 23/24) |
 | **Tinnitus+** (`TinnitusPlus`) | 1.0.0 | | | Prepared, not submitted |
 | **PythonProgramming+** (`PythonPlus`), a new product, 9NNW39ZSGGGN (reserved 2026-11-23 at the PSF's request; plan phase 13) | 1.0.0 |  2026-11-23 | | In certification (public, discoverable, free) |
 | Python+ (`PythonPlus`), 9PGZ83LZ3HD1: replaced by PythonProgramming+ | 1.0.0 | 2026-11-22 | | Withdrawn from certification 2026-11-23 (never published); the product deleted by Ron 2026-11-23 |
