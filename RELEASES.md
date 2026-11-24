@@ -62,7 +62,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | | 1.0.1 | | | ❌ never submitted; superseded by 1.1.0 |
 | | 1.1.0 | 2026-11-23 | 2026-11-24 | Live — no changes (the PlusBooks' window, Send feedback, 1.0.1's features; WACK PASS 23/24) |
 | **Tinnitus+** (`TinnitusPlus`) | 1.0.0 | | | Prepared, not submitted |
-| **PythonProgramming+** (`PythonPlus`), a new product, 9NNW39ZSGGGN (reserved 2026-11-23 at the PSF's request; plan phase 13) | 1.0.0 |  2026-11-23 | | In certification (public, discoverable, free) |
+| **PythonProgramming+** (`PythonPlus`), a new product, 9NNW39ZSGGGN (reserved 2026-11-23 at the PSF's request; plan phase 13) | 1.0.0 |  2026-11-23 | 2026-11-24 | Live — no changes (tagged `v1.0.0`) |
 | Python+ (`PythonPlus`), 9PGZ83LZ3HD1: replaced by PythonProgramming+ | 1.0.0 | 2026-11-22 | | Withdrawn from certification 2026-11-23 (never published); the product deleted by Ron 2026-11-23 |
 | **LMS-2-Website** | 1.0.0 | | | In development (phase 5 is the Store) |
 | **Retirement+** (`EasyPeasyRetirement`) | 1.0.0 | | | In development |
