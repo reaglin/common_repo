@@ -303,7 +303,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   `github.com/reaglin/CollegeAlgebraPlus`. **Phase 2 (the engine trial) built the same day**: its own checker marks answers
   (90/90 on equivalence, 0.05 ms), SymPy computes reference answers when the content is built (56/56 on solving; not shipped),
   AngouriMath decides irreducible factors; 159 tests (`docs/ENGINE-SPIKE.md`); Ron agreed the design 2026-11-24. **Phase 1 (the math display) built the same day**: XAML-Math in the
-  PlusBooks' page view, spoken math, worked steps lined up at =; 193 tests; ⚠️ Ron: try `manual-test\math-display-trial`. Store identity
+  PlusBooks' page view, spoken math, worked steps lined up at =; 193 tests; ⚠️ Ron: try `manual-test\trials`. **Phase 3 (the check) built
+  the same day**: templates and seeds with SymPy computing every answer at build time, Check my answer with 18 forms, Show my work
+  line by line, 43 recognised mistakes, the content check (16 templates, 2,635 problems, clean); 355 tests; ⚠️ Ron: the checker
+  trial (`manual-test\trials\DisplaySpike.exe` → Try the checker). Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
