@@ -56,7 +56,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | | 2.0.6 | 2026-11-20 | | In certification |
 | **AppliedDatabase+** (`AppliedDatabasePlus`) | 1.0.0 | — | 2026-11-19 | Superseded |
 | | 1.1.0 | — | 2026-11-19 | Live — changed since (Part II, the window, Send feedback) |
-| | 1.2.0 | | | Prepared, not submitted (2026-11-24: Part II, the Python and Document labs) |
+| | 1.2.0 | 2026-11-24 | | In certification (Part II, the Python and Document labs) |
 | **DataStructures+** (`DataStructuresPlus`) | 1.0.0 | 2026-11-19 | | In certification (direct link only) |
 | **PLC+** (`PLCPlus`) | 1.0.0 | — | by 2026-11-17 (hidden; public since 2026-11-18) | Live — superseded on approval of 1.1.0 |
 | | 1.0.1 | | | ❌ never submitted; superseded by 1.1.0 |
