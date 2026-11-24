@@ -302,8 +302,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   (the plan) 2026-11-24**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`; private repo
   `github.com/reaglin/CollegeAlgebraPlus`. **Phase 2 (the engine trial) built the same day**: its own checker marks answers
   (90/90 on equivalence, 0.05 ms), SymPy computes reference answers when the content is built (56/56 on solving; not shipped),
-  AngouriMath decides irreducible factors; 159 tests (`docs/ENGINE-SPIKE.md`); Ron agreed the design 2026-11-24. ⚠️ Ron: the Store
-  identity. **Start with its `CLAUDE.md`.**
+  AngouriMath decides irreducible factors; 159 tests (`docs/ENGINE-SPIKE.md`); Ron agreed the design 2026-11-24. Store identity
+  `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
