@@ -35,7 +35,9 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | **Author+** (`AuthorPlus`) | 1.0.0 | 2026-11-05 | 2026-11-06 | Superseded |
 | | 1.1.0 | — | 2026-11-06 | Superseded |
 | | 1.2.0 | — | 2026-11-09 | Live — no changes |
-| **Statistle → Statistics+** (`Statistle`) | 1.x | — | — | Live — changed since (74 commits since 2026-11-01, to 2026-11-17); ships as Statistics+ 2.0.0 |
+| **Statistle → Statistics+** (`Statistle`) | 1.x | — | — | Live — changed since (to 2026-11-23) |
+| | 2.0.0 | | | ❌ uploaded to draft Submission 2 (2026-11-12), never submitted; superseded by 2.1.0 |
+| | 2.1.0 | | | Prepared, not submitted (2026-11-23: the first Statistics+ release — the PlusBooks' window, Parts I and III written, Part II in development, Send feedback; `Statistle_2.1.0.0_x64_bundle.msixupload`; WACK for Ron) |
 | **SEAGit** (`SeaGit\SEAGit`) | 1.0.5 | — | — | Live — changed since (to 2026-10-31) |
 | | 1.0.6 | | | Prepared, not submitted |
 | **SMADA** (`SMADA10`) | 1.0.0 | 2026-09-09 | 2026-10-13 | Superseded |
