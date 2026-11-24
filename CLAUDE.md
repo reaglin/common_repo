@@ -290,6 +290,17 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   (Ron): stand-alone Modules 32 jQuery, 33 Bootstrap, 34 React, 35 Vue, 36 JSON, 37 Node.js, a page per part saying more
   technologies will be added based on demand; review fixed; round 8 passed (Ron, 2026-11-23). **Parts that fold** (2026-11-23, plan 13.3): each part holds its modules in the path and opens on its own, Show the parts only folds them all; round 9 passed (Ron, 2026-11-23). **PlusBook Tools** (plan 13.4): My progress, reports, notes, glossary and tools in one folding row first in the path, the path's totals and key at the bottom, folding down to its title (plan 13.5); help folds to the right (13.6); 76 tests; round 10 passed (Ron, 2026-11-23: "It all works"). **Each part of the window its own colour** (plan 13.9, W.5 in every PlusBook): PlusBook Learning (the path) light green, help light blue, the start screen in coloured sections with About PlusBooks; rounds 11–12 passed (Ron, 2026-11-23: "This is good"). **Store package 1.0.0 prepared 2026-11-23** (the whole book, Modules 0–37; public and discoverable; icon A, `< + >` with an amber "+" on teal; `packaging/` from DataStructures+, `.msixupload` 84 MB; pre-release UX sweep fixed, 81 tests; softwareplus.ai/webdevelopment with help and privacy); ⚠️ Ron: hand-test round 13, WACK, submit (`docs/release/STORE-SUBMISSION.md`). **These window changes (parts that fold, PlusBook Tools, the path's block folding down, help folding right) are a **PlusBook core requirement** and go to every PlusBook with its next version (Ron, 2026-11-23; Learning Core `docs/PLUSBOOK-FEATURES.md`; WebDevelopment+ plan 13.7; section "The window's room", W.1–W.4, in each book's plan and Learning Core's).
   **Start with its `CLAUDE.md`.**
+- **`CollegeAlgebraPlus\`** — **CollegeAlgebra+** (name reserved on the Microsoft Store by Ron, 2026-11-24; free): the seventh
+  **PlusBook**, and the first on a subject Ron knows but does not teach — from the arithmetic algebra is built on to the end of
+  Florida's **College Algebra (MAC1105)**. No course site to follow: the destination is the MAC1105 statewide description and
+  Miami Dade's MAC1105 competencies. **Two Parts** (Ron): **I · Algebra Foundations** (Modules 1–13) and **II · College
+  Algebra** (Modules 14–27); **Part II is built first** (1.0), Part I follows; matrices left out for now. The subject's half:
+  typing math shown typeset, a checker that understands algebra (values and forms), **Show my work** (each line checked, the
+  recognised mistake named), a grapher, and generated problems (New problem, mastery after a run). **Original content only**:
+  the OpenStax algebra books are now CC BY-NC-SA with a no-generative-AI clause, so they are linked as free reading, never
+  copied or given to the AI. Reviewers' feedback (Ron is finding several) goes into the next cycle as it arrives. **Phase 0
+  (the plan) 2026-11-24**: `docs/PLAN.md`, `docs/LEARNING-PATH.md`, `docs/DEVELOPMENT-PLAN.md`; private repo
+  `github.com/reaglin/CollegeAlgebraPlus`. ⚠️ Ron: the Store identity. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
