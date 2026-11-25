@@ -348,7 +348,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   and checks formulas, equations (exact balancing, net ionic, oxidation numbers), answers with units and significant figures, and
   Show my work (dimensional analysis, ICE tables, Hess's law; 48 recognised mistakes); instructor-marked check sets all agreed
   (223 formulas, 634 equations, 559 quantities, 35 net ionic); 12 templates, 1,852 problems with SymPy's answers checked by the
-  engine; 389 tests; UX review fixed; ⚠️ Ron: trial 1 (`manual-test	rials\ChemTrial.exe`). **Start with its `CLAUDE.md`.**
+  engine; 389 tests; UX review fixed; ⚠️ Ron: trial 1 (`manual-test\trials\ChemTrial.exe`). **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
