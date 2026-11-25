@@ -479,7 +479,7 @@ uget-local` (the partner list and its words, links that open a project in a part
   first build). Repo `github.com/reaglin/LearningCore`
   (private, created 2026-11-11). **The software textbook: PlusBooks** (Ron, 2026-11-15; the name chosen the same day): these programs are a new kind of textbook —
   the edition, the instructor's course pack (by file or URL) and the learner's My Notes as layers; instructor tools in the
-  app; the core always free, content purchased or pay as you go. `LearningCore\docs\TEXTBOOK-VISION.md`, `PLUSBOOK-FEATURES.md` (the tabs and features against a printed textbook), plan phases 3–8.
+  app; the core always free, content purchased or pay as you go. `LearningCore\docs\TEXTBOOK-VISION.md`, `PLUSBOOK-FEATURES.md` (the tabs and features against a printed textbook), plan phases 3–8. **Two more PlusBook window requirements** (Ron, 2026-11-25, from the reviewers' general comments, for every PlusBook's future releases): the path hides to the left as help hides to the right (W.8), and **My notes** and **Ask the AI (optional)** on two tabs, the AI's tab with room to grow beyond a text box (W.9); in `PLUSBOOK-FEATURES.md` items 6–7 and each book's plan.
   **Start with its `CLAUDE.md`.**
 
 The live cross-app tracker (API-36 deadline + extension, per-app versions, privacy URLs, the
