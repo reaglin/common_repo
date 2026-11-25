@@ -372,6 +372,23 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   Show my work (dimensional analysis, ICE tables, Hess's law; 48 recognised mistakes); instructor-marked check sets all agreed
   (223 formulas, 634 equations, 559 quantities, 35 net ionic); 12 templates, 1,852 problems with SymPy's answers checked by the
   engine; 389 tests; UX review fixed; ✅ Ron, 2026-11-25 ("Everything so far is good"). **1.0.0, the testers' release, prepared 2026-11-25** (Ron: a releasable version through the Store, unfinished modules "In Development"): the book's window from CollegeAlgebra+ with the chemistry workspace (Report this check for testers), the periodic table and chemistry reader, Start here 0.1–0.5, **Module 6 in full**, the other 24 modules In development; 423 tests; UX review fixed; `.msixupload` 69.4 MB (icon: a flask with the "+"); softwareplus.ai/chemistry with the testers' guide (/chemistry/testing/, unlinked). **Then all of Part I before the release** (Ron, 2026-11-25, after Module 6: *"This entire module is excellent … Bottom Line: Lets do all of Part I before release"*): written the same day — the Part I engine (names, configurations, Lewis/VSEPR, reaction types, empirical formulas, formula-of-inputs answers), Modules 1–12 in full, 10,276 problems, 678 tests, UX review fixed, `.msixupload` 70.3 MB, site and testers' guide updated; W.8–W.10 built there first (the model for every PlusBook). **1.0.0 submitted for certification 2026-11-25, public and free** (icon A). **Start with its `CLAUDE.md`.**
+- **`AccountingPlus\`** — **Accounting+** (Ron, 2026-11-25; name to reserve): a **PlusBook for business faculty**, a population the
+  books had not reached, chosen with MusicTheory+ as demonstrations for the PlusBooks' road (Learning Core `TEXTBOOK-VISION.md` V4–V7;
+  branded books' likeliest clients are business schools). **Principles of Financial Accounting (ACG2021)** as Part I and **Managerial
+  (ACG2071)** as Part II; the subject's half: journal entries checked with named mistakes (debit/credit reversed, wrong account or
+  period), T-accounts, the ledger and trial balance, adjusting and closing entries, statements built from the learner's own entries,
+  three practice sets, generated problems as CollegeAlgebra+'s. OpenStax *Principles of Accounting* is CC BY-NC-SA: linked only. Not
+  financial or tax advice. **Phase 0 (the plan) written 2026-11-25** (`docs/PLAN.md`, `LEARNING-PATH.md` (30 modules), `DEVELOPMENT-PLAN.md`
+  with 15 questions; pilot proposed Module 4 Adjusting entries); local repo only. ⚠️ Ron: the questions, reserve the name, a reviewer. **Start with its `CLAUDE.md`.**
+- **`MusicTheoryPlus\`** — **MusicTheory+** (Ron, 2026-11-25: "Music Theory as it is totally different than the ones we have"; name to
+  reserve): a **PlusBook for arts faculty**, proving the format beyond STEM — **Music Theory I and II (MUT1111/1112)** with **aural skills
+  (MUT1241/1242)** woven in. The subject's half: notes entered on a staff and played back, ear training (intervals, chords, cadences,
+  dictation), Roman-numeral and figured-bass analysis checked, **four-part writing checked against the rules** (parallels, spacing,
+  doubling — each a named mistake), rhythm tapping; sight-singing with pitch detection later. Engines proposed: notation drawn in WPF on
+  the **Bravura** font (SIL OFL), **MeltySynth** + **NAudio** (MIT) with the **FluidR3** SoundFont (MIT), MusicXML, MIDI input. Open
+  Music Theory is CC BY-SA: linked only; Bach chorales from public-domain editions. **Phase 0 (the plan) written 2026-11-25**
+  (21 modules; pilot proposed Module 11, four-part writing; 12 questions); local repo only. ⚠️ Ron: the questions, reserve the name, a
+  music-faculty reviewer. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
