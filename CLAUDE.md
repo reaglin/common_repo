@@ -310,7 +310,11 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   graphs in words, `[[graph: …]]` figures, graph items drawn and checked; 435 tests; ✅ Ron: "This works very well". **Phase 5 (the window) built the same day**: WebDevelopment+'s
   PlusBook window with the math workspace (typing with live typesetting and a palette, Check my answer, Show my work, the grapher beside, New
   problem, three right in a row), math in every page and question, the grapher as a Tool, Start here (0.1–0.4) and a Module 20 preview;
-  ⚠️ Ron: hand-test round 1 (`manual-test\CollegeAlgebraPlus.exe`, `docs/MANUAL-TESTING.md`). Store identity
+  ⚠️ Ron: hand-test round 1 (`manual-test\CollegeAlgebraPlus.exe`, `docs/MANUAL-TESTING.md`). Ron kept the grapher beside
+  Exercises and agreed to XAML-Math (2026-11-25). **Phase 6 (the pilot) built 2026-11-25**: **faded worked examples** (each template's
+  worked solution, checked when the content is built; the Example shows every step, then fewer), Module 14's quadratic-equation items
+  and **Module 20 in full** with its module check; 30 templates, 4,820 problems; content and UX reviews fixed; 471 tests; ⚠️ Ron:
+  hand-test round 2 ("the correct shape?"). Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`HumanAnatomyPlus\`** — **HumanAnatomy+** (name reserved on the Microsoft Store by Ron, 2026-11-24; identity
   `DeanEaglin.HumanAnatomy`, Store ID 9P18W6QBG8R1, https://apps.microsoft.com/detail/9P18W6QBG8R1): the eighth **PlusBook**, chosen
