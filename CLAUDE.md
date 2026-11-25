@@ -314,7 +314,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   Exercises and agreed to XAML-Math (2026-11-25). **Phase 6 (the pilot) built 2026-11-25**: **faded worked examples** (each template's
   worked solution, checked when the content is built; the Example shows every step, then fewer), Module 14's quadratic-equation items
   and **Module 20 in full** with its module check; 30 templates, 4,820 problems; content and UX reviews fixed; 471 tests; ⚠️ Ron:
-  hand-test round 2 ("the correct shape?"). Store identity
+  hand-test round 2 — ✅ Ron 2026-11-25 ("This is the correct shape"). **Phase 7.1 written 2026-11-25**: the rest of Module 14 and
+  **Modules 15–19 in full** (each item a Learn page, a faded worked Example and a generated Exercise; module checks), engine gaps the
+  writers found fixed; 77 templates, 13,506 problems; content and UX reviews fixed; 486 tests; ⚠️ Ron: hand-test round 3. Next: 7.2,
+  Modules 21–27. Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`HumanAnatomyPlus\`** — **HumanAnatomy+** (name reserved on the Microsoft Store by Ron, 2026-11-24; identity
   `DeanEaglin.HumanAnatomy`, Store ID 9P18W6QBG8R1, https://apps.microsoft.com/detail/9P18W6QBG8R1): the eighth **PlusBook**, chosen
