@@ -756,6 +756,7 @@ implementation or discard. I am really looking for the option that is easiest fo
   "Feedback you send" (`SoftwarePlus\docs\FEEDBACK-SETUP.md`, "The privacy paragraph") to that program's privacy page on
   SoftwarePlus.ai, updates its effective date, deploys it (`-Only <folder>`), and brings any privacy text in the program or
   its Store listing in line. **A release with the menu item is not finished until its privacy page is live** — plan item F.3.
+- **PlusBooks: feedback about a page** (Ron, 2026-11-25, for every PlusBook): the My notes tab's **Send feedback about this page** and Report-style buttons add `&module=<module>.<item>` (`…/feedback/?program=chemistry&version=1.0.0&module=6.7`) so Ron sees which page a comment is about; the site's form takes it with its next update (SoftwarePlus plan 9). Each PlusBook's plan W.10; GeneralChemistry+ is the model.
 - Every program's plan carries **F.1** (the menu item), **F.2** (Implement → plan) and **F.3** (its privacy page) under "Priority for the next
   version"; it ships with that program's next Store release. A **new** program has it from its first version. The Android
   apps (no plans yet) add it on their next update, on the About/Settings page.
