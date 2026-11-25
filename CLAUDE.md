@@ -309,7 +309,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   **Phase 4 (the grapher) built the same day**: WPF-drawn graphs with marks, axes that choose themselves, trace, zoom, sliders,
   graphs in words, `[[graph: …]]` figures, graph items drawn and checked; 435 tests; ⚠️ Ron: the grapher trial (`manual-test\trials`). Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
-- **`AnatomyPhysiologyPlus\`** — **AnatomyPhysiology+** (working name; Ron, 2026-11-24): the eighth **PlusBook**, chosen
+- **`HumanAnatomyPlus\`** — **HumanAnatomy+** (name reserved on the Microsoft Store by Ron, 2026-11-24; identity
+  `DeanEaglin.HumanAnatomy`, Store ID 9P18W6QBG8R1, https://apps.microsoft.com/detail/9P18W6QBG8R1): the eighth **PlusBook**, chosen
   because its style differs most from the others — **Human Anatomy and Physiology I and II** (Florida's **BSC1085 / BSC1086**),
   both as combined courses with lab (**C**, as at Daytona State) and as lecture plus a separate lab (**L**). A subject Ron
   does not teach. The subject's half is pictures and names: **the Atlas** (labelled figures and a 3D body from BodyParts3D /
@@ -317,9 +318,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   Microscope** (histology slides), **the Physiology lab** (simulated nerve, muscle, heart, lung, kidney experiments on our own
   models), Try it on yourself, cases, spaced-review flashcards and eight **Lab practicals**. OpenStax A&P 2e and the HAPS
   outcomes are CC BY-NC-SA: linked or referenced only. **Phase 0 (the plan) 2026-11-24**: `docs/PLAN.md` (D1–D15),
-  `docs/LEARNING-PATH.md` (two Parts, 30 modules), `docs/DEVELOPMENT-PLAN.md`; local repo only. ⚠️ Ron: the open questions
-  (the name, A&P instructor reviewers, Part I first, photographs from a real A&P lab, one book for lecture and lab, the pilot
-  Module 12 Skeletal muscle, price, the order with CollegeAlgebra+). **Start with its `CLAUDE.md`.**
+  `docs/LEARNING-PATH.md` (two Parts, 30 modules), `docs/DEVELOPMENT-PLAN.md`; local repo only. Ron answered the same day:
+  the name HumanAnatomy+, and **a reviewer from the Biology Department** (slower than Ron's own feedback, so their comments
+  go into the next cycle). ⚠️ Ron: open questions 3–8 (Part I first, photographs from a real A&P lab, one book for lecture
+  and lab, the pilot Module 12 Skeletal muscle, price, the order with CollegeAlgebra+). **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
