@@ -58,6 +58,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | | 1.1.0 | — | 2026-11-19 | Live — changed since (Part II, the window, Send feedback) |
 | | 1.2.0 | 2026-11-24 | | In certification (Part II, the Python and Document labs) |
 | **DataStructures+** (`DataStructuresPlus`) | 1.0.0 | 2026-11-19 | | In certification (direct link only) |
+| **HumanAnatomy+** (`HumanAnatomyPlus`) | 1.0.0 | | | Prepared, not submitted (2026-11-25: the testers' release — Start here and Module 12; hidden, direct link only) |
 | **PLC+** (`PLCPlus`) | 1.0.0 | — | by 2026-11-17 (hidden; public since 2026-11-18) | Superseded |
 | | 1.0.1 | | | ❌ never submitted; superseded by 1.1.0 |
 | | 1.1.0 | 2026-11-23 | 2026-11-24 | Live — no changes (the PlusBooks' window, Send feedback, 1.0.1's features; WACK PASS 23/24) |

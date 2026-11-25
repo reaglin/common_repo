@@ -329,7 +329,12 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   **Phase 1 (the Atlas trial) built 2026-11-24** (`docs/ATLAS-SPIKE.md`): figures as SVG regions or pixel masks on layers, the long
   bone and skin drawn by the book, the heart, skeleton and arm muscles rendered from BodyParts3D and labelled by the program,
   the 3D skeleton and arm (HelixToolkit.Wpf), Explore / Find it / Name it / Label; UX review fixed; 22 tests; ⚠️ Ron: trial round 1
-  (`manual-test\trials\AtlasTrial.exe`). **Start with its `CLAUDE.md`.**
+  (`manual-test\trials\AtlasTrial.exe`). **The testers' Store version built 2026-11-25** (Ron: "Continue until we get to a testable version for the store, that is
+  the way I will have to get it to the testers"): the book's window with the atlas workspace, the term checker (synonyms, slips,
+  never another structure or a look-alike; 2,395-line check set), the muscle bench, Start here and **Module 12 in full**, the rest
+  listed as coming later; accuracy and UX reviews fixed; 44 tests; `.msixupload` 72 MB (icon A, burgundy, Ron to choose);
+  softwareplus.ai/anatomy live (hidden from the home page). ⚠️ Ron: hand-test round 2 (`manual-test\HumanAnatomyPlus.exe`), WACK,
+  submit hidden (`docs/release/STORE-SUBMISSION.md`). **Start with its `CLAUDE.md`.**
 - **`GeneralChemistryPlus\`** — **GeneralChemistry+** (name reserved on the Microsoft Store by Ron, 2026-11-24): the ninth
   **PlusBook** — **General Chemistry I and II with their labs**, Florida's **CHM2045 / CHM2046** (the same courses as
   **CHM1045 / CHM1046**: the 1 or 2 is the year usually taken — Ron), as lecture + **L** lab or the combined **C** course
