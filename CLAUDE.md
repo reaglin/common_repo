@@ -323,6 +323,18 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   **a reviewer from the Biology Department** (slower than Ron's own feedback, so their comments go into the next cycle), Ron
   working on **photographs from the A&P lab** (`docs/PHOTO-GUIDE.md`), and the trials (phases 1–4) run alongside
   CollegeAlgebra+ while the content waits for CollegeAlgebra+ 1.0. **Start with its `CLAUDE.md`.**
+- **`GeneralChemistryPlus\`** — **GeneralChemistry+** (name reserved on the Microsoft Store by Ron, 2026-11-24): the ninth
+  **PlusBook** — **General Chemistry I and II with their labs**, Florida's **CHM2045 / CHM2046** (the same courses as
+  **CHM1045 / CHM1046**: the 1 or 2 is the year usually taken — Ron), as lecture + **L** lab or the combined **C** course;
+  **CHM1025** named too (where it fits is open). Outcomes and topics from the course guides at
+  https://floridacourserepo.com/browse/chemistry/chm. **Why** (Ron, 2026-11-24): chemistry, college algebra and physics are the
+  standard prerequisites of engineering programs, the ultimate goal; faculty feedback on subjects Ron does not teach is slow,
+  so these books are worked **in parallel**; **Physics** follows once Ron recruits physics faculty to review. The subject's
+  half: typing chemistry, **answers with units and significant figures**, Show my work (dimensional analysis, ICE tables),
+  names and equations checked, a **molecule builder** (Lewis → 3D shape), a **virtual bench** and **My lab data** (pre- and
+  post-lab, never in place of the real lab); examples lean to engineering. **Phase 0 (the plan) 2026-11-24**: `docs/PLAN.md`
+  (D1–D15), `docs/LEARNING-PATH.md` (two Parts, 25 modules), `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (Store
+  identity, CHM1025, the pilot Module 6 Reactions in aqueous solution, …). Local repo only. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
