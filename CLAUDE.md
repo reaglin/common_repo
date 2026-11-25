@@ -307,7 +307,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   the same day**: templates and seeds with SymPy computing every answer at build time, Check my answer with 18 forms, Show my work
   line by line, 43 recognised mistakes, the content check (16 templates, 2,635 problems, clean); 355 tests; ✅ Ron: "it works well".
   **Phase 4 (the grapher) built the same day**: WPF-drawn graphs with marks, axes that choose themselves, trace, zoom, sliders,
-  graphs in words, `[[graph: …]]` figures, graph items drawn and checked; 435 tests; ⚠️ Ron: the grapher trial (`manual-test\trials`). Store identity
+  graphs in words, `[[graph: …]]` figures, graph items drawn and checked; 435 tests; ✅ Ron: "This works very well". **Phase 5 (the window) built the same day**: WebDevelopment+'s
+  PlusBook window with the math workspace (typing with live typesetting and a palette, Check my answer, Show my work, the grapher beside, New
+  problem, three right in a row), math in every page and question, the grapher as a Tool, Start here (0.1–0.4) and a Module 20 preview;
+  ⚠️ Ron: hand-test round 1 (`manual-test\CollegeAlgebraPlus.exe`, `docs/MANUAL-TESTING.md`). Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`HumanAnatomyPlus\`** — **HumanAnatomy+** (name reserved on the Microsoft Store by Ron, 2026-11-24; identity
   `DeanEaglin.HumanAnatomy`, Store ID 9P18W6QBG8R1, https://apps.microsoft.com/detail/9P18W6QBG8R1): the eighth **PlusBook**, chosen
@@ -325,16 +328,19 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   CollegeAlgebra+ while the content waits for CollegeAlgebra+ 1.0. **Start with its `CLAUDE.md`.**
 - **`GeneralChemistryPlus\`** — **GeneralChemistry+** (name reserved on the Microsoft Store by Ron, 2026-11-24): the ninth
   **PlusBook** — **General Chemistry I and II with their labs**, Florida's **CHM2045 / CHM2046** (the same courses as
-  **CHM1045 / CHM1046**: the 1 or 2 is the year usually taken — Ron), as lecture + **L** lab or the combined **C** course;
-  **CHM1025** named too (where it fits is open). Outcomes and topics from the course guides at
+  **CHM1045 / CHM1046**: the 1 or 2 is the year usually taken — Ron), as lecture + **L** lab or the combined **C** course
+  (CHM1025 not included). Store identity `DeanEaglin.GeneralChemistry`, Store ID 9NL69VCNG1G1
+  (https://apps.microsoft.com/detail/9NL69VCNG1G1); **free**. Outcomes and topics from the course guides at
   https://floridacourserepo.com/browse/chemistry/chm. **Why** (Ron, 2026-11-24): chemistry, college algebra and physics are the
   standard prerequisites of engineering programs, the ultimate goal; faculty feedback on subjects Ron does not teach is slow,
   so these books are worked **in parallel**; **Physics** follows once Ron recruits physics faculty to review. The subject's
   half: typing chemistry, **answers with units and significant figures**, Show my work (dimensional analysis, ICE tables),
   names and equations checked, a **molecule builder** (Lewis → 3D shape), a **virtual bench** and **My lab data** (pre- and
   post-lab, never in place of the real lab); examples lean to engineering. **Phase 0 (the plan) 2026-11-24**: `docs/PLAN.md`
-  (D1–D15), `docs/LEARNING-PATH.md` (two Parts, 25 modules), `docs/DEVELOPMENT-PLAN.md`; ⚠️ Ron: the open questions (Store
-  identity, CHM1025, the pilot Module 6 Reactions in aqueous solution, …). Local repo only. **Start with its `CLAUDE.md`.**
+  (D1–D15), `docs/LEARNING-PATH.md` (two Parts, 25 modules), `docs/DEVELOPMENT-PLAN.md`. Ron answered every question the same
+  day: Part I first, **Module 6 Reactions in aqueous solution the pilot**, one chemistry reviewer (hopefully two) who teach the
+  lab, significant-figure slips a warning only, trials alongside CollegeAlgebra+ and HumanAnatomy+ with the content after
+  CollegeAlgebra+'s. Local repo only. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
