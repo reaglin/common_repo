@@ -344,7 +344,11 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   (D1–D15), `docs/LEARNING-PATH.md` (two Parts, 25 modules), `docs/DEVELOPMENT-PLAN.md`. Ron answered every question the same
   day: Part I first, **Module 6 Reactions in aqueous solution the pilot**, one chemistry reviewer (hopefully two) who teach the
   lab, significant-figure slips a warning only, trials alongside CollegeAlgebra+ and HumanAnatomy+ with the content after
-  CollegeAlgebra+'s. Local repo only. **Start with its `CLAUDE.md`.**
+  CollegeAlgebra+'s. Local repo only. **Phase 1 (the chemistry trial) built 2026-11-24** (`docs/CHEM-SPIKE.md`): its own engine reads
+  and checks formulas, equations (exact balancing, net ionic, oxidation numbers), answers with units and significant figures, and
+  Show my work (dimensional analysis, ICE tables, Hess's law; 48 recognised mistakes); instructor-marked check sets all agreed
+  (223 formulas, 634 equations, 559 quantities, 35 net ionic); 12 templates, 1,852 problems with SymPy's answers checked by the
+  engine; 389 tests; UX review fixed; ⚠️ Ron: trial 1 (`manual-test	rials\ChemTrial.exe`). **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
