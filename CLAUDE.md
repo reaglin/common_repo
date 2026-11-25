@@ -316,8 +316,11 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   and **Module 20 in full** with its module check; 30 templates, 4,820 problems; content and UX reviews fixed; 471 tests; ⚠️ Ron:
   hand-test round 2 — ✅ Ron 2026-11-25 ("This is the correct shape"). **Phase 7.1 written 2026-11-25**: the rest of Module 14 and
   **Modules 15–19 in full** (each item a Learn page, a faded worked Example and a generated Exercise; module checks), engine gaps the
-  writers found fixed; 77 templates, 13,506 problems; content and UX reviews fixed; 486 tests; ⚠️ Ron: hand-test round 3. Next: 7.2,
-  Modules 21–27. Store identity
+  writers found fixed; 77 templates, 13,506 problems; content and UX reviews fixed; 486 tests; ✅ Ron: round 3. **Part I listed, In
+  development** (Ron, 2026-11-25). **Phase 7.2 written 2026-11-25: Modules 21–27, so all of Part II is written** (the capstone with a
+  written piece; ≈ and rounded answers shown rounded); 140 templates, 24,548 problems; reviews fixed. **W.8–W.10 built the same day**
+  (from GeneralChemistry+: the menu hides left, Ask the AI (optional) on its own tab, Send feedback about this page with `&module=`);
+  492 tests; ⚠️ Ron: hand-test round 4. Next: 7.3 the placement check, 7.4 the outcomes, phase 8 the Store. Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`HumanAnatomyPlus\`** — **HumanAnatomy+** (name reserved on the Microsoft Store by Ron, 2026-11-24; identity
   `DeanEaglin.HumanAnatomy`, Store ID 9P18W6QBG8R1, https://apps.microsoft.com/detail/9P18W6QBG8R1): the eighth **PlusBook**, chosen
