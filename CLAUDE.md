@@ -316,8 +316,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   `DeanEaglin.HumanAnatomy`, Store ID 9P18W6QBG8R1, https://apps.microsoft.com/detail/9P18W6QBG8R1): the eighth **PlusBook**, chosen
   because its style differs most from the others — **Human Anatomy and Physiology I and II** (Florida's **BSC1085 / BSC1086**),
   both as combined courses with lab (**C**, as at Daytona State) and as lecture plus a separate lab (**L**). A subject Ron
-  does not teach. The subject's half is pictures and names: **the Atlas** (labelled figures and a 3D body from BodyParts3D /
-  Z-Anatomy, CC BY-SA), **a term checker** (synonyms, forgiving spelling, never a confusable like ilium/ileum), **the
+  does not teach. The subject's half is pictures and names: **the Atlas** (labelled figures and a 3D body from BodyParts3D,
+  CC BY 4.0), **a term checker** (synonyms, forgiving spelling, never a confusable like ilium/ileum), **the
   Microscope** (histology slides), **the Physiology lab** (simulated nerve, muscle, heart, lung, kidney experiments on our own
   models), Try it on yourself, cases, spaced-review flashcards and eight **Lab practicals**. OpenStax A&P 2e and the HAPS
   outcomes are CC BY-NC-SA: linked or referenced only. **Phase 0 (the plan) 2026-11-24**: `docs/PLAN.md` (D1–D15),
@@ -325,7 +325,11 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   the name HumanAnatomy+, **free**, **one book** for lecture and lab, **Part I first**, **Module 12 Skeletal muscle the pilot**,
   **a reviewer from the Biology Department** (slower than Ron's own feedback, so their comments go into the next cycle), Ron
   working on **photographs from the A&P lab** (`docs/PHOTO-GUIDE.md`), and the trials (phases 1–4) run alongside
-  CollegeAlgebra+ while the content waits for CollegeAlgebra+ 1.0. **Start with its `CLAUDE.md`.**
+  CollegeAlgebra+ while the content waits for CollegeAlgebra+ 1.0. Private repo `github.com/reaglin/HumanAnatomyPlus`.
+  **Phase 1 (the Atlas trial) built 2026-11-24** (`docs/ATLAS-SPIKE.md`): figures as SVG regions or pixel masks on layers, the long
+  bone and skin drawn by the book, the heart, skeleton and arm muscles rendered from BodyParts3D and labelled by the program,
+  the 3D skeleton and arm (HelixToolkit.Wpf), Explore / Find it / Name it / Label; UX review fixed; 22 tests; ⚠️ Ron: trial round 1
+  (`manual-test\trials\AtlasTrial.exe`). **Start with its `CLAUDE.md`.**
 - **`GeneralChemistryPlus\`** — **GeneralChemistry+** (name reserved on the Microsoft Store by Ron, 2026-11-24): the ninth
   **PlusBook** — **General Chemistry I and II with their labs**, Florida's **CHM2045 / CHM2046** (the same courses as
   **CHM1045 / CHM1046**: the 1 or 2 is the year usually taken — Ron), as lecture + **L** lab or the combined **C** course
