@@ -379,7 +379,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   period), T-accounts, the ledger and trial balance, adjusting and closing entries, statements built from the learner's own entries,
   three practice sets, generated problems as CollegeAlgebra+'s. OpenStax *Principles of Accounting* is CC BY-NC-SA: linked only. Not
   financial or tax advice. **Phase 0 (the plan) written 2026-11-25** (`docs/PLAN.md`, `LEARNING-PATH.md` (30 modules), `DEVELOPMENT-PLAN.md`
-  with 15 questions; pilot proposed Module 4 Adjusting entries); local repo only. ⚠️ Ron: the questions, reserve the name, a reviewer. **Start with its `CLAUDE.md`.**
+  with 15 questions; pilot Module 4 Adjusting entries). **Ron, 2026-11-25:** name reserved (identity `DeanEaglin.Accounting`, Store ID 9NX2R1K3GDM2, https://apps.microsoft.com/detail/9NX2R1K3GDM2); a reviewer he is recruiting; every question "yes to this plan"; start the engine trial; private repo `github.com/reaglin/AccountingPlus`. The shell and the engine trial being built 2026-11-25. **Start with its `CLAUDE.md`.**
 - **`MusicTheoryPlus\`** — **MusicTheory+** (Ron, 2026-11-25: "Music Theory as it is totally different than the ones we have"; name to
   reserve): a **PlusBook for arts faculty**, proving the format beyond STEM — **Music Theory I and II (MUT1111/1112)** with **aural skills
   (MUT1241/1242)** woven in. The subject's half: notes entered on a staff and played back, ear training (intervals, chords, cadences,
@@ -387,8 +387,9 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   doubling — each a named mistake), rhythm tapping; sight-singing with pitch detection later. Engines proposed: notation drawn in WPF on
   the **Bravura** font (SIL OFL), **MeltySynth** + **NAudio** (MIT) with the **FluidR3** SoundFont (MIT), MusicXML, MIDI input. Open
   Music Theory is CC BY-SA: linked only; Bach chorales from public-domain editions. **Phase 0 (the plan) written 2026-11-25**
-  (21 modules; pilot proposed Module 11, four-part writing; 12 questions); local repo only. ⚠️ Ron: the questions, reserve the name, a
-  music-faculty reviewer. **Start with its `CLAUDE.md`.**
+  (21 modules; pilot Module 11, four-part writing; 12 questions). **Ron, 2026-11-25:** name reserved (identity
+  `DeanEaglin.MusicTheory`, Store ID 9P7CFSCB51T4, https://apps.microsoft.com/detail/9P7CFSCB51T4); a reviewer he is recruiting; every question
+  "yes to this plan"; start the notation and audio trial; private repo `github.com/reaglin/MusicTheoryPlus`. The shell and the trial being built 2026-11-25. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
