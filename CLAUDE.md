@@ -318,10 +318,11 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   Microscope** (histology slides), **the Physiology lab** (simulated nerve, muscle, heart, lung, kidney experiments on our own
   models), Try it on yourself, cases, spaced-review flashcards and eight **Lab practicals**. OpenStax A&P 2e and the HAPS
   outcomes are CC BY-NC-SA: linked or referenced only. **Phase 0 (the plan) 2026-11-24**: `docs/PLAN.md` (D1–D15),
-  `docs/LEARNING-PATH.md` (two Parts, 30 modules), `docs/DEVELOPMENT-PLAN.md`; local repo only. Ron answered the same day:
-  the name HumanAnatomy+, and **a reviewer from the Biology Department** (slower than Ron's own feedback, so their comments
-  go into the next cycle). ⚠️ Ron: open questions 3–8 (Part I first, photographs from a real A&P lab, one book for lecture
-  and lab, the pilot Module 12 Skeletal muscle, price, the order with CollegeAlgebra+). **Start with its `CLAUDE.md`.**
+  `docs/LEARNING-PATH.md` (two Parts, 30 modules), `docs/DEVELOPMENT-PLAN.md`; local repo only. Ron answered every question the same day:
+  the name HumanAnatomy+, **free**, **one book** for lecture and lab, **Part I first**, **Module 12 Skeletal muscle the pilot**,
+  **a reviewer from the Biology Department** (slower than Ron's own feedback, so their comments go into the next cycle), Ron
+  working on **photographs from the A&P lab** (`docs/PHOTO-GUIDE.md`), and the trials (phases 1–4) run alongside
+  CollegeAlgebra+ while the content waits for CollegeAlgebra+ 1.0. **Start with its `CLAUDE.md`.**
 - **`TinnitusPlus\`** — **Tinnitus+** (Ron, 2026-11-11; renamed from tinnitusStop the same day; claim: may help, no guarantee): Ron's tinnitus experiment.
   Part 1 finds the ringing's frequency (move a tone until it matches; several per profile); part 2 plays tones
   close to it **on the cochlea** (range, gap and spacing in mm along the inner ear, Greenwood map — Ron: near means
