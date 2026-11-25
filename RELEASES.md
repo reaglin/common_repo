@@ -67,6 +67,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | **LMS-2-Website** | 1.0.0 | | | In development (phase 5 is the Store) |
 | **Retirement+** (`EasyPeasyRetirement`) | 1.0.0 | | | In development |
 | **WebDevelopment+** (`WebDevelopmentPlus`), 9NSV6R442B0M | 1.0.0 |  2026-11-23 | | In certification (public, discoverable, free; the whole book) |
+| **GeneralChemistry+** (`GeneralChemistryPlus`), 9NL69VCNG1G1 | 1.0.0 | | | Prepared, not submitted (2026-11-25; the testers' release: Start here and Module 6, the rest In development; free; hidden, direct link recommended) |
 
 ## Google Play
 
