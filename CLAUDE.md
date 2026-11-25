@@ -347,7 +347,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   submit hidden (`docs/release/STORE-SUBMISSION.md`). **All of Part I written 2026-11-25/26** (Ron: "Can you do similar for all of Part I?" — an A&P
   instructor liked the approach): Modules 1–18 by eight writers in parallel, the nerve bench, new rendered figures and 3D models
   (skull, lower-limb muscles); 957 structures, 20,724 name checks, 47 tests; the not-yet-submitted 1.0.0 `.msixupload` (79 MB) now
-  carries Part I; the writers' uncertain points in `docs/REVIEWER-NOTES-PART1.md`. ⚠️ Ron: hand-test round 3, the reviewer. **Start with its `CLAUDE.md`.**
+  carries Part I; the writers' uncertain points in `docs/REVIEWER-NOTES-PART1.md`. W.8–W.10 built, round 4 passed; **1.0.0 submitted for certification 2026-11-25** (public, discoverable, free). ⚠️ Ron: hand-test round 3, the reviewer. **Start with its `CLAUDE.md`.**
 - **`GeneralChemistryPlus\`** — **GeneralChemistry+** (name reserved on the Microsoft Store by Ron, 2026-11-24): the ninth
   **PlusBook** — **General Chemistry I and II with their labs**, Florida's **CHM2045 / CHM2046** (the same courses as
   **CHM1045 / CHM1046**: the 1 or 2 is the year usually taken — Ron), as lecture + **L** lab or the combined **C** course
