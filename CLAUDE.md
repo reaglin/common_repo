@@ -341,7 +341,10 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   never another structure or a look-alike; 2,395-line check set), the muscle bench, Start here and **Module 12 in full**, the rest
   listed as coming later; accuracy and UX reviews fixed; 44 tests; `.msixupload` 72 MB (icon A, burgundy, Ron to choose);
   softwareplus.ai/anatomy live (hidden from the home page). ⚠️ Ron: hand-test round 2 (`manual-test\HumanAnatomyPlus.exe`), WACK,
-  submit hidden (`docs/release/STORE-SUBMISSION.md`). **Start with its `CLAUDE.md`.**
+  submit hidden (`docs/release/STORE-SUBMISSION.md`). **All of Part I written 2026-11-25/26** (Ron: "Can you do similar for all of Part I?" — an A&P
+  instructor liked the approach): Modules 1–18 by eight writers in parallel, the nerve bench, new rendered figures and 3D models
+  (skull, lower-limb muscles); 957 structures, 20,724 name checks, 47 tests; the not-yet-submitted 1.0.0 `.msixupload` (79 MB) now
+  carries Part I; the writers' uncertain points in `docs/REVIEWER-NOTES-PART1.md`. ⚠️ Ron: hand-test round 3, the reviewer. **Start with its `CLAUDE.md`.**
 - **`GeneralChemistryPlus\`** — **GeneralChemistry+** (name reserved on the Microsoft Store by Ron, 2026-11-24): the ninth
   **PlusBook** — **General Chemistry I and II with their labs**, Florida's **CHM2045 / CHM2046** (the same courses as
   **CHM1045 / CHM1046**: the 1 or 2 is the year usually taken — Ron), as lecture + **L** lab or the combined **C** course
