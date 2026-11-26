@@ -326,7 +326,7 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   terms, ÷ left to right, gcd in templates, "item 11.3" links); 259 templates, 44,797 problems; 534 tests; ⚠️ Ron: hand-test
   round 5, then the math faculty (`docs/REVIEWER-NOTES-PART1.md`). **1.0.0 prepared for the Store 2026-11-25** (Ron: to the Store and
   in front of math professors, marked "still in testing" in the program and the listing): the placement check (0.5), `docs/OUTCOMES.md`,
-  icon A (a parabola with the "+" on burnt orange), `.msixupload`, softwareplus.ai/collegealgebra with a faculty testers' guide
+  icon B (Ron's choice: a parabola on thin axes, the amber "+", on blue), `.msixupload`, softwareplus.ai/collegealgebra with a faculty testers' guide
   (/collegealgebra/testing/); ⚠️ Ron: round 6, WACK, submit (public, free). Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`HumanAnatomyPlus\`** — **HumanAnatomy+** (name reserved on the Microsoft Store by Ron, 2026-11-24; identity
