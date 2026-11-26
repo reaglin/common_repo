@@ -69,7 +69,7 @@ Sessions keep this file current (rule in `CLAUDE.md`, "Every Store submission: R
 | **Retirement+** (`EasyPeasyRetirement`) | 1.0.0 | | | In development |
 | **WebDevelopment+** (`WebDevelopmentPlus`), 9NSV6R442B0M | 1.0.0 |  2026-11-23 | | In certification (public, discoverable, free; the whole book) |
 | **GeneralChemistry+** (`GeneralChemistryPlus`), 9NL69VCNG1G1 | 1.0.0 | 2026-11-25 | | In certification (Start here and **all of Part I**, Modules 1–12; Part II In development; free; **public**) |
-| **CollegeAlgebra+** (`CollegeAlgebraPlus`), 9N9PJMBVZ42L | 1.0.0 | | | Prepared, not submitted (2026-11-25: both Parts, Modules 1–27, the placement check; marked "still in testing" in the program and the listing; free; public) |
+| **CollegeAlgebra+** (`CollegeAlgebraPlus`), 9N9PJMBVZ42L | 1.0.0 | 2026-11-25 | | In certification (both Parts, Modules 1–27, the placement check; marked "still in testing" in the program and the listing; free; public) |
 
 ## Google Play
 

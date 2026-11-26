@@ -327,7 +327,8 @@ eview\`); 130 tests. **Phase 3 (the ladder editor) built 2026-11-04**: "My progr
   round 5, then the math faculty (`docs/REVIEWER-NOTES-PART1.md`). **1.0.0 prepared for the Store 2026-11-25** (Ron: to the Store and
   in front of math professors, marked "still in testing" in the program and the listing): the placement check (0.5), `docs/OUTCOMES.md`,
   icon B (Ron's choice: a parabola on thin axes, the amber "+", on blue), `.msixupload`, softwareplus.ai/collegealgebra with a faculty testers' guide
-  (/collegealgebra/testing/); ⚠️ Ron: round 6, WACK, submit (public, free). Store identity
+  (/collegealgebra/testing/); **WACK passed and 1.0.0 submitted for certification 2026-11-25** (public, free); ⚠️ Ron: say when it is
+  live (then the home page tile, `apps.json`, tag `v1.0.0`). Store identity
   `DeanEaglin.CollegeAlgebra`, Store ID 9N9PJMBVZ42L (https://apps.microsoft.com/detail/9N9PJMBVZ42L). **Start with its `CLAUDE.md`.**
 - **`HumanAnatomyPlus\`** — **HumanAnatomy+** (name reserved on the Microsoft Store by Ron, 2026-11-24; identity
   `DeanEaglin.HumanAnatomy`, Store ID 9P18W6QBG8R1, https://apps.microsoft.com/detail/9P18W6QBG8R1): the eighth **PlusBook**, chosen
